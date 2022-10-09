@@ -1,0 +1,43 @@
+
+.header{
+
+    background-color: bisque;
+  &__contenedor{
+    width: 90%;
+    margin:auto;
+  }
+  &__elementos{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+  }
+ 
+  &__logo{
+    line-height: 70px;
+    font-size: 35px;
+  }
+  &__menu{
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+    right:0;
+    
+    ul{
+        text-decoration: none;
+    }
+     li{
+       line-height: 80px;
+       margin-left: 40px;
+       cursor:pointer;
+       display:inline-block;
+       text-decoration: none;
+    }
+    }
+
+ 
+
+
+
+
+
+}
