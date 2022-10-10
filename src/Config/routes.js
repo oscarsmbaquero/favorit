@@ -4,7 +4,7 @@
 import Contact from "../pages/Contact/Contact";
 import Galery from "../pages/Gallery/Gallery";
 import Home from "../pages/Home/Home";
-import Location from "../pages/Location/Location";
+import MapContainer from "../pages/Map/MapContainer";
 import Reservas from "../pages/Reservas/Reservas";
 
 
@@ -20,7 +20,7 @@ const routes = [
   },
   {
     path: "/location",
-    element: <Location/>,
+    element: <MapContainer/>,
   },
   {
     path: "/contact",
