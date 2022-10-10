@@ -1,4 +1,5 @@
 import React from 'react';
+import './Gallery.scss'
 import {
   MDBCarousel,
   MDBCarouselItem,
@@ -6,6 +7,7 @@ import {
 
 export default function Gallery() {
   return (
+    <section className="galleryForm">
     <MDBCarousel showControls showIndicators dark fade>
       <MDBCarouselItem
         className='w-100 d-block'
@@ -45,5 +47,6 @@ export default function Gallery() {
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </MDBCarouselItem>
     </MDBCarousel>
+    </section>
   );
 }

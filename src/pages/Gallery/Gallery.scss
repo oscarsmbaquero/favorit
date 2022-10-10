@@ -1,0 +1,15 @@
+.galleryForm {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 85vh;
+    @media screen and (min-width: 1000px) {
+      color: var(--extra-grey-light);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      background-color:var(--extra-blue-light);
+    }
+}

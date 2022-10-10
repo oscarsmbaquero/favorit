@@ -3,13 +3,14 @@ import './App.scss';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
+import Header2 from "./Components/Header/Header2";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
     <Router>
-      <Header/>
-      <div className="main">
+      <Header2/>      
       <Routes>            
                 {routes.map((route) => (
                       <Route
@@ -18,8 +19,7 @@ function App() {
                         element={route.element}
                       />
                     ))}
-          </Routes>
-      </div>
+          </Routes>      
       <Footer/>
     </Router>  
     </div>

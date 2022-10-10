@@ -74,7 +74,7 @@ const Contact = () => {
           {/* <h2 className="sectionForm__h2">De donde tu ere</h2> */}
             <fieldset className="sectionForm__fieldset2">
             <div className="sectionForm__divDirecc">
-              <label className="sectionForm__label">Ciudad
+              <label className="sectionForm__label">Comensales
             <input
               className="sectionForm__input"
               id="ciudad"
@@ -82,26 +82,21 @@ const Contact = () => {
               type="text"
               // placeholder="Ciudad:..."
               /></label>
-              <label className="sectionForm__label">CP
-            <input
-              className="sectionForm__input"
-              id="cp"
-              name="cp"
-              type="text"
-              // placeholder="Código postal:..."
-            /></label>
-            </div>
-            <label className="sectionForm__label">Dirección
+              <label className="sectionForm__label">Teléfono
           <input
-              className="sectionForm__input"
-              id="dirección"
-              name="direccion"
-              // placeholder="Dirección:..."
-                /></label>
+            className="sectionForm__input"
+            id="phone"
+            name="phone"
+            type="text"
+            // placeholder="Teléfono:..."
+            /></label>
+              
+            </div>
+            
                           </fieldset>
-        <button className="sectionForm__button">
+        {/* <button className="sectionForm__button">
           Enviar mensaje
-        </button>
+        </button> */}
       </form>
       </section>
       </>

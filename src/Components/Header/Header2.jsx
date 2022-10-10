@@ -1,53 +1,44 @@
-import React, { useState } from 'react';
-import {
-  MDBNavbar,
-  MDBNavbarNav,
-  MDBNavbarItem,
-  MDBNavbarLink,
-  MDBNavbarToggler,
-  MDBContainer,
-  MDBIcon,
-  MDBCollapse,
-  MDBBtn
-} from 'mdb-react-ui-kit';
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from "react-router-dom";
 
-export default function App() {
-  const [showBasic, setShowBasic] = useState(false);
-
+const header2 = () => {
   return (
-    <header>
-      <MDBNavbar expand='lg' light bgColor='white'>
-        <MDBContainer fluid>
-          <MDBNavbarToggler
-            onClick={() => setShowBasic(!showBasic)}
-            aria-controls='navbarExample01'
-            aria-expanded='false'
-            aria-label='Toggle navigation'
-          >
-            <MDBIcon fas icon='bars' />
-          </MDBNavbarToggler>
-          <MDBCollapse navbar show={showBasic}>
-            <MDBNavbarNav right className='mb-2 mb-lg-0'>
-              <MDBNavbarItem active>
-                <MDBNavbarLink aria-current='page' href='#'>
-                  Home
-                </MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink href='#'>Features</MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink href='#'>Pricing</MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink href='#'>About</MDBNavbarLink>
-              </MDBNavbarItem>
-            </MDBNavbarNav>
-          </MDBCollapse>
-        </MDBContainer>
-      </MDBNavbar>
-
-      
-    </header>
-  );
+   
+      <Navbar bg="dark" variant={'dark'} expand="lg" collapseOnSelect>
+      <Container>
+        <Navbar.Brand href="#home">Gastro Bar Favorite</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link  as={Link} to={'/'}><i class="fa-solid fa-house-user"></i>
+            &nbsp;Home</Nav.Link>
+            <Nav.Link  as={Link} to={'/gallery'}><i class="fa-solid fa-location-arrow"></i>
+            &nbsp;Galería</Nav.Link>
+            <Nav.Link  as={Link} to={'/location'}><i class="fa-solid fa-location-arrow"></i>
+            &nbsp;Localización</Nav.Link>
+            <Nav.Link  as={Link} to={'/contact'}><i class="fa-solid fa-bars"></i>
+            &nbsp;Contacto</Nav.Link>
+            <NavDropdown title="Menu" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1"><i class="fa-solid fa-bars"></i>Menu</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2"><i class="fa-solid fa-archway"></i>
+                Reservas
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Carta</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Vinos
+              </NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+    
+  )
 }
+
+export default header2

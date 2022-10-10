@@ -29,7 +29,12 @@ export default function App() {
           </MDBBtn>
         </section>
       </MDBContainer>
-
+      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+        © 2022 Copyright:
+        <a className='text-white' href='https://mdbootstrap.com/'>
+          &nbsp;Favorite
+        </a>
+      </div>
       
     </MDBFooter>
   );
