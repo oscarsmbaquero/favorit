@@ -2,7 +2,7 @@
 // import AvisosBadajoz from "../pages/Avisos/AvisosBadajoz/AvisosBadajoz";
 
 import Contact from "../pages/Contact/Contact";
-import Galery from "../pages/Gallery/Gallery";
+import Gallery from "../pages/Gallery/Gallery";
 import Home from "../pages/Home/Home";
 import MapContainer from "../pages/Map/MapContainer";
 import Reservas from "../pages/Reservas/Reservas";
@@ -16,7 +16,7 @@ const routes = [
   },
   {
     path: "/gallery",
-    element: <Galery/>,
+    element: <Gallery/>,
   },
   {
     path: "/location",

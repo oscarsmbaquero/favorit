@@ -13,22 +13,22 @@ const Header = () => {
           <div className="header__menu">
             <ul className="header__ul">
               <li>
-                <NavLink to='/' style={{paddingLeft: 13, textDecoration: 'none'}}>Home</NavLink>
+                <NavLink to='/' style={{color: 'whitesmoke', textDecoration: 'none'}}>Home</NavLink>
               </li>
               <li>
-                <NavLink to='/gallery' style={{paddingLeft: 13, textDecoration: 'none'}}>Galeria</NavLink>
+                <NavLink to='/gallery' style={{color: 'whitesmoke', textDecoration: 'none'}}>Galeria</NavLink>
               </li>
               <li>
-                <NavLink to='/location' style={{paddingLeft: 13, textDecoration: 'none'}}>Localización</NavLink>
+                <NavLink to='/location' style={{color: 'whitesmoke', textDecoration: 'none'}}>Localización</NavLink>
               </li>
               <li>
-                <NavLink to='/contact' style={{paddingLeft: 13, textDecoration: 'none'}}>Contacto</NavLink>
+                <NavLink to='/contact' style={{color: 'whitesmoke', textDecoration: 'none'}}>Contacto</NavLink>
               </li>
               <li>
-                <NavLink to='/reservas' style={{paddingLeft: 13, textDecoration: 'none'}}>Reservas</NavLink>
+                <NavLink to='/reservas' style={{color: 'whitesmoke', textDecoration: 'none'}}>Reservas</NavLink>
               </li>
               <li>
-                <NavLink to='/login' style={{paddingLeft: 13, textDecoration: 'none'}}>Login</NavLink>
+                <NavLink to='/login' style={{color: 'whitesmoke', textDecoration: 'none'}}>Login</NavLink>
               </li>
             </ul>
           </div>

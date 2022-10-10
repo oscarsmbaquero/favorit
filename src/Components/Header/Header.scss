@@ -1,26 +1,30 @@
 
 .header{
-
-    background-color: bisque;
-    
+    padding: 10px 16px;
+    background-color: #282828;
+    position: sticky;
   &__contenedor{
     width: 90%;
+    height: 50px;
     margin:auto;
   }
   &__elementos{
     display:flex;
     flex-direction: row;
     position: relative;
+    
   } 
   &__logo{
     line-height: 70px;
     font-size: 35px;
+    color:whitesmoke;
   }
   &__menu{
     display:flex;
     flex-direction: row;
     position: absolute;
     right:0;
+    
     
      li{
        line-height: 80px;
