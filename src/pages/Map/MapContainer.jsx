@@ -43,7 +43,7 @@ export class MapContainer extends Component {
       >
       <Marker
           onClick={this.onMarkerClick}
-          name={'Ɠąʂէɾօ βąɾ Ƒąѵօɾìէҽ'}
+          name={'𝔊𝔞𝔰𝔱𝔯𝔬 𝔅𝔞𝔯  𝔉𝔞𝔳𝔬𝔯𝔦𝔱𝔢'}
 
         />
         <InfoWindow

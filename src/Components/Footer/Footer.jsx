@@ -32,7 +32,7 @@ export default function App() {
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
         © 2022 Copyright:
         <a className='text-white' href='https://mdbootstrap.com/'>
-          &nbsp;Favorite
+          &nbsp;𝔊𝔞𝔰𝔱𝔯𝔬 𝔅𝔞𝔯  𝔉𝔞𝔳𝔬𝔯𝔦𝔱𝔢
         </a>
       </div>
       
