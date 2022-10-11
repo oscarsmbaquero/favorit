@@ -6,9 +6,16 @@ import { useNavigate } from "react-router-dom";
 
 import Swal from "sweetalert2";
 
-
-import { Box, Button, Container, FormControl, Grid, ThemeProvider } from "@material-ui/core";
+import {
+  Box,
+  Button,
+  Container,
+  FormControl,
+  Grid,
+  ThemeProvider,
+} from "@material-ui/core";
 import { FormHelperText, Input, InputLabel } from "@material-ui/core";
+import SendIcon from "@material-ui/icons/Send";
 
 const Contact = () => {
   let navigate = useNavigate();
@@ -37,30 +44,55 @@ const Contact = () => {
     }
   };
   return (
-   
-   
-      <section className="sectionForm">
-      <br/><h1>𝔊𝔞𝔰𝔱𝔯𝔬 𝔅𝔞𝔯  𝔉𝔞𝔳𝔬𝔯𝔦𝔱𝔢</h1><br/>
-       <form className="form">
-            <label className="edit__label">Fecha y Hora para la Reserva</label>
-              <input className='edit__input' type="datetime-local" name="fecha" />
-            <label>Nombre</label>
-              <input className='edit__input' type="text" name="name" placeholder="Nombre"/>
-            <label>Apellidos</label>
-              <input className='edit__input' type="text" name="surname" placeholder="Apellidos"/>
-            <label>Email</label>
-              <input className='edit__input' type="text" name="email" placeholder="Email"/>
-            <label>Teléfono</label>
-              <input className='edit__input' type="text" name="email" placeholder="Teléfono"/>
-            <label>Comensales</label>
-              <input className='edit__input' type="text" name="email" placeholder="Teléfono"/><br/>
-              <Button variant="contained" type='submit'  >
-                Enviar
-            </Button>
-       </form>
-      </section>
-      
-   
+    <section className="sectionForm">
+      <br />
+      <h1>𝔊𝔞𝔰𝔱𝔯𝔬 𝔅𝔞𝔯 𝔉𝔞𝔳𝔬𝔯𝔦𝔱</h1>
+      <form className="form">
+        <label className="form__label">Fecha y Hora para la Reserva</label>
+        <input className="form__input" type="datetime-local" name="fecha" />
+        <label className="form__label">Nombre * </label>
+        <input
+          className="form__input"
+          type="text"
+          name="name"
+          placeholder="Nombre"
+        />
+        <label className="form__label">Apellidos * </label>
+        <input
+          className="form__input"
+          type="text"
+          name="surname"
+          placeholder="Apellidos"
+        />
+        <label className="form__label">Email * </label>
+        <input
+          className="form__input"
+          type="text"
+          name="email"
+          placeholder="Email"
+        />
+        <label className="form__label">Teléfono * </label>
+        <input
+          className="form__input"
+          type="text"
+          name="email"
+          placeholder="Teléfono"
+        />
+        <label className="form__label">Comensales * </label>
+        <input
+          className="form__input--comensales"
+          type="number"
+          name="email"
+          placeholder="Comensales"
+        />
+        <label className="form__label">Comentarios * </label>
+        <textarea className="form__textarea"></textarea>
+        <br />
+        <Button variant="contained" color="primary" endIcon={<SendIcon />}>
+          Enviar
+        </Button>
+      </form>
+    </section>
   );
 };
 

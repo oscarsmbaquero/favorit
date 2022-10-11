@@ -1,6 +1,8 @@
 
 // import AvisosBadajoz from "../pages/Avisos/AvisosBadajoz/AvisosBadajoz";
 
+import CartaCervezas from "../pages/Cartas/CartaCervezas";
+import CartaFood from "../pages/Cartas/CartaFood";
 import Contact from "../pages/Contact/Contact";
 import Gallery from "../pages/Gallery/Gallery";
 import Home from "../pages/Home/Home";
@@ -29,6 +31,14 @@ const routes = [
   {
     path: "/reservas",
     element: <Reservas/>,
+  },
+  {
+    path: "/cartaFood",
+    element: <CartaFood/>,
+  },
+  {
+    path: "/cartaCervezas",
+    element: <CartaCervezas/>,
   },
   // {
   //   path: "/login",
