@@ -1,106 +1,66 @@
 import React from "react";
 import "./Contact.scss";
 // import formImg from "../../assets/images/prueba.png";
-import emailjs from '@emailjs/browser';
-import {  useNavigate } from "react-router-dom";
+import emailjs from "@emailjs/browser";
+import { useNavigate } from "react-router-dom";
 
-import Swal from 'sweetalert2'// hay que probarlo
+import Swal from "sweetalert2";
+
+
+import { Box, Button, Container, FormControl, Grid, ThemeProvider } from "@material-ui/core";
+import { FormHelperText, Input, InputLabel } from "@material-ui/core";
 
 const Contact = () => {
   let navigate = useNavigate();
 
-  const sendMail=(e)=>{
+  const sendMail = (e) => {
     try {
       e.preventDefault();
       console.log(e.target.name);
-      emailjs.sendForm('service_e9hfsaz','template_lvs0put',e.target,'dso8n6rVU1ADlfbV4')
-      .then(response =>console.log(response))
+      emailjs
+        .sendForm(
+          "service_e9hfsaz",
+          "template_lvs0put",
+          e.target,
+          "dso8n6rVU1ADlfbV4"
+        )
+        .then((response) => console.log(response));
       Swal.fire({
-        title: 'Success!',
-        text: 'Enviado Formulario Correctamente',
-        icon: 'success',
-        confirmButtonText: 'Ok'
-      })
+        title: "Success!",
+        text: "Enviado Formulario Correctamente",
+        icon: "success",
+        confirmButtonText: "Ok",
+      });
       navigate("/");
-      
     } catch (error) {
       navigate("/");
     }
-      
-}
+  };
   return (
-    <>
-
+   
+   
       <section className="sectionForm">
-      {/* <img className="sectionForm__img" src={formImg} alt="..." /> */}
-      <form className="sectionForm__form" onSubmit={sendMail}>
-          <fieldset className="sectionForm__fieldset1">
-          <label className="sectionForm__label">Nombre
-          <input
-            className="sectionForm__input"
-            id="name"
-            name="name"
-            type="text"
-
-            // placeholder="Nombre:..."
-            /></label>
-          <label className="sectionForm__label">Email
-          <input
-            className="sectionForm__input"
-            id="email"
-            name="email"
-            type="email"
-            // placeholder="Email:..."
-            /></label>
-          <label className="sectionForm__label">Teléfono
-          <input
-            className="sectionForm__input"
-            id="phone"
-            name="phone"
-            type="text"
-            // placeholder="Teléfono:..."
-            /></label>
-          </fieldset>
-          <label className="sectionForm__label"> Mensaje</label>
-          <textarea
-            className="sectionForm__textarea"
-            id="message"
-            name="message"
-            type="text"
-            // placeholder="Deja tu mensaje:..."
-            rows='15'
-            columns='10'
-            />
-          {/* <h2 className="sectionForm__h2">De donde tu ere</h2> */}
-            <fieldset className="sectionForm__fieldset2">
-            <div className="sectionForm__divDirecc">
-              <label className="sectionForm__label">Comensales
-            <input
-              className="sectionForm__input"
-              id="ciudad"
-              name="ciudad"
-              type="text"
-              // placeholder="Ciudad:..."
-              /></label>
-              <label className="sectionForm__label">Teléfono
-          <input
-            className="sectionForm__input"
-            id="phone"
-            name="phone"
-            type="text"
-            // placeholder="Teléfono:..."
-            /></label>
-              
-            </div>
-            
-                          </fieldset>
-        {/* <button className="sectionForm__button">
-          Enviar mensaje
-        </button> */}
-        
-      </form>
+      <br/><h1>𝔊𝔞𝔰𝔱𝔯𝔬 𝔅𝔞𝔯  𝔉𝔞𝔳𝔬𝔯𝔦𝔱𝔢</h1><br/>
+       <form className="form">
+            <label className="edit__label">Fecha y Hora para la Reserva</label>
+              <input className='edit__input' type="datetime-local" name="fecha" />
+            <label>Nombre</label>
+              <input className='edit__input' type="text" name="name" placeholder="Nombre"/>
+            <label>Apellidos</label>
+              <input className='edit__input' type="text" name="surname" placeholder="Apellidos"/>
+            <label>Email</label>
+              <input className='edit__input' type="text" name="email" placeholder="Email"/>
+            <label>Teléfono</label>
+              <input className='edit__input' type="text" name="email" placeholder="Teléfono"/>
+            <label>Comensales</label>
+              <input className='edit__input' type="text" name="email" placeholder="Teléfono"/><br/>
+              <Button variant="contained" type='submit'  >
+                Enviar
+            </Button>
+       </form>
       </section>
-      </>
+      
+   
   );
 };
 
