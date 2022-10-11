@@ -24,7 +24,7 @@ const Contact = () => {
       navigate("/");
       
     } catch (error) {
-      navigate("/FormContact");
+      navigate("/");
     }
       
 }
@@ -40,7 +40,7 @@ const Contact = () => {
             className="sectionForm__input"
             id="name"
             name="name"
-                type="text"
+            type="text"
 
             // placeholder="Nombre:..."
             /></label>
@@ -49,7 +49,7 @@ const Contact = () => {
             className="sectionForm__input"
             id="email"
             name="email"
-                type="email"
+            type="email"
             // placeholder="Email:..."
             /></label>
           <label className="sectionForm__label">Teléfono
@@ -97,6 +97,7 @@ const Contact = () => {
         {/* <button className="sectionForm__button">
           Enviar mensaje
         </button> */}
+        
       </form>
       </section>
       </>

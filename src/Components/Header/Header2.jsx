@@ -4,27 +4,29 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 
 const header2 = () => {
   return (
    
-      <Navbar bg="dark" variant={'dark'} expand="lg" collapseOnSelect>
+      <Navbar collapseOnSelect bg="dark" variant='dark' expand="md" >
       <Container>
         <Navbar.Brand href="#home">Gastro Bar Favorite</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link  as={Link} to={'/'}><i class="fa-solid fa-house-user"></i>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" ><i class="fa-sharp fa-solid fa-bars"></i></Navbar.Toggle>
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="mr-auto">
+            <Nav.Link  as={Link} to={'/'}><i class="fa-sharp fa-solid fa-house"></i>
             &nbsp;Home</Nav.Link>
-            <Nav.Link  as={Link} to={'/gallery'}><i class="fa-solid fa-location-arrow"></i>
+            <Nav.Link  as={Link} to={'/gallery'}><i class="fa-sharp fa-solid fa-image"></i>
             &nbsp;Galería</Nav.Link>
-            <Nav.Link  as={Link} to={'/location'}><i class="fa-solid fa-location-arrow"></i>
+            <Nav.Link  as={Link} to={'/location'}><i class="fa-sharp fa-solid fa-location-dot"></i>
             &nbsp;Localización</Nav.Link>
-            <Nav.Link  as={Link} to={'/contact'}><i class="fa-solid fa-bars"></i>
+            <Nav.Link  as={Link} to={'/contact'}><i class="fa-sharp fa-solid fa-address-book"></i>
             &nbsp;Contacto</Nav.Link>
             <NavDropdown title="Menu" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1"><i class="fa-solid fa-bars"></i>Menu</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2"><i class="fa-solid fa-archway"></i>
+              <NavDropdown.Item href="#action/3.1">Menu</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
                 Reservas
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Carta</NavDropdown.Item>
