@@ -37,14 +37,13 @@ const header2 = () => {
               <i class="fa-sharp fa-solid fa-address-book"></i>
               &nbsp;Reservas
             </Nav.Link>
-            <NavDropdown title="Nuestras cartas" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/cartaFood">Gastro</NavDropdown.Item>
-              <NavDropdown.Item href="/cartaCervezas">
+            <NavDropdown title="Nuestras cartas" id="basic-nav-dropdown"> 
+              <NavDropdown.Item href="/cartaFood"><i class="fa-solid fa-utensils">&nbsp;</i>Gastro</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/cartaCervezas"><i class="fa-solid fa-beer-mug-empty">&nbsp;</i>
                 Cervezas
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Vinos</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Vinos</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3"><i class="fa-solid fa-wine-glass-empty">&nbsp;</i>Vinos</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
