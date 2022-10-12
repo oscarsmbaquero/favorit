@@ -7,7 +7,7 @@ import {
 
 export default function Gallery() {
   return (
-    <section className="galleryForm">
+    <section className="gallerySection">
     <MDBCarousel showControls showIndicators dark fade>
       <MDBCarouselItem
         className='w-100 d-block'

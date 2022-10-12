@@ -1,8 +1,10 @@
-.galleryForm {
+.gallerySection {
     display: flex;
     flex-direction: column;
     background-color: black;
-    height: 85vh;
+    height: 110vh;
+    margin-bottom: 70px;
+    
     @media screen and (min-width: 1000px) {
       color: var(--extra-grey-light);
       display: flex;

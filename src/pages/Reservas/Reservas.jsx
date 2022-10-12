@@ -48,7 +48,7 @@ const Reservas = () => {
       
       <h1 className="title">𝔊𝔞𝔰𝔱𝔯𝔬 𝔅𝔞𝔯 𝔉𝔞𝔳𝔬𝔯𝔦𝔱</h1>
       <form className="form">
-        <label className="form__label">Fecha y Hora para la Reserva</label>
+        <label className="form__label">Fecha de Reserva * </label>
         <input className="form__input" type="datetime-local" name="fecha" />
         <label className="form__label">Nombre * </label>
         <input
@@ -56,13 +56,6 @@ const Reservas = () => {
           type="text"
           name="name"
           //placeholder="Nombre"
-        />
-        <label className="form__label">Apellidos * </label>
-        <input
-          className="form__input"
-          type="text"
-          name="surname"
-          //placeholder="Apellidos"
         />
         <label className="form__label">Email * </label>
         <input
