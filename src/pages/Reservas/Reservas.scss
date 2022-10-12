@@ -1,0 +1,40 @@
+.sectionFormReservas {
+    
+    //background-color: white;
+    margin-top: 25px;
+    height: 80vh;
+    margin-bottom: 25px;
+  }
+  .form{    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    
+    &__label{
+      text-align: right;
+      font-weight: bold;
+      color:aliceblue;
+    }
+    
+    &__input{
+      width: 300px;
+      border: 1px solid black;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    &__input--comensales{
+      width: 200px;
+      border: 1px solid black;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    &__textarea{
+      width: 300px;
+      border-radius: 8px;
+      
+    }
+  }  
+  .title{
+    color: aliceblue;
+  }

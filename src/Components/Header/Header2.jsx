@@ -33,8 +33,8 @@ const header2 = () => {
             &nbsp;Galería</Nav.Link>
             <Nav.Link  as={Link} to={'/location'}><i class="fa-sharp fa-solid fa-location-dot"></i>
             &nbsp;Localización</Nav.Link>
-            <Nav.Link  as={Link} to={'/contact'}><i class="fa-sharp fa-solid fa-address-book"></i>
-            &nbsp;Contacto</Nav.Link>
+            <Nav.Link  as={Link} to={'/reservas'}><i class="fa-sharp fa-solid fa-address-book"></i>
+            &nbsp;Reservas</Nav.Link>
             
           </Nav>
         </Navbar.Collapse>
