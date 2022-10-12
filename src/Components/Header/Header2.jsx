@@ -37,7 +37,7 @@ const header2 = () => {
               <i class="fa-sharp fa-solid fa-address-book"></i>
               &nbsp;Reservas
             </Nav.Link>
-            <NavDropdown title="Nuestras cartas" id="basic-nav-dropdown"> 
+            <NavDropdown title="Carta" id="basic-nav-dropdown"> 
               <NavDropdown.Item href="/cartaFood"><i class="fa-solid fa-utensils">&nbsp;</i>Gastro</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/cartaCervezas"><i class="fa-solid fa-beer-mug-empty">&nbsp;</i>
