@@ -46,9 +46,9 @@ const Contact = () => {
   return (
     <section className="sectionForm">
       <br />
-      <h1>𝔊𝔞𝔰𝔱𝔯𝔬 𝔅𝔞𝔯 𝔉𝔞𝔳𝔬𝔯𝔦𝔱</h1>
+      <h1>𝔉𝔞𝔳𝔬𝔯𝔦𝔱</h1>
       <form className="form">
-        <label className="form__label">Fecha y Hora para la Reserva</label>
+        <label className="form__label">Fecha y Hora de la Reserva</label>
         <input className="form__input" type="datetime-local" name="fecha" />
         <label className="form__label">Nombre * </label>
         <input

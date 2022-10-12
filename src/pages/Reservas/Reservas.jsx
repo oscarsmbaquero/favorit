@@ -46,7 +46,7 @@ const Reservas = () => {
   return (
     <section className="sectionFormReservas">
       
-      <h1 className="title">𝔊𝔞𝔰𝔱𝔯𝔬 𝔅𝔞𝔯 𝔉𝔞𝔳𝔬𝔯𝔦𝔱</h1>
+      <h1 className="title"> 𝔉𝔞𝔳𝔬𝔯𝔦𝔱</h1><br/>
       <form className="form">
         <label className="form__label">Fecha de Reserva * </label>
         <input className="form__input" type="datetime-local" name="fecha" />

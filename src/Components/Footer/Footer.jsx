@@ -1,6 +1,7 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
-
+import logo from "../../assets/images/logoFavorit.jfif"
+import './Footer.scss';
 export default function App() {
   return (
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
@@ -33,9 +34,9 @@ export default function App() {
                 <MDBIcon icon="gem" className="me-3" />
                 𝔊𝔞𝔰𝔱𝔯𝔬 𝔅𝔞𝔯 𝔉𝔞𝔳𝔬𝔯𝔦𝔱
               </h6>
-              <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit.
+              <p><img src={logo} className='logos'  alt={logo}/>
+                {/* Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. */}
               </p>
             </MDBCol>
 
@@ -83,7 +84,7 @@ export default function App() {
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>𝕮𝖔𝖓𝖙𝖆𝖈𝖙𝖔</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
                 Plaza de Loaisa, Plasencia
