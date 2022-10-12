@@ -11,15 +11,15 @@ import logo from "../../assets/images/logoFavorit.jfif"
 const header2 = () => {
   return (
    
-      <Navbar collapseOnSelect bg="dark" variant='dark' expand="md" >
+      <Navbar collapseOnSelect bg="light" variant='light' expand="md" >
       <Container>
         <Navbar.Brand href="#home"><img src={logo} className='logo'  alt={logo}/></Navbar.Brand>
         {/* <Navbar.Brand><img src={logo} className='logo'  alt={logo}/></Navbar.Brand> */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav" ><i class="fa-sharp fa-solid fa-bars"></i></Navbar.Toggle>
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="ml-auto">
             <Nav.Link  as={Link} to={'/'}><i class="fa-sharp fa-solid fa-house"></i>
-            &nbsp;Home</Nav.Link>
+            &nbsp;Inicio</Nav.Link>
             <NavDropdown title="Nuestras cartas" id="basic-nav-dropdown">
               <NavDropdown.Item href="/cartaFood">Gastro</NavDropdown.Item>
               <NavDropdown.Item href="/cartaCervezas">Cervezas</NavDropdown.Item>
