@@ -1,6 +1,6 @@
 import React,{useState, useEffect} from 'react';
 import './Home.scss'
-import  fondo  from '../../assets/images/logoFavorit.jfif';
+import  fondo  from '../../assets/images/fondo.jpg';
 
 const Home = () => {
   
