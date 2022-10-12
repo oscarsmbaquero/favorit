@@ -12,7 +12,7 @@
     margin: 0 auto;
     
     &__label{
-      text-align: right;
+      text-align:left;
       font-weight: bold;
       color:aliceblue;
     }
@@ -20,21 +20,29 @@
     &__input{
       width: 300px;
       border: 1px solid black;
-      border-radius: 8px;
+      border-radius: 4px;
       margin-bottom: 10px;
+      text-align: center;
     }
     &__input--comensales{
       width: 200px;
-      border: 1px solid black;
-      border-radius: 8px;
-      margin-bottom: 10px;
+      text-align: center;
+      // border: 1px solid black;
+      // border-radius: 8px;
+      // margin-bottom: 10px;
     }
     &__textarea{
       width: 300px;
-      border-radius: 8px;
+      border-radius: 4px;
+      height: 100px;
       
     }
   }  
   .title{
     color: aliceblue;
   }
+  input[type="range"] {
+    display: block;
+    margin : 0 auto;
+    color:red;
+}

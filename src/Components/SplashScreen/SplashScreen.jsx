@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./SplashScreen.scss";
-import logo from '../../assets/images/logoFavorit.jfif'
+import logo from '../../assets/images/LogoModificado.jpg'
 
 const SplashScreen = () => {
   const [animation, setAnimation] = useState("fadeIn");

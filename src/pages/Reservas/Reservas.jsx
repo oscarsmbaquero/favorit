@@ -16,6 +16,8 @@ import {
 } from "@material-ui/core";
 import { FormHelperText, Input, InputLabel } from "@material-ui/core";
 import SendIcon from "@material-ui/icons/Send";
+import { text } from "@fortawesome/fontawesome-svg-core";
+import { TextField } from "@mui/material";
 
 const Reservas = () => {
   let navigate = useNavigate();
@@ -45,41 +47,50 @@ const Reservas = () => {
   };
   return (
     <section className="sectionFormReservas">
-      
-      <h1 className="title"> 𝔉𝔞𝔳𝔬𝔯𝔦𝔱</h1><br/>
+      <h1 className="title"> 𝔉𝔞𝔳𝔬𝔯𝔦𝔱</h1>
+      <br />
       <form className="form">
-        <label className="form__label">Fecha de Reserva * </label>
-        <input className="form__input" type="datetime-local" name="fecha" />
-        <label className="form__label">Nombre * </label>
-        <input
-          className="form__input"
-          type="text"
-          name="name"
-          //placeholder="Nombre"
-        />
-        <label className="form__label">Email * </label>
-        <input
-          className="form__input"
-          type="text"
-          name="email"
-          //placeholder="Email"
-        />
-        <label className="form__label">Teléfono * </label>
-        <input
-          className="form__input"
-          type="text"
-          name="email"
-          //placeholder="Teléfono"
-        />
-        <label className="form__label">Comensales * </label>
-        <input
-          className="form__input--comensales"
-          type="number"
-          name="email"
-          //placeholder="Comensales"
-        />
-        <label className="form__label">Comentarios * </label>
-        <textarea className="form__textarea"></textarea>
+        <div className="d-flex flex-column flex-md-row">
+          <div className="d-flex flex-column col-12 col-md-6">
+            <label className="form__label">Fecha de Reserva * </label>
+            <input className="form__input" type="datetime-local" name="fecha" />
+          </div>
+          <div className="d-flex flex-column col-12 col-md-6 mx-md-3">
+            <label className="form__label">Nombre * </label>
+            <input
+              className="form__input"
+              type="text"
+              name="name"
+              //placeholder="Nombre"
+            />
+          </div>
+        </div>
+        <div className="d-flex flex-column flex-md-row">
+          <div className="d-flex flex-column col-12 col-md-6">
+            <label className="form__label">Email * </label>
+            <input className="form__input" type="text" name="fecha" />
+          </div>
+          <div className="d-flex flex-column col-12 col-md-6 mx-md-3">
+            <label className="form__label">Teléfono * </label>
+            <input
+              className="form__input"
+              type="text"
+              name="name"
+              //placeholder="Nombre"
+            />
+          </div>
+        </div>
+        <div className="d-flex flex-column flex-md-row">
+          <div className="d-flex flex-column col-12 col-md-6">
+            <label className="form__label">Comensales * </label>
+            <input className="form__input" type="text" name="fecha" />
+          </div>
+          
+          <div className="d-flex flex-column col-12 col-md-6 mx-md-3">
+            <label className="form__label">Comentario</label>
+            <input className="form__input" type="text" name="fecha" />
+          </div>
+        </div>
         <br />
         <Button variant="contained" color="primary" endIcon={<SendIcon />}>
           Enviar

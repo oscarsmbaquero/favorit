@@ -43,17 +43,17 @@ export default function App() {
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>ℭ𝔬𝔫𝔰𝔲𝔩𝔱𝔞 𝔫𝔲𝔢𝔰𝔱𝔯𝔞𝔰 𝔠𝔞𝔯𝔱𝔞𝔰</h6>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='#!' className='text-reset'><i class="fa-solid fa-utensils">&nbsp;</i>
                 𝔊𝔞𝔰𝔱𝔯𝔬
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='#!' className='text-reset'><i class="fa-solid fa-beer-mug-empty">&nbsp;</i>
                 ℭ𝔢𝔯𝔳𝔢𝔷𝔞𝔰
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='#!' className='text-reset'><i class="fa-solid fa-wine-glass-empty">&nbsp;</i>
                 𝔙𝔦𝔫𝔬𝔰
                 </a>
               </p>
