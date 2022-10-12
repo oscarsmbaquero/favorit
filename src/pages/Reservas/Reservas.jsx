@@ -5,6 +5,7 @@ import emailjs from "@emailjs/browser";
 import { useNavigate } from "react-router-dom";
 
 import Swal from "sweetalert2";
+import  fondo  from '../../assets/images/logoFavorit.jfif';
 
 import {
   Box,
@@ -46,19 +47,24 @@ const Reservas = () => {
     }
   };
   return (
-    <section className="sectionFormReservas">
-      <h1 className="title"> 𝔉𝔞𝔳𝔬𝔯𝔦𝔱</h1>
-      <br />
-      <form className="form">
+    
+    <div className="container">
+    <section className="sectionFormReservas row">
+      <div className="col-12 col-lg-6 my-auto d-none d-lg-block">
+        <img className="logoReservas" src={fondo} alt="logo"></img>
+      </div>
+      <div className="col-12 col-lg-6 my-auto">
+        <form className="form">
+        <h1 className="title"> 𝔉𝔞𝔳𝔬𝔯𝔦𝔱</h1><br/>
         <div className="d-flex flex-column flex-md-row">
-          <div className="d-flex flex-column col-12 col-md-6">
+          <div className="d-flex flex-column col-11 col-md-6">
             <label className="form__label">Fecha de Reserva * </label>
-            <input className="form__input" type="datetime-local" name="fecha" />
+            <input className="form-control" type="datetime-local" name="fecha" />
           </div>
-          <div className="d-flex flex-column col-12 col-md-6 mx-md-3">
+          <div className="d-flex flex-column col-11 col-md-6 mx-md-3">
             <label className="form__label">Nombre * </label>
             <input
-              className="form__input"
+              className="form-control"
               type="text"
               name="name"
               //placeholder="Nombre"
@@ -66,37 +72,43 @@ const Reservas = () => {
           </div>
         </div>
         <div className="d-flex flex-column flex-md-row">
-          <div className="d-flex flex-column col-12 col-md-6">
+          <div className="d-flex flex-column col-11 col-md-6">
             <label className="form__label">Email * </label>
-            <input className="form__input" type="text" name="fecha" />
+            <input className="form-control" type="text" name="fecha" />
           </div>
-          <div className="d-flex flex-column col-12 col-md-6 mx-md-3">
+          <div className="d-flex flex-column col-11 col-md-6 mx-md-3">
             <label className="form__label">Teléfono * </label>
             <input
-              className="form__input"
+              className="form-control"
               type="text"
               name="name"
               //placeholder="Nombre"
             />
           </div>
         </div>
-        <div className="d-flex flex-column flex-md-row">
-          <div className="d-flex flex-column col-12 col-md-6">
+        <div className="d-flex flex-column">
+          <div className="d-flex flex-column col-11 mx-md-3 ">
             <label className="form__label">Comensales * </label>
-            <input className="form__input" type="text" name="fecha" />
+            <input className="form-control" type="text" name="fecha" />
           </div>
-          
-          <div className="d-flex flex-column col-12 col-md-6 mx-md-3">
+          <div className="d-flex flex-column col-11 mx-md-3">
             <label className="form__label">Comentario</label>
-            <input className="form__input" type="text" name="fecha" />
+            <textarea className="form__textarea"></textarea>
           </div>
         </div>
         <br />
-        <Button variant="contained" color="primary" endIcon={<SendIcon />}>
+        <Button
+          variant="contained"
+          color="primary"
+          endIcon={<SendIcon />}
+          style={{ borderRadius: 50 }}
+        >
           Enviar
         </Button>
-      </form>
+        </form>
+      </div>
     </section>
+    </div>
   );
 };
 
