@@ -5,6 +5,9 @@ import {
   MDBCarouselItem,
 } from 'mdb-react-ui-kit';
 
+import foto1 from '../../assets/images/bar3.jfif'
+import bar4 from '../../assets/images/bar4.jfif'
+import bar1 from '../../assets/images/bar1.jfif'
 export default function Gallery() {
   return (
     <section className="gallerySection">
@@ -12,7 +15,7 @@ export default function Gallery() {
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={1}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(19).jpg'
+        src={foto1}
         alt='...'
       >
         <h5>First slide label</h5>
@@ -20,18 +23,8 @@ export default function Gallery() {
       </MDBCarouselItem>
       <MDBCarouselItem
         className='w-100 d-block'
-        itemId={2}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg'
-        alt='...'
-      >
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </MDBCarouselItem>
-
-      <MDBCarouselItem
-        className='w-100 d-block'
         itemId={3}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(40).jpg'
+        src={bar4}
         alt='...'
       >
         <h5>Third slide label</h5>
@@ -40,13 +33,14 @@ export default function Gallery() {
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={4}
-        src='https://mdbootstrap.com/img/Photos/Slides/img%20(19).jpg'
+        src={bar1}
         alt='...'
       >
         <h5>Four slide label</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </MDBCarouselItem>
     </MDBCarousel>
+    
     </section>
   );
 }
