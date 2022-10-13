@@ -4,9 +4,9 @@ import cartaComida from "../../assets/images/cartas/comida.jpg";
 
 const CartaFood = () => {
   return (
-    <section className='sectionGastro'>
-     <div className='container'>
-          <img className="home__image" src={cartaComida} alt={cartaComida}></img>
+    <section className='food'>
+     <div className='food__container'>
+          <img className="food__image" src={cartaComida} alt={cartaComida}></img>
     </div>
     </section>
   )

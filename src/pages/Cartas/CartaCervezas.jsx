@@ -5,9 +5,9 @@ import cartaCerveza from "../../assets/images/cartas/cervezas.jpg";
 
 const CartaCervezas = () => {
   return (
-    <section className='sectionCervezas'>
-     <div className='container'>
-          <img className="home__image" src={cartaCerveza} alt={cartaCerveza}></img>
+    <section className='beer'>
+     <div className='beer__container'>
+          <img className="beer__image" src={cartaCerveza} alt={cartaCerveza}></img>
     </div>
     </section>
   )

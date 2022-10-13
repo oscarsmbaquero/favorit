@@ -6,11 +6,11 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logo1.png";
 
 const header2 = () => {
   return (
-    <Navbar collapseOnSelect bg="light" variant="light" expand="md">
+    <Navbar collapseOnSelect bg="dark" variant="dark" expand="md">
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} className="logo" alt={logo} />
