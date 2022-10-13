@@ -56,7 +56,7 @@ const Reservas = () => {
         </div>
         <div className="col-12 col-lg-6 my-auto">
           <form  onSubmit={sendMail}className="form">
-          <img className="logoReservas" src={logo} alt="logo"></img>
+          <img className="logoReservas1" src={logo} alt="logo"></img>
             <br />
             <div className="d-flex flex-column flex-md-row">
               <div className="d-flex flex-column col-11 col-md-6">
