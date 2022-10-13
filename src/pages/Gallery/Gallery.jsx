@@ -18,8 +18,8 @@ export default function Gallery() {
         src={foto1}
         alt='...'
       >
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        {/* <h5>First slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
       </MDBCarouselItem>
       <MDBCarouselItem
         className='w-100 d-block'
@@ -27,8 +27,8 @@ export default function Gallery() {
         src={bar4}
         alt='...'
       >
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        {/* <h5>Third slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
       </MDBCarouselItem>
       <MDBCarouselItem
         className='w-100 d-block'
@@ -36,8 +36,8 @@ export default function Gallery() {
         src={bar1}
         alt='...'
       >
-        <h5>Four slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        {/* <h5>Four slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
       </MDBCarouselItem>
     </MDBCarousel>
     
