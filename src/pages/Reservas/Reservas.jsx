@@ -108,10 +108,14 @@ const Reservas = () => {
             <br />
             <Button
               variant="contained"
-              color="primary"
+              //color="primary"
               type="submit"
               endIcon={<SendIcon />}
-              style={{ borderRadius: 50 }}
+              style={{ borderRadius: 50,
+                backgroundColor: "black",
+                color:'white',
+                // marginTop:'0px'
+               }}
             >
               Reservar
             </Button>
