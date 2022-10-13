@@ -1,13 +1,13 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
-import logo from "../../assets/images/logoFavorit.jfif"
+import logo from "../../assets/images/logo.png"
 import './Footer.scss';
 export default function App() {
   return (
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
-          <span>Visitanos en nuestras redes sociales:</span>
+          <span>Siguenos en nuestras redes sociales:</span>
         </div>
 
         <div>
@@ -30,10 +30,6 @@ export default function App() {
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>
-                <MDBIcon icon="gem" className="me-3" />
-                𝔊𝔞𝔰𝔱𝔯𝔬 𝔅𝔞𝔯 𝔉𝔞𝔳𝔬𝔯𝔦𝔱
-              </h6>
               <p><img src={logo} className='logos'  alt={logo}/>
                 {/* Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
                 consectetur adipisicing elit. */}
@@ -41,32 +37,32 @@ export default function App() {
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>ℭ𝔬𝔫𝔰𝔲𝔩𝔱𝔞 𝔫𝔲𝔢𝔰𝔱𝔯𝔞𝔰 𝔠𝔞𝔯𝔱𝔞𝔰</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Nuestras Cartas</h6>
               <p>
                 <a href='#!' className='text-reset'><i class="fa-solid fa-utensils">&nbsp;</i>
-                𝔊𝔞𝔰𝔱𝔯𝔬
+                Gastro
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'><i class="fa-solid fa-beer-mug-empty">&nbsp;</i>
-                ℭ𝔢𝔯𝔳𝔢𝔷𝔞𝔰
+                Cervezas
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'><i class="fa-solid fa-wine-glass-empty">&nbsp;</i>
-                𝔙𝔦𝔫𝔬𝔰
+                Vinos
                 </a>
               </p>
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>𝔈𝔫𝔩𝔞𝔠𝔢𝔰 𝔡𝔢 𝔦𝔫𝔱𝔢𝔯𝔢𝔰</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Enlaces de interes</h6>
               <p>
-                <a href='#!' className='text-reset'>
-                ℭ𝔬𝔫𝔱𝔞𝔠𝔱𝔬  
+                <a href='#!' className='text-reset'><i class="fa-sharp fa-solid fa-address-book">&nbsp;</i>
+                Reservas  
                 </a>
               </p>
-              <p>
+              {/* <p>
                 <a href='#!' className='text-reset'>
                   Settings
                 </a>
@@ -80,18 +76,18 @@ export default function App() {
                 <a href='#!' className='text-reset'>
                   Help
                 </a>
-              </p>
+              </p> */}
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>𝕮𝖔𝖓𝖙𝖆𝖈𝖙𝖔</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Contacto</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
                 Plaza de Loaisa, Plasencia
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                gastrofavorit@gmail.com
+                favoritplasencia@gmail.com
               </p>
               <p>
                 <MDBIcon icon="phone" className="me-3" /> + 34 618 932 661
@@ -107,7 +103,7 @@ export default function App() {
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © 2022 Copyright:
         <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-        &nbsp;𝔊𝔞𝔰𝔱𝔯𝔬 𝔅𝔞𝔯 𝔉𝔞𝔳𝔬𝔯𝔦𝔱
+        &nbsp;Gastro Bar Favorít
         </a>
       </div>
     </MDBFooter>

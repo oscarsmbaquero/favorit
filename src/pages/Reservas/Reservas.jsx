@@ -5,7 +5,8 @@ import emailjs from "@emailjs/browser";
 import { useNavigate } from "react-router-dom";
 
 import Swal from "sweetalert2";
-import fondo from "../../assets/images/logoFavorit.jfif";
+import logo from "../../assets/images/logo.png";
+import  fondo  from '../../assets/images/bar4.jfif';
 
 import {
   Box,
@@ -55,7 +56,7 @@ const Reservas = () => {
         </div>
         <div className="col-12 col-lg-6 my-auto">
           <form  onSubmit={sendMail}className="form">
-            <h1 className="title"> 𝔉𝔞𝔳𝔬𝔯𝔦𝔱</h1>
+          <img className="logoReservas" src={logo} alt="logo"></img>
             <br />
             <div className="d-flex flex-column flex-md-row">
               <div className="d-flex flex-column col-11 col-md-6">
