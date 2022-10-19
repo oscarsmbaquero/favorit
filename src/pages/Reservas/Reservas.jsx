@@ -1,21 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Reservas.scss";
-// import formImg from "../../assets/images/prueba.png";
 import emailjs from "@emailjs/browser";
 import { useNavigate } from "react-router-dom";
-
 import Swal from "sweetalert2";
 import logo from "../../assets/images/logo.png";
-import  fondo  from '../../assets/images/bar4.jfif';
+import fondo from '../../assets/images/bar4.jfif';
 
-import {
-  Box,
-  Button,
-  Container,
-  FormControl,
-  Grid,
-  ThemeProvider,
-} from "@material-ui/core";
+
+import {Button} from "@material-ui/core";
 // import { FormHelperText, Input, InputLabel } from "@material-ui/core";
 import SendIcon from "@material-ui/icons/Send";
 // import { text } from "@fortawesome/fontawesome-svg-core";
@@ -23,12 +15,14 @@ import SendIcon from "@material-ui/icons/Send";
 
 const Reservas = () => {
   let navigate = useNavigate();
+  //const [error,setError] = useState('')
+  
 
   const sendMail = (e) => {
-    console.log("entro");
+
     try {
       e.preventDefault();
-      console.log(e.target.name);
+      console.log(e.target.name.value);
       emailjs
         .sendForm(
           "service_xewxx67",
@@ -38,8 +32,8 @@ const Reservas = () => {
         )
         .then((response) => console.log(response));
       Swal.fire({
-        title: "Success!",
-        text: "Enviado Formulario Correctamente",
+        //title: "Success!",
+        text: "Le confirmaremos su reserva lo antes posible",
         icon: "success",
         confirmButtonText: "Ok",
       });
@@ -49,6 +43,8 @@ const Reservas = () => {
     }
   };
   return (
+    <>
+    
     <div className="container">
       <section className="sectionFormReservas row">
         <div className="col-12 col-lg-6 my-auto d-none d-lg-block">
@@ -123,6 +119,7 @@ const Reservas = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 
