@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
-import logo from "../../assets/images/logo1.png"
+import logo from "../../assets/images/logo2.jpeg"
 import './Footer.scss';
 export default function App() {
   return (
