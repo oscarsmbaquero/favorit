@@ -27,15 +27,13 @@ export default function Gallery() {
         {/* <h5>First slide label</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
       </MDBCarouselItem>
-      <MDBCarouselItem
+      {/* <MDBCarouselItem
         className='w-100 d-block'
         itemId={3}
         src={bar4}
         alt='...'
       >
-        {/* <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
-      </MDBCarouselItem>
+      </MDBCarouselItem> */}
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={4}
@@ -81,15 +79,13 @@ export default function Gallery() {
         {/* <h5>Four slide label</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
       </MDBCarouselItem>
-      <MDBCarouselItem
+      {/* <MDBCarouselItem
         className='w-100 d-block'
         itemId={4}
         src={bar10}
         alt='...'
       >
-        {/* <h5>Four slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-      </MDBCarouselItem>
+      </MDBCarouselItem> */}
     </MDBCarousel>
     
     </section>
