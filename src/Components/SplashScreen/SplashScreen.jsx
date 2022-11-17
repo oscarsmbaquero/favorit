@@ -8,7 +8,7 @@ const SplashScreen = () => {
   const [animation, setAnimation] = useState("fadeIn");
 
   useEffect(() => {
-    setTimeout(() => setAnimation("fadeOut"), 3500);
+    setTimeout(() => setAnimation("fadeOut"), 3800);
     //https://images-na.ssl-images-amazon.com/images/I/41t8oP3wO8L.png
   }, []);
 
