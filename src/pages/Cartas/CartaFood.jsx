@@ -1,12 +1,12 @@
 import React from 'react'
 import './Cartas.scss';
-import cartaComida from "../../assets/images/cartas/comida.jpg";
+import cartaNormal from "../../assets/images/cartas/cartaNormal.jpg";
 
 const CartaFood = () => {
   return (
     <section className='food'>
      <div className='food__container'>
-          <img className="food__image" src={cartaComida} alt={cartaComida}></img>
+          <img className="food__image" src={cartaNormal} alt={cartaNormal}></img>
     </div>
     </section>
   )
