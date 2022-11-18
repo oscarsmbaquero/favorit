@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
-import horario from "../../assets/images/horario.jpg"
+import logo from "../../assets/images/logoFavorit.jpeg"
 import './Footer.scss';
 export default function App() {
   return (
@@ -30,7 +30,7 @@ export default function App() {
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-              <p><img src={horario} className='logos'  alt={horario}/>
+              <p><img src={logo} className='logos'  alt={logo}/>
                 {/* Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
                 consectetur adipisicing elit. */}
               </p>
@@ -40,7 +40,17 @@ export default function App() {
               <h6 className='text-uppercase fw-bold mb-4'>Nuestras Cartas</h6>
               <p>
                 <a href='#!' className='text-reset'><i class="fa-solid fa-utensils">&nbsp;</i>
-                Gastro
+                Carta
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'><i class="fa-solid fa-utensils">&nbsp;</i>
+                Carta Celíacos
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'><i class="fa-solid fa-utensils">&nbsp;</i>
+                Carta Vegetariana
                 </a>
               </p>
               <p>
@@ -63,7 +73,7 @@ export default function App() {
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'><i class="fa-sharp fa-solid fa-address-book">&nbsp;</i>
+                <a href='#!' className='text-reset'><i class="fa-regular fa-clock">&nbsp;</i>
                 Horarios  
                 </a>
               </p>
@@ -110,7 +120,7 @@ export default function App() {
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © 2022 Copyright:
         <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-        &nbsp;powered by OSMB
+        &nbsp;by OSMB
         </a>
       </div>
     </MDBFooter>

@@ -5,8 +5,8 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
-import logo from "../../assets/images/logo1.png";
+//import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
+import logo from "../../assets/images/logoFavorit.jpeg";
 
 const header2 = () => {
   return (

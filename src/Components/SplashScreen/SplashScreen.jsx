@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./SplashScreen.scss";
-import logo from '../../assets/images/logo1.png'
-import logo2 from '../../assets/images/logo2.jpeg'
-import logo3 from '../../assets/images/logo3.jpeg'
+//import logo from '../../assets/images/logo1.png'
+//import logo2 from '../../assets/images/logo2.jpeg'
+import logo from '../../assets/images/logoFavorit.jpeg'
 
 const SplashScreen = () => {
   const [animation, setAnimation] = useState("fadeIn");
@@ -15,7 +15,7 @@ const SplashScreen = () => {
   return (
     <div className="splashScreen">
       <div className={animation}>
-        <img  src ={logo2} className="image" alt="logo"/>
+        <img  src ={logo} className="image" alt="logo"/>
         {/* <div  class="image">
           <img  src ="/images/fondoMotogp.png" className="image" alt="motogp"/>
         </div> */}
