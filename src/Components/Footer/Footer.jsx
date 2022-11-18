@@ -29,13 +29,10 @@ export default function App() {
       <section className=''>
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
-            <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
+            {/* <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <p><img src={logo} className='logos'  alt={logo}/>
-                {/* Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. */}
               </p>
-            </MDBCol>
-
+            </MDBCol> */}
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Nuestras Cartas</h6>
               <p>
