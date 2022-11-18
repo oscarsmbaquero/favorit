@@ -8,6 +8,7 @@ import CartaVegetariana from "../pages/Cartas/CartaVegetariana";
 import Contact from "../pages/Contact/Contact";
 import Gallery from "../pages/Gallery/Gallery";
 import Home from "../pages/Home/Home";
+import Horario from "../pages/Horario/Horario";
 import MapContainer from "../pages/Map/MapContainer";
 import Reservas from "../pages/Reservas/Reservas";
 
@@ -50,10 +51,10 @@ const routes = [
     path: "/cartaCervezas",
     element: <CartaCervezas/>,
   },
-  // {
-  //   path: "/login",
-  //   element: <Galery/>,
-  // },
+  {
+    path: "/horario",
+    element: <Horario/>,
+  },
   
   
 ];

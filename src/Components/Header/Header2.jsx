@@ -37,6 +37,10 @@ const header2 = () => {
               <i class="fa-sharp fa-solid fa-address-book"></i>
               &nbsp;Reservas
             </Nav.Link>
+            <Nav.Link as={Link} to={"/horario"} routerLinkActive="active">
+            <i class="fa-regular fa-clock"></i>
+              &nbsp;Horario
+            </Nav.Link>
             <NavDropdown title="Cartas" id="basic-nav-dropdown"> 
               <NavDropdown.Item href="/cartaFood"><i class="fa-solid fa-utensils">&nbsp;</i>Carta</NavDropdown.Item>
               <NavDropdown.Item href="/cartaCeliaca"><i class="fa-solid fa-utensils">&nbsp;</i>Celíaca</NavDropdown.Item>

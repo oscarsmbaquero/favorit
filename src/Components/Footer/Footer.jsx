@@ -1,13 +1,13 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
-import logo from "../../assets/images/logo2.jpeg"
+import horario from "../../assets/images/horario.jpg"
 import './Footer.scss';
 export default function App() {
   return (
     <MDBFooter bgColor='dark' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
-          <span>Siguenos en nuestras redes sociales:</span>
+          <span  STYLE="font-weight:bold">Síguenos en nuestras redes sociales:</span>
         </div>
 
         <div>
@@ -29,8 +29,8 @@ export default function App() {
       <section className=''>
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
-            <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
-              <p><img src={logo} className='logos'  alt={logo}/>
+            <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
+              <p><img src={horario} className='logos'  alt={horario}/>
                 {/* Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
                 consectetur adipisicing elit. */}
               </p>
@@ -62,6 +62,11 @@ export default function App() {
                 Reservas  
                 </a>
               </p>
+              <p>
+                <a href='#!' className='text-reset'><i class="fa-sharp fa-solid fa-address-book">&nbsp;</i>
+                Horarios  
+                </a>
+              </p>
               {/* <p>
                 <a href='#!' className='text-reset'>
                   Settings
@@ -83,14 +88,16 @@ export default function App() {
               <h6 className='text-uppercase fw-bold mb-4'>Contacto</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
-                Plaza de Loaisa, Plasencia
+                Plaza Juan de Loaisa, Plasencia
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                favoritplasencia@gmail.com
+                favoritgastrobar@gmail.com
               </p>
+              
               <p>
-                <MDBIcon icon="phone" className="me-3" /> + 34 618 932 661
+                <MDBIcon icon="phone" className="me-3" /> + 34 618 932 661 <br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ 34 691 487 362
               </p>
               {/* <p>
                 <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
@@ -103,7 +110,7 @@ export default function App() {
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © 2022 Copyright:
         <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-        &nbsp;Gastro Bar Favorít
+        &nbsp;powered by OSMB
         </a>
       </div>
     </MDBFooter>
