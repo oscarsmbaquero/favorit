@@ -43,87 +43,84 @@ const Reservas = () => {
     }
   };
   return (
-    // <>
+    <>
     
-    // <div className="container">
-    //   <section className="sectionFormReservas row">
-    //     <div className="col-12 col-lg-6 my-auto d-none d-lg-block">
-    //       <img className="logoReservas" src={fondo} alt="logo"></img>
-    //     </div>
-    //     <div className="col-12 col-lg-6 my-auto">
-    //       <form  onSubmit={sendMail}className="form">
-    //       <img className="logoReservas1" src={logo} alt="logo"></img>
-    //         <br />
-    //         <div className="d-flex flex-column flex-md-row">
-    //           <div className="d-flex flex-column col-11 col-md-6">
-    //             <label className="form__label">Fecha de Reserva * </label>
-    //             <input
-    //               className="form-control"
-    //               type="datetime-local"
-    //               name="fecha"
-    //             />
-    //           </div>
-    //           <div className="d-flex flex-column col-11 col-md-6 mx-md-3">
-    //             <label className="form__label">Nombre * </label>
-    //             <input
-    //               className="form-control"
-    //               type="text"
-    //               name="name"
-    //               //placeholder="Nombre"
-    //             />
-    //           </div>
-    //         </div>
-    //         <div className="d-flex flex-column flex-md-row">
-    //           <div className="d-flex flex-column col-11 col-md-6">
-    //             <label className="form__label">Email * </label>
-    //             <input className="form-control" type="text" name="email" />
-    //           </div>
-    //           <div className="d-flex flex-column col-11 col-md-6 mx-md-3">
-    //             <label className="form__label">Teléfono * </label>
-    //             <input
-    //               className="form-control"
-    //               type="text"
-    //               name="telefono"
-    //               //placeholder="Nombre"
-    //             />
-    //           </div>
-    //         </div>
-    //         <div className="d-flex flex-column">
-    //           <div className="d-flex flex-column col-11 mx-md-3 ">
-    //             <label className="form__label">Personas * </label>
-    //             <input className="form-control" type="text" name="personas" />
-    //           </div>
-    //           <div className="d-flex flex-column col-11 mx-md-3">
-    //             <label className="form__label">Comentarios</label>
-    //             <textarea
-    //               className="form-control"
-    //               name="comentarios"
-    //             ></textarea>
-    //           </div>
-    //         </div>
-    //         <br />
-    //         <Button
-    //           variant="contained"
-    //           //color="primary"
-    //           type="submit"
-    //           endIcon={<SendIcon />}
-    //           style={{ borderRadius: 50,
-    //             backgroundColor: "black",
-    //             color:'white',
-    //             // marginTop:'0px'
-    //            }}
-    //         >
-    //           Reservar
-    //         </Button>
-    //       </form>
-    //     </div>
-    //   </section>
-    // </div>
-    // </>
-   <>
-   <h1>En Construcción</h1> 
-   <img src={logo} alt="logo"></img>
-   </> 
+    <div className="container">
+      <section className="sectionFormReservas row">
+        <div className="col-12 col-lg-6 my-auto d-none d-lg-block">
+          <img className="logoReservas" src={fondo} alt="logo"></img>
+        </div>
+        <div className="col-12 col-lg-6 my-auto">
+          <form  onSubmit={sendMail}className="form">
+          <img className="logoReservas1" src={logo} alt="logo"></img>
+            <br />
+            <div className="d-flex flex-column flex-md-row">
+              <div className="d-flex flex-column col-11 col-md-6">
+                <label className="form__label">Fecha de Reserva * </label>
+                <input
+                  className="form-control"
+                  type="datetime-local"
+                  name="fecha"
+                />
+              </div>
+              <div className="d-flex flex-column col-11 col-md-6 mx-md-3">
+                <label className="form__label">Nombre * </label>
+                <input
+                  className="form-control"
+                  type="text"
+                  name="name"
+                  //placeholder="Nombre"
+                />
+              </div>
+            </div>
+            <div className="d-flex flex-column flex-md-row">
+              <div className="d-flex flex-column col-11 col-md-6">
+                <label className="form__label">Email * </label>
+                <input className="form-control" type="text" name="email" />
+              </div>
+              <div className="d-flex flex-column col-11 col-md-6 mx-md-3">
+                <label className="form__label">Teléfono * </label>
+                <input
+                  className="form-control"
+                  type="text"
+                  name="telefono"
+                  //placeholder="Nombre"
+                />
+              </div>
+            </div>
+            <div className="d-flex flex-column">
+              <div className="d-flex flex-column col-11 mx-md-3 ">
+                <label className="form__label">Personas * </label>
+                <input className="form-control" type="text" name="personas" />
+              </div>
+              <div className="d-flex flex-column col-11 mx-md-3">
+                <label className="form__label">Comentarios</label>
+                <textarea
+                  className="form-control"
+                  name="comentarios"
+                ></textarea>
+              </div>
+            </div>
+            <br />
+            <Button
+              variant="contained"
+              //color="primary"
+              type="submit"
+              endIcon={<SendIcon />}
+              style={{ borderRadius: 50,
+                backgroundColor: "black",
+                color:'white',
+                // marginTop:'0px'
+               }}
+            >
+              Reservar
+            </Button>
+          </form>
+        </div>
+      </section>
+    </div>
+    </>
+  
   );
 };
 
