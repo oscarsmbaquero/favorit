@@ -29,6 +29,10 @@ const header2 = () => {
               <i class="fa-sharp fa-solid fa-image"></i>
               &nbsp;Galería
             </Nav.Link>
+            <Nav.Link as={Link} to={"/especialidades"} routerLinkActive="active">
+              <i class="fa-sharp fa-solid fa-image"></i>
+              &nbsp;Especialidades
+            </Nav.Link>
             <Nav.Link as={Link} to={"/location"} routerLinkActive="active">
               <i class="fa-sharp fa-solid fa-location-dot"></i>
               &nbsp;Localización

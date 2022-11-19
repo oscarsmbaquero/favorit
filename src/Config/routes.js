@@ -11,6 +11,7 @@ import Home from "../pages/Home/Home";
 import Horario from "../pages/Horario/Horario";
 import MapContainer from "../pages/Map/MapContainer";
 import Reservas from "../pages/Reservas/Reservas";
+import Especialidades from "../pages/Especialidades/Especialidades";
 
 
 
@@ -54,6 +55,10 @@ const routes = [
   {
     path: "/horario",
     element: <Horario/>,
+  },
+  {
+    path: "/especialidades",
+    element: <Especialidades/>,
   },
   
   
