@@ -84,12 +84,15 @@ export default function App() {
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                favoritgastrobar@gmail.com
+                <a href="mailto:favoritgastrobar@gmail.com">favoritgastrobar@gmail.com</a>
               </p>
               
               <p>
-                <MDBIcon icon="phone" className="me-3" /> + 34 618 932 661 <br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ 34 691 487 362
+                <MDBIcon icon="phone" className="me-3" /> 
+                <a href="tel:+34618932661">+ 34 618 932 661</a>
+                 <br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="tel:+34691487362">+ 34 691 487 362</a>
               </p>
               {/* <p>
                 <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
