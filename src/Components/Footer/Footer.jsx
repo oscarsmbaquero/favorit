@@ -7,20 +7,20 @@ export default function App() {
     <MDBFooter bgColor='dark' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
-          <span  STYLE="font-weight:bold">Síguenos en nuestras redes sociales:</span>
+          <span>Síguenos en nuestras redes sociales:</span>
         </div>
 
         <div>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://m.facebook.com/?tbua=1#!/profile.php?id=100087651520108&eav=AfaL-P9irUqWmW5PoIuyl-6P5jXAShnlaeIaqLmfEbwsIyziNU62dnrS4WkHreMbNug&tsid=0.055033883435088526&source=result' className='me-4 text-reset'>
             <MDBIcon fab icon="facebook-f" />
           </a>
-          <a href='' className='me-4 text-reset'>
+          {/* <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="twitter" />
-          </a>
+          </a> */}
           <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="google" />
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.instagram.com/favorit.gastrobar/?igshid=YmMyMTA2M2Y%3D' className='me-4 text-reset'>
             <MDBIcon fab icon="instagram" />
           </a>
         </div>
@@ -40,7 +40,7 @@ export default function App() {
                 Carta
                 </a>
               </p>
-              <p>
+              {/* <p>
                 <a href='#!' className='text-reset'><i class="fa-solid fa-utensils">&nbsp;</i>
                 Carta Celíacos
                 </a>
@@ -59,36 +59,21 @@ export default function App() {
                 <a href='#!' className='text-reset'><i class="fa-solid fa-wine-glass-empty">&nbsp;</i>
                 Vinos
                 </a>
-              </p>
+              </p> */}
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Enlaces de interes</h6>
               <p>
-                <a href='#!' className='text-reset'><i class="fa-sharp fa-solid fa-address-book">&nbsp;</i>
+                <a href='/reservas' className='text-reset'><i class="fa-sharp fa-solid fa-address-book">&nbsp;</i>
                 Reservas  
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'><i class="fa-regular fa-clock">&nbsp;</i>
-                Horarios  
+                <a href='/location' className='text-reset'><i class="fa-sharp fa-solid fa-location-dot">&nbsp;</i>
+                Localización  
                 </a>
               </p>
-              {/* <p>
-                <a href='#!' className='text-reset'>
-                  Settings
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Orders
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Help
-                </a>
-              </p> */}
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
