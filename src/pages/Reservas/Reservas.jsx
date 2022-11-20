@@ -7,11 +7,9 @@ import logo from "../../assets/images/logoFavorit.jpeg";
 import fondo from "../../assets/images/logo2.jpeg";
 
 import { Button } from "@material-ui/core";
-// import { FormHelperText, Input, InputLabel } from "@material-ui/core";
+
 import SendIcon from "@material-ui/icons/Send";
-import { SettingsBluetoothTwoTone } from "@material-ui/icons";
-// import { text } from "@fortawesome/fontawesome-svg-core";
-// import { TextField } from "@mui/material";
+import TextareaAutosize from "@mui/material/TextareaAutosize";
 
 const Reservas = () => {
   let navigate = useNavigate();
@@ -40,9 +38,9 @@ const Reservas = () => {
       navigate("/");
     }
   };
-  const setAviso =(e) => {
+  const setAviso = (e) => {
     console.log(e);
-    if(e === '+10'){
+    if (e === "+10") {
       Swal.fire({
         //title: "Success!",
         text: "Para Grupos superiores a 10 personas consulte disponibiliad por teléfono",
@@ -51,12 +49,8 @@ const Reservas = () => {
       });
       navigate("/reservas");
     }
-    
-   
-  }
+  };
 
-
-  
   return (
     <>
       <div className="container">
@@ -106,26 +100,38 @@ const Reservas = () => {
                 <div className="d-flex flex-column col-11 mx-md-3 ">
                   <label className="form__label">Personas * </label>
                   {/* <input className="form-control" type="text" name="personas" /> */}
-                  <select class="form-control" id="control2" name="personas" onChange={(e) => setAviso(e.target.value)}>
-                    <option value = '1' >1 Persona</option>
-                    <option value = '2' >2 Personas</option>
-                    <option value = '3' >3 Personas</option>
-                    <option value = '4' >4 Personas</option>
-                    <option value = '5' >5 Personas</option>
-                    <option value = '6' >6 Personas</option>
-                    <option value = '7'>7 Personas</option>
-                    <option value = '8'>8 Personas</option>
-                    <option value = '9'>9 Personas</option>
-                    <option value = '10'>10 Personas</option>
-                    <option value = '+10'>+10 Personas</option>
+                  <select
+                    class="form-control"
+                    id="control2"
+                    name="personas"
+                    onChange={(e) => setAviso(e.target.value)}
+                  >
+                    <option value="1">1 Persona</option>
+                    <option value="2">2 Personas</option>
+                    <option value="3">3 Personas</option>
+                    <option value="4">4 Personas</option>
+                    <option value="5">5 Personas</option>
+                    <option value="6">6 Personas</option>
+                    <option value="7">7 Personas</option>
+                    <option value="8">8 Personas</option>
+                    <option value="9">9 Personas</option>
+                    <option value="10">10 Personas</option>
+                    <option value="+10">+10 Personas</option>
                   </select>
                 </div>
                 <div className="d-flex flex-column col-11 mx-md-3">
                   <label className="form__label">Comentarios</label>
-                  <textarea
+                  {/* <textarea
                     className="form-control"
                     name="comentarios"
-                  ></textarea>
+                  ></textarea> */}
+                  <TextareaAutosize
+                    name="comentarios"
+                    placeholder="Comentarios o sugerencias"
+                    maxRows={4}
+                    aria-label="maximum height"
+                    style={{ width: 200 }}
+                  />
                 </div>
               </div>
               <br />
