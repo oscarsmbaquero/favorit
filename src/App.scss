@@ -9,3 +9,37 @@
   text-align: center;
   background-color: #282828 ;
 }
+
+.nuevo-gasto {
+  position: fixed;
+  bottom: 12rem;
+  right: 2rem;
+
+ 
+}
+
+.nuevo-gasto img {
+  width: 3rem;
+
+  @media screen  and (max-width: 760px) {
+    width: 3rem;
+    }
+}
+.nuevo-gasto img:hover {
+  cursor: pointer;
+}
+figcaption {
+  display:none; 
+  transition: all .5s;
+}
+/* Visible texto */
+figure:hover > figcaption {
+  display:block;
+  transition: all .5s;
+  color:red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bold-option{
+  font-weight: bolder;
+  color:red;
+}

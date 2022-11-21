@@ -7,9 +7,13 @@ import Footer from './Components/Footer/Footer';
 import Header2 from "./Components/Header/Header2";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SplashScreen from "../src/Components/SplashScreen/SplashScreen";
+import IconoNuevoGasto from "../src/assets/images/nuevo-gasto.svg";
+import Home from './pages/Home/Home';
+import Horario from './pages/Horario/Horario';
 function App() {
 
   const [splashScreen, setSplashScreen] = useState(true);
+  //const [pulsado, setPulsado] = useState(false);
 
   useEffect(() => {
     setTimeout(() => setSplashScreen(false), 2000);
@@ -30,7 +34,19 @@ function App() {
                         element={route.element}
                       />
                     ))}
-          </Routes>      
+          </Routes> 
+          <div className="nuevo-gasto">
+          <Link to={"/cartaFood"}>
+            <figure>
+              <img
+                src={IconoNuevoGasto}
+                alt="icono nuevo aviso"
+                //onClick={() => setPulsado(!pulsado)}
+              />
+            </figure>
+          </Link>
+        </div>
+        {/* {pulsado? (alert('Si')) :(alert('No'))}     */}
       <Footer/>
     </Router>  
     </div>
