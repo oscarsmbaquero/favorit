@@ -14,15 +14,17 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import ShareIcon from "@mui/icons-material/Share";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
-import Container from "@mui/material/Container";
-
 import ensalada from "../../assets/images/especialidades/ensaladaFavorit.jpg";
 import ensaladaCesar from "../../assets/images/especialidades/ensaladaCesar.jpeg";
 import huevosFoie from "../../assets/images/especialidades/huevosFoie.jpeg";
 import bacalaoPiquillo from "../../assets/images/especialidades/bacalaoPiquillo.jpeg";
 import logo from "../../assets/images/logoFavorit.jpeg";
 import { Grid } from "@material-ui/core";
+
+import { useState,useContext, useEffect } from "react";
 //import makeStyles from '@mui/styles/makeStyles';
+
+import { SWContext } from "../../context/context";
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -36,25 +38,22 @@ const ExpandMore = styled((props) => {
 }));
 
 export default function Especialidades() {
+
+  const { galeria } = useContext(SWContext);
   const [expanded, setExpanded] = React.useState(false);
+  //const [platos, setPlatos] = useState();
+
+  console.log(galeria,'galerias');
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
-  // const useStyles = makeStyles({
-  //   Grid: {
-  //       margin: "auto!important",
-  //       width: "90vw!important",
-  //       // flexWrap:'wrap'
-  //   }
-//});
-//const classes = useStyles();
+
   return (
     <>
       
         <Grid  container
                 direction="row"
-                justifyContent="start"
                 alignItems="center"
                 spacing={4}
   //              className={classes.Grid}
