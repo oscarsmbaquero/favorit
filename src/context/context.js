@@ -22,13 +22,13 @@ export const SWContextProvider = ({ children }) => {
   }, []);
 
   console.log(galeria,'galeria')
-  // useEffect(() => {
-  //   const fetchPlatos = async () => {
-  //     const res = await axios.get(`${BASEURL}/movies`);
-  //     setPlatos(res.data.data.platos);
-  //   };
-  //   fetchPlatos();
-  // }, []);
+  useEffect(() => {
+    const fetchPlatos = async () => {
+      const res = await axios.get(`${BASEURL}/favoritPlatos`);
+      setPlatos(res.data);
+    };
+    fetchPlatos();
+  }, []);
 
 
   return (
