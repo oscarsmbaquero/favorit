@@ -1,4 +1,4 @@
-import './Especialidades.scss'
+import "./Especialidades.scss";
 import * as React from "react";
 import { styled } from "@mui/material/styles";
 import Card from "@mui/material/Card";
@@ -18,8 +18,8 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 
 import logo from "../../assets/images/logoFavorit.jpeg";
 import { Grid } from "@material-ui/core";
-import Box from '@mui/material/Box';
-import { useState,useContext, useEffect } from "react";
+import Box from "@mui/material/Box";
+import { useState, useContext, useEffect } from "react";
 
 //import makeStyles from '@mui/styles/makeStyles';
 
@@ -45,32 +45,29 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 export default function Especialidades() {
-
   const { platos } = useContext(SWContext);
   const [expanded, setExpanded] = React.useState(false);
   //const [platos, setPlatos] = useState();
 
-  console.log(platos,'platos');
+  console.log(platos, "platos");
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
 
   return (
-    <div >
-      
+    <div>
       {/* <Box sx={{ flexGrow: 1 }}> */}
       <Grid container spacing={2}>
-      {platos.map(item =>(
-
-        <Grid item xs={12} md={6} lg={4}>            
-        <Card
+        {platos.map((item) => (
+          <Grid item xs={12} md={6} lg={4}>
+            <Card
               elevation={5}
               sx={{
                 borderRadius: "4px",
                 justifyContent: "flex-start",
                 flex: "1 0 auto",
-                margin:'20px',
+                margin: "20px",
                 flexDirection: "column",
                 flexWrap: "wrap",
                 ":hover": {
@@ -80,7 +77,11 @@ export default function Especialidades() {
             >
               <CardHeader
                 avatar={
-                  <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe" src={logo}></Avatar>
+                  <Avatar
+                    sx={{ bgcolor: red[500] }}
+                    aria-label="recipe"
+                    src={logo}
+                  ></Avatar>
                 }
                 action={
                   <IconButton aria-label="settings">
@@ -88,7 +89,9 @@ export default function Especialidades() {
                   </IconButton>
                 }
                 title={item.title}
-                subheader=<Badge bg="primary" text="bold">{item.price}&nbsp;€</Badge>
+                subheader=<Badge bg="primary" text="bold">
+                  {item.price}&nbsp;€
+                </Badge>
               />
               <CardMedia
                 component="img"
@@ -106,12 +109,12 @@ export default function Especialidades() {
                   <AddShoppingCart />
                 </IconButton>
                 <div className="text-warning mb-1 me-2">
-                      <MDBIcon fas icon="star" />
-                      <MDBIcon fas icon="star" />
-                      <MDBIcon fas icon="star" />
-                      <MDBIcon fas icon="star" />
-                    </div>
-                    <span>{getRandomInt(25)}</span>
+                  <MDBIcon fas icon="star" />
+                  <MDBIcon fas icon="star" />
+                  <MDBIcon fas icon="star" />
+                  <MDBIcon fas icon="star" />
+                </div>
+                <span>{getRandomInt(25)}</span>
                 <ExpandMore
                   expand={expanded}
                   onClick={handleExpandClick}
@@ -155,14 +158,10 @@ export default function Especialidades() {
                 </CardContent>
               </Collapse>
             </Card>
-         
-           
-          
-            
           </Grid>
-          ))}
-        </Grid>
-     {/* </Box>  */}
+        ))}
+      </Grid>
+      {/* </Box>  */}
     </div>
   );
 }

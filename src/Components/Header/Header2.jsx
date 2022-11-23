@@ -25,33 +25,33 @@ const header2 = () => {
           <Nav className="ml-auto">
             <Nav.Link as={Link} to={"/"} routerLinkActive="active">
               <i class="fa-sharp fa-solid fa-house"></i>
-              &nbsp;Inicio
+              &nbsp;INICIO
             </Nav.Link>
             <Nav.Link as={Link} to={"/gallery"} routerLinkActive="active">
               <i class="fa-sharp fa-solid fa-image"></i>
-              &nbsp;Galería
+              &nbsp;GALERÍA
             </Nav.Link>
             <Nav.Link as={Link} to={"/especialidades"} routerLinkActive="active">
               <i class="fa-sharp fa-solid fa-image"></i>
-              &nbsp;Especialidades
+              &nbsp;ESPECIALIDADES
             </Nav.Link>
             <Nav.Link as={Link} to={"/location"} routerLinkActive="active">
               <i class="fa-sharp fa-solid fa-location-dot"></i>
-              &nbsp;Localización
+              &nbsp;LOCALIZACIÓN
             </Nav.Link>
             <Nav.Link as={Link} to={"/reservas"} routerLinkActive="active">
               <i class="fa-sharp fa-solid fa-address-book"></i>
-              &nbsp;Reservas
+              &nbsp;RESERVAS
             </Nav.Link>
             <Nav.Link as={Link} to={"/horario"} routerLinkActive="active">
             <i class="fa-regular fa-clock"></i>
-              &nbsp;Horario
+              &nbsp;HORARIO
             </Nav.Link>
             {/* <Nav.Link as={Link} to={"/pedidos"} routerLinkActive="active">
             <i class="fa-solid fa-bag-shopping"></i>
               &nbsp;Pedidos
             </Nav.Link> */}
-            <NavDropdown title="Cartas" id="basic-nav-dropdown"> 
+            <NavDropdown title="CARTAS" id="basic-nav-dropdown"> 
               <NavDropdown.Item href="/cartaFood"><i class="fa-solid fa-utensils">&nbsp;</i>Carta</NavDropdown.Item>
               <NavDropdown.Item href="/cartaCeliaca"><i class="fa-solid fa-utensils">&nbsp;</i>Celíaca</NavDropdown.Item>
               <NavDropdown.Item href="/cartaVegetariana"><i class="fa-solid fa-utensils">&nbsp;</i>Vegetariana</NavDropdown.Item>
@@ -59,11 +59,11 @@ const header2 = () => {
               <NavDropdown.Item href="/cartaCervezas"><i class="fa-solid fa-beer-mug-empty">&nbsp;</i>Cervezas</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3"><i class="fa-solid fa-wine-glass-empty">&nbsp;</i>Vinos</NavDropdown.Item>
             </NavDropdown>
-            <IconButton aria-label="show-items-shopping" color="inherit">
+            {/* <IconButton aria-label="show-items-shopping" color="inherit">
             <Badge badgeContent={2} color="success">
             <ShoppingCart fontSize="large"  color="primary"/>
             </Badge>
-            </IconButton>
+            </IconButton> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
