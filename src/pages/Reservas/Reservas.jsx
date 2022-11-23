@@ -127,7 +127,7 @@ const Reservas = () => {
                   ></textarea> */}
                   <TextareaAutosize
                     name="comentarios"
-                    placeholder="Comentarios o sugerencias"
+                    placeholder="Comentarios"
                     maxRows={4}
                     aria-label="maximum height"
                     style={{ width: 200 }}
@@ -143,7 +143,7 @@ const Reservas = () => {
                 style={{
                   borderRadius: 50,
                   backgroundColor: "black",
-                  color: "white",
+                  color: "orange",
                   // marginTop:'0px'
                 }}
               >
