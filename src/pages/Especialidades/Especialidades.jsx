@@ -1,3 +1,4 @@
+import './Especialidades.scss'
 import * as React from "react";
 import { styled } from "@mui/material/styles";
 import Card from "@mui/material/Card";
@@ -27,6 +28,8 @@ import { AddShoppingCart } from "@material-ui/icons";
 // import { Badge} from "@mui/material";
 import Badge from "react-bootstrap/Badge";
 import { MDBIcon } from "mdb-react-ui-kit";
+import { CleaningServices } from "@mui/icons-material";
+import { gridClasses } from "@mui/system";
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -54,13 +57,14 @@ export default function Especialidades() {
   };
 
   return (
-    <>
+    <div >
       
-      <Box sx={{ flexGrow: 1 }}>
+      {/* <Box sx={{ flexGrow: 1 }}> */}
       <Grid container spacing={2}>
-        <Grid item xs={12} md={4}>
-          {platos.map(item =>(
-            <Card
+      {platos.map(item =>(
+
+        <Grid item xs={12} md={6} lg={4}>            
+        <Card
               elevation={5}
               sx={{
                 borderRadius: "4px",
@@ -151,13 +155,14 @@ export default function Especialidades() {
                 </CardContent>
               </Collapse>
             </Card>
-          ))}
+         
            
           
             
           </Grid>
+          ))}
         </Grid>
-     </Box> 
-    </>
+     {/* </Box>  */}
+    </div>
   );
 }
