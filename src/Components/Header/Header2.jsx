@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 //import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
 import logo from "../../assets/images/logoFavorit.jpeg";
+import {ShoppingCart } from "@material-ui/icons";
+import { Badge, IconButton } from "@mui/material";
 
 const header2 = () => {
   return (
@@ -57,6 +59,11 @@ const header2 = () => {
               <NavDropdown.Item href="/cartaCervezas"><i class="fa-solid fa-beer-mug-empty">&nbsp;</i>Cervezas</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3"><i class="fa-solid fa-wine-glass-empty">&nbsp;</i>Vinos</NavDropdown.Item>
             </NavDropdown>
+            <IconButton aria-label="show-items-shopping" color="inherit">
+            <Badge badgeContent={2} color="success">
+            <ShoppingCart fontSize="large"  color="primary"/>
+            </Badge>
+            </IconButton>
           </Nav>
         </Navbar.Collapse>
       </Container>

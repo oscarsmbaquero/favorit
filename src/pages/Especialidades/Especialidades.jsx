@@ -17,7 +17,7 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 
 import logo from "../../assets/images/logoFavorit.jpeg";
 import { Grid } from "@material-ui/core";
-
+import Box from '@mui/material/Box';
 import { useState,useContext, useEffect } from "react";
 
 //import makeStyles from '@mui/styles/makeStyles';
@@ -26,6 +26,7 @@ import { SWContext } from "../../context/context";
 import { AddShoppingCart } from "@material-ui/icons";
 // import { Badge} from "@mui/material";
 import Badge from "react-bootstrap/Badge";
+import { MDBIcon } from "mdb-react-ui-kit";
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -37,7 +38,9 @@ const ExpandMore = styled((props) => {
     duration: theme.transitions.duration.shortest,
   }),
 }));
-
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
 export default function Especialidades() {
 
   const { platos } = useContext(SWContext);
@@ -53,15 +56,9 @@ export default function Especialidades() {
   return (
     <>
       
-        <Grid  
-                // direction="row"
-                // alignItems="center"
-                // spacing={4}
-  //              className={classes.Grid}
-            >
-          <Grid xs={12} md={6} lg={4}
-          sx={{ flexWrap: "wrap"}}
-          >
+      <Box sx={{ flexGrow: 1 }}>
+      <Grid container spacing={2}>
+        <Grid item xs={12} md={4}>
           {platos.map(item =>(
             <Card
               elevation={5}
@@ -82,17 +79,12 @@ export default function Especialidades() {
                   <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe" src={logo}></Avatar>
                 }
                 action={
-                  // <IconButton aria-label="settings">
-                  //   <MoreVertIcon />
-                  // </IconButton>
-                  
-                  <Typography>
-                  <Badge bg="primary" text="bold">{item.price}&nbsp;€</Badge>
-                   
-                  </Typography>
+                  <IconButton aria-label="settings">
+                    <MoreVertIcon />
+                  </IconButton>
                 }
                 title={item.title}
-                //subheader={item.price}
+                subheader=<Badge bg="primary" text="bold">{item.price}&nbsp;€</Badge>
               />
               <CardMedia
                 component="img"
@@ -109,11 +101,13 @@ export default function Especialidades() {
                 <IconButton aria-label="add to favorites">
                   <AddShoppingCart />
                 </IconButton>
-                {/* {Array(Rating)
-                .fill()
-                .map((_, i ) =>(
-                  <p>&#110088;</p>
-                ))} */}
+                <div className="text-warning mb-1 me-2">
+                      <MDBIcon fas icon="star" />
+                      <MDBIcon fas icon="star" />
+                      <MDBIcon fas icon="star" />
+                      <MDBIcon fas icon="star" />
+                    </div>
+                    <span>{getRandomInt(25)}</span>
                 <ExpandMore
                   expand={expanded}
                   onClick={handleExpandClick}
@@ -163,7 +157,7 @@ export default function Especialidades() {
             
           </Grid>
         </Grid>
-
+     </Box> 
     </>
   );
 }
