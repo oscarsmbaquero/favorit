@@ -14,10 +14,7 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import ShareIcon from "@mui/icons-material/Share";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
-import ensalada from "../../assets/images/especialidades/ensaladaFavorit.jpg";
-import ensaladaCesar from "../../assets/images/especialidades/ensaladaCesar.jpeg";
-import huevosFoie from "../../assets/images/especialidades/huevosFoie.jpeg";
-import bacalaoPiquillo from "../../assets/images/especialidades/bacalaoPiquillo.jpeg";
+
 import logo from "../../assets/images/logoFavorit.jpeg";
 import { Grid } from "@material-ui/core";
 
@@ -26,6 +23,9 @@ import { useState,useContext, useEffect } from "react";
 //import makeStyles from '@mui/styles/makeStyles';
 
 import { SWContext } from "../../context/context";
+import { AddShoppingCart } from "@material-ui/icons";
+// import { Badge} from "@mui/material";
+import Badge from "react-bootstrap/Badge";
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -79,17 +79,20 @@ export default function Especialidades() {
             >
               <CardHeader
                 avatar={
-                  <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe" src={logo}>
-                    
-                  </Avatar>
+                  <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe" src={logo}></Avatar>
                 }
                 action={
-                  <IconButton aria-label="settings">
-                    <MoreVertIcon />
-                  </IconButton>
+                  // <IconButton aria-label="settings">
+                  //   <MoreVertIcon />
+                  // </IconButton>
+                  
+                  <Typography>
+                  <Badge bg="primary" text="bold">{item.price}&nbsp;€</Badge>
+                   
+                  </Typography>
                 }
                 title={item.title}
-                //subheader="September 14, 2016"
+                //subheader={item.price}
               />
               <CardMedia
                 component="img"
@@ -104,11 +107,13 @@ export default function Especialidades() {
               </CardContent>
               <CardActions disableSpacing>
                 <IconButton aria-label="add to favorites">
-                  <FavoriteIcon />
+                  <AddShoppingCart />
                 </IconButton>
-                <IconButton aria-label="share">
-                  <ShareIcon />
-                </IconButton>
+                {/* {Array(Rating)
+                .fill()
+                .map((_, i ) =>(
+                  <p>&#110088;</p>
+                ))} */}
                 <ExpandMore
                   expand={expanded}
                   onClick={handleExpandClick}
