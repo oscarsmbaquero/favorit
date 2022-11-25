@@ -53,7 +53,7 @@ const Reservas = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="container" >
         <section className="sectionFormReservas row">
           <div className="col-12 col-lg-6 my-auto d-none d-lg-block">
             <img className="logoReservas" src={fondo} alt="logo"></img>
