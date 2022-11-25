@@ -95,7 +95,7 @@ export default function Especialidades() {
               />
               <CardMedia
                 component="img"
-                //height="194"
+                //height="450"
                 image={item.image}
                 alt="Ensalada Favorit"
               />

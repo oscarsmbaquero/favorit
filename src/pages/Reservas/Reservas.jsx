@@ -121,17 +121,17 @@ const Reservas = () => {
                 </div>
                 <div className="d-flex flex-column col-11 mx-md-3">
                   <label className="form__label">Comentarios</label>
-                  {/* <textarea
+                  <textarea
                     className="form-control"
                     name="comentarios"
-                  ></textarea> */}
-                  <TextareaAutosize
+                  ></textarea>
+                  {/* <TextareaAutosize
                     name="comentarios"
                     placeholder="Comentarios"
                     maxRows={4}
                     aria-label="maximum height"
                     style={{ width: 200 }}
-                  />
+                  /> */}
                 </div>
               </div>
               <br />
