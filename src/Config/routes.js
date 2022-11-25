@@ -18,12 +18,12 @@ import Pedidos from "../pages/Pedidos/Pedidos";
 
 
 const routes = [
-  // {
-  //   path: "/",
-  //   element: <Home/>,
-  // },
   {
     path: "/",
+    element: <Home/>,
+  },
+  {
+    path: "/gallery",
     element: <Gallery/>,
   },
   {

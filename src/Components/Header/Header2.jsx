@@ -23,11 +23,11 @@ const header2 = () => {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            {/* <Nav.Link as={Link} to={"/"} routerLinkActive="active">
+            <Nav.Link as={Link} to={"/"} routerLinkActive="active">
               <i class="fa-sharp fa-solid fa-house"></i>
               &nbsp;INICIO
-            </Nav.Link> */}
-            <Nav.Link as={Link} to={"/"} routerLinkActive="active">
+            </Nav.Link>
+            <Nav.Link as={Link} to={"/gallery"} routerLinkActive="active">
               <i class="fa-sharp fa-solid fa-image"></i>
               &nbsp;GALERÍA
             </Nav.Link>
