@@ -5,6 +5,7 @@ import CartaCeliaca from "../pages/Cartas/CartaCeliaca";
 import CartaCervezas from "../pages/Cartas/CartaCervezas";
 import CartaFood from "../pages/Cartas/CartaFood";
 import CartaVegetariana from "../pages/Cartas/CartaVegetariana";
+import CartaVino from "../pages/Cartas/CartaVino";
 import Contact from "../pages/Contact/Contact";
 import Gallery from "../pages/Gallery/Gallery";
 import Home from "../pages/Home/Home";
@@ -17,12 +18,12 @@ import Pedidos from "../pages/Pedidos/Pedidos";
 
 
 const routes = [
+  // {
+  //   path: "/",
+  //   element: <Home/>,
+  // },
   {
     path: "/",
-    element: <Home/>,
-  },
-  {
-    path: "/gallery",
     element: <Gallery/>,
   },
   {
@@ -52,6 +53,10 @@ const routes = [
   {
     path: "/cartaCervezas",
     element: <CartaCervezas/>,
+  },
+  {
+    path: "/cartaVino",
+    element: <CartaVino/>,
   },
   {
     path: "/horario",

@@ -23,16 +23,16 @@ const header2 = () => {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link as={Link} to={"/"} routerLinkActive="active">
+            {/* <Nav.Link as={Link} to={"/"} routerLinkActive="active">
               <i class="fa-sharp fa-solid fa-house"></i>
               &nbsp;INICIO
-            </Nav.Link>
-            <Nav.Link as={Link} to={"/gallery"} routerLinkActive="active">
+            </Nav.Link> */}
+            <Nav.Link as={Link} to={"/"} routerLinkActive="active">
               <i class="fa-sharp fa-solid fa-image"></i>
               &nbsp;GALERÍA
             </Nav.Link>
             <Nav.Link as={Link} to={"/especialidades"} routerLinkActive="active">
-              <i class="fa-sharp fa-solid fa-image"></i>
+            <i class="fa-solid fa-utensils"></i>
               &nbsp;ESPECIALIDADES
             </Nav.Link>
             <Nav.Link as={Link} to={"/location"} routerLinkActive="active">
@@ -57,7 +57,7 @@ const header2 = () => {
               <NavDropdown.Item href="/cartaVegetariana"><i class="fa-solid fa-utensils">&nbsp;</i>Vegetariana</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/cartaCervezas"><i class="fa-solid fa-beer-mug-empty">&nbsp;</i>Cervezas</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3"><i class="fa-solid fa-wine-glass-empty">&nbsp;</i>Vinos</NavDropdown.Item>
+              <NavDropdown.Item href="/cartaVino"><i class="fa-solid fa-wine-glass-empty">&nbsp;</i>Vinos</NavDropdown.Item>
             </NavDropdown>
             {/* <IconButton aria-label="show-items-shopping" color="inherit">
             <Badge badgeContent={2} color="success">

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "./Reservas.scss";
 import emailjs from "@emailjs/browser";
 import { useNavigate } from "react-router-dom";
@@ -9,15 +9,17 @@ import fondo from "../../assets/images/logo2.jpeg";
 import { Button } from "@material-ui/core";
 
 import SendIcon from "@material-ui/icons/Send";
-import TextareaAutosize from "@mui/material/TextareaAutosize";
+//import TextareaAutosize from "@mui/material/TextareaAutosize";
 
 const Reservas = () => {
   let navigate = useNavigate();
-  //const [error,setError] = useState('')
+  
+
 
   const sendMail = (e) => {
+    e.preventDefault();    
     try {
-      e.preventDefault();
+
       console.log(e.target.personas.value);
       emailjs
         .sendForm(
