@@ -15,9 +15,14 @@ const Reservas = () => {
   let navigate = useNavigate();
   
 
-
+  // const sendMail2 =(e)=>{
+  //   e.preventDefault();
+  //   console.log('Entro2')
+  // }
   const sendMail = (e) => {
-    e.preventDefault();    
+    e.preventDefault();
+    console.log('Entro')  
+      
     try {
 
       console.log(e.target.personas.value);
@@ -41,7 +46,7 @@ const Reservas = () => {
     }
   };
   const setAviso = (e) => {
-    console.log(e);
+    //console.log(e);
     if (e === "+10") {
       Swal.fire({
         //title: "Success!",
@@ -61,7 +66,7 @@ const Reservas = () => {
             <img className="logoReservas" src={fondo} alt="logo"></img>
           </div>
           <div className="col-12 col-lg-6 my-auto">
-            <form onSubmit={sendMail} className="form">
+            <form  className="form" onSubmit={sendMail}>
               <img className="logoReservas1" src={logo} alt="logo"></img>
               <br />
               <div className="d-flex flex-column flex-md-row">
@@ -141,6 +146,7 @@ const Reservas = () => {
                 variant="contained"
                 //color="primary"
                 type="submit"
+                //onClick={sendMail}
                 endIcon={<SendIcon />}
                 style={{
                   borderRadius: 50,

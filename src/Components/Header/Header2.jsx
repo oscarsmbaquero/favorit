@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 //import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
 import logo from "../../assets/images/logoFavorit.jpeg";
-import {ShoppingCart } from "@material-ui/icons";
-import { Badge, IconButton } from "@mui/material";
+//import {ShoppingCart } from "@material-ui/icons";
+//import { Badge, IconButton } from "@mui/material";
 
 const header2 = () => {
   return (
@@ -25,33 +25,33 @@ const header2 = () => {
           <Nav className="ml-auto">
             <Nav.Link as={Link} to={"/"} routerLinkActive="active">
               <i class="fa-sharp fa-solid fa-house"></i>
-              &nbsp;INICIO
+              &nbsp;Inicio
             </Nav.Link>
             <Nav.Link as={Link} to={"/gallery"} routerLinkActive="active">
               <i class="fa-sharp fa-solid fa-image"></i>
-              &nbsp;GALERÍA
+              &nbsp;Galería
             </Nav.Link>
             <Nav.Link as={Link} to={"/especialidades"} routerLinkActive="active">
             <i class="fa-solid fa-utensils"></i>
-              &nbsp;ESPECIALIDADES
+              &nbsp;Especialidades
             </Nav.Link>
             <Nav.Link as={Link} to={"/location"} routerLinkActive="active">
               <i class="fa-sharp fa-solid fa-location-dot"></i>
-              &nbsp;LOCALIZACIÓN
+              &nbsp;Localización
             </Nav.Link>
             <Nav.Link as={Link} to={"/reservas"} routerLinkActive="active">
               <i class="fa-sharp fa-solid fa-address-book"></i>
-              &nbsp;RESERVAS
+              &nbsp;Reservas
             </Nav.Link>
             <Nav.Link as={Link} to={"/horario"} routerLinkActive="active">
             <i class="fa-regular fa-clock"></i>
-              &nbsp;HORARIO
+              &nbsp;Horario
             </Nav.Link>
             {/* <Nav.Link as={Link} to={"/pedidos"} routerLinkActive="active">
             <i class="fa-solid fa-bag-shopping"></i>
               &nbsp;Pedidos
             </Nav.Link> */}
-            <NavDropdown title="CARTAS" id="basic-nav-dropdown"> 
+            <NavDropdown title="Cartas" id="basic-nav-dropdown"> 
               <NavDropdown.Item href="/cartaFood"><i class="fa-solid fa-utensils">&nbsp;</i>Carta</NavDropdown.Item>
               <NavDropdown.Item href="/cartaCeliaca"><i class="fa-solid fa-utensils">&nbsp;</i>Celíaca</NavDropdown.Item>
               <NavDropdown.Item href="/cartaVegetariana"><i class="fa-solid fa-utensils">&nbsp;</i>Vegetariana</NavDropdown.Item>
