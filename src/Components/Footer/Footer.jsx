@@ -155,7 +155,7 @@ export default function App() {
       >
         © 2022 Copyright: 
         <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
-          &nbsp;App Desarrollada by OSMB
+          &nbsp;App Developed by OSMB
         </a>
       </div>
     </MDBFooter>
