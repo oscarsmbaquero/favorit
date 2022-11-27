@@ -56,7 +56,7 @@ export default function App() {
               </p>
              <p>
              <a href="https://www.miteco.gob.es/es/red-parques-nacionales/nuestros-parques/monfrague/" className="text-reset">
-                <i class="fa-solid fa-city">&nbsp;</i>
+             <i class="fa-solid fa-tree">&nbsp;</i>
                   Monfrague
                 </a>
              </p> 
@@ -104,7 +104,9 @@ export default function App() {
               <h6 className="text-uppercase fw-bold mb-4">Contacto</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
-                Plaza Juan de Loaisa, Plasencia
+                <a href="https://www.google.com/maps/dir/40.04365,-6.06593/gastro+bar+favorite/@40.0405937,-6.0837457,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd3e178eca5fed05:0xf13018a0bffa0458!2m2!1d-6.08123!2d40.03829">
+                &nbsp;Plaza Juan de Loaisa, Plasencia
+                </a>
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
@@ -117,17 +119,17 @@ export default function App() {
                 <MDBIcon icon="phone" className="me-3" />
                 <a href="tel:+34618932661">&nbsp;+ 34 691 487 362</a>
                 {/* <br /> */}
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="tel:+34691487362">+ 34 618 932 661</a>
+                {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="tel:+34691487362">+ 34 618 932 661</a> */}
               </p>
               <p>
               <i class="fa-brands fa-whatsapp"></i>
               <a href="https://wa.me/+34691487362" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ 34 691 487 362
               </a>
-              <a href="https://wa.me/+34618932661" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
+              {/* <a href="https://wa.me/+34618932661" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ 34 618 932 661
-              </a>
+              </a> */}
               </p>
               
               {/* <p>
