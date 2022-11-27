@@ -35,7 +35,7 @@ const header2 = () => {
             <i class="fa-solid fa-utensils"></i>
               &nbsp;Especialidades
             </Nav.Link>
-            <Nav.Link as={Link} to={"/location"} routerLinkActive="active">
+            <Nav.Link href="https://www.google.com/maps/dir/40.04365,-6.06593/gastro+bar+favorite/@40.0405937,-6.0837457,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd3e178eca5fed05:0xf13018a0bffa0458!2m2!1d-6.08123!2d40.03829" routerLinkActive="active">
               <i class="fa-sharp fa-solid fa-location-dot"></i>
               &nbsp;Localización
             </Nav.Link>

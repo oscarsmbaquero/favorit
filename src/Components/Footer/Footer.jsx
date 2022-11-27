@@ -47,19 +47,19 @@ export default function App() {
               </p>
             </MDBCol> */}
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Entorno</h6>
+              <h6 className="text-uppercase fw-bold mb-4">Enlaces de interés</h6>
               <p>
                 <a href="https://www.plasencia.es/web/turismo-plasencia/guia-de-la-ciudad/conoceplasencia" className="text-reset">
                 <i class="fa-solid fa-city">&nbsp;</i>
-                  Plasencia
+                   Conoce Plasencia
                 </a>
               </p>
-             <p>
-             <a href="https://www.miteco.gob.es/es/red-parques-nacionales/nuestros-parques/monfrague/" className="text-reset">
+             {/* <p> */}
+             {/* <a href="https://www.miteco.gob.es/es/red-parques-nacionales/nuestros-parques/monfrague/" className="text-reset">
              <i class="fa-solid fa-tree">&nbsp;</i>
                   Monfrague
                 </a>
-             </p> 
+             </p>  */}
               {/* <p>
                 <a href='#!' className='text-reset'><i class="fa-solid fa-utensils">&nbsp;</i>
                 Carta Celíacos
@@ -82,7 +82,7 @@ export default function App() {
               </p> */}
             </MDBCol>
 
-            <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
+            {/* <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">
                 Enlaces de interes
               </h6>
@@ -98,14 +98,15 @@ export default function App() {
                   Localización
                 </a>
               </p>
-            </MDBCol>
+            </MDBCol> */}
 
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Contacto</h6>
               <p>
-                <MDBIcon icon="home" className="me-2" />
+                {/* <MDBIcon icon="home" className="me-2" /> */}
+                <i class="fa-sharp fa-solid fa-location-dot"></i>
                 <a href="https://www.google.com/maps/dir/40.04365,-6.06593/gastro+bar+favorite/@40.0405937,-6.0837457,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd3e178eca5fed05:0xf13018a0bffa0458!2m2!1d-6.08123!2d40.03829">
-                &nbsp;Plaza Juan de Loaisa, Plasencia
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Plaza Juan de Loaisa, Plasencia
                 </a>
               </p>
               <p>
@@ -152,9 +153,9 @@ export default function App() {
         className="text-center p-4"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
       >
-        © 2022 Copyright:
+        © 2022 Copyright: 
         <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
-          &nbsp;by OSMB
+          &nbsp;App Desarrollada by OSMB
         </a>
       </div>
     </MDBFooter>
