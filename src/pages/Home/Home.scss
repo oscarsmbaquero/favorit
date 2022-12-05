@@ -2,7 +2,7 @@
 
 .home{
     //display: flex;
-    height: 100%;
+    height: 80vh;
     width: 100%;
     //background-image: url('../../assets/images/bar1.jfif') ;
     // background-image:     linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
@@ -30,7 +30,7 @@
   }
   .logo{
     margin-top: 60px;
-    width: 250px;
+    width: 350px;
     border-radius: 50%;
     
   }
@@ -56,11 +56,11 @@
   opacity: 0;
   z-index: 1;
   text-align: center;
-  -webkit-animation: intro 2s ease-out;
-  -moz-animation: intro 2s ease-out;
-  -ms-animation: intro 2s ease-out;
-  -o-animation: intro 2s ease-out;
-  animation: intro 2s ease-out;
+  -webkit-animation: intro 1s ease-out;
+  -moz-animation: intro 1s ease-out;
+  -ms-animation: intro 1s ease-out;
+  -o-animation: intro 1s ease-out;
+  animation: intro 1s ease-out;
 }
 
 .star-wars-intro .main-content{
@@ -138,11 +138,11 @@
   text-shadow: -2px -2px 0 #EBD71C, 2px -2px 0 #EBD71C, -2px 2px 0 #EBD71C, 2px 2px 0 #EBD71C;
   opacity: 0;
   z-index: 1;
-  -webkit-animation: logo 5s ease-out 2.5s;
-  -moz-animation: logo 5s ease-out 2.5s;
-  -ms-animation: logo 5s ease-out 2.5s;
-  -o-animation: logo 5s ease-out 2.5s;
-  animation: logo 5s ease-out 2.5s;
+  -webkit-animation: logo 2s ease-out 2.5s;
+  -moz-animation: logo 2s ease-out 2.5s;
+  -ms-animation: logo 2s ease-out 2.5s;
+  -o-animation: logo 2s ease-out 2.5s;
+  animation: logo 2s ease-out 2.5s;
 }
 
 .star-wars-intro .main-logo > img {
@@ -222,6 +222,6 @@
   .star-wars-intro .title-content {
     position: absolute;
     top: 100%;
-    animation: scroll 100s linear 4s forwards;
+    animation: scroll 100s linear 1s forwards;
   }
 }
