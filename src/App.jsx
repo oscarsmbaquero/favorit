@@ -37,7 +37,7 @@ function App() {
                   />
                 ))}
               </Routes>
-              <div className="nuevo-gasto">
+              {/* <div className="nuevo-gasto">
                 <Link to={"/cartaFood"}>
                   <figure>
                     <img
@@ -47,7 +47,7 @@ function App() {
                     />
                   </figure>
                 </Link>
-              </div>
+              </div> */}
               {/* {pulsado? (alert('Si')) :(alert('No'))}     */}
               <Footer />
             </Router>
