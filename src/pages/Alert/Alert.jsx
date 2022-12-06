@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import logo from "../../assets/images/cartas/cartaNormal.jpg";
+import './Alert.scss'
 
 export default function Alert() {
   const [isShown, setIsShown] = useState(true);
@@ -18,9 +19,8 @@ export default function Alert() {
   return (
     <div>
       {isShown ? (
-        <div>
-          {/* <img className="logos" src={logo} alt="logo"></img> */}
-          <p>Visita nuestras cartas y reserva online</p>
+        <div className="message">
+          <h6>Consulta nuestra carta. ¡Reserva ya!</h6>
         </div>
       ) : (
         <div></div>
