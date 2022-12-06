@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "./Home.scss";
 import logo from "../../assets/images/logoFavorit.jpeg";
+import Alert from "../Alert/Alert";
 
 const Home = () => {
   return (
     <>
+    
       <div className="home">
+      <Alert/>
         <img className="logo" src={logo} alt="logo"></img>
         <p>
           Somos un gastrobar innovador, ofrecemos los mejores servicios para
@@ -38,6 +41,7 @@ const Home = () => {
           </div>
         </div> */}
       </div>
+      
     </>
   );
 };
