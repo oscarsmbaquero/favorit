@@ -16,14 +16,7 @@ const SplashScreen = () => {
     <div className="splashScreen">
       <div className={animation}>
         <img  src ={logo} className="image" alt="logo"/>
-        {/* <div  class="image">
-          <img  src ="/images/fondoMotogp.png" className="image" alt="motogp"/>
-        </div> */}
         </div>
-        {/* <div>
-          <h1>Welcome to the Api of Motogp</h1> 
-        </div>                */}
-      
     </div>
   );
 };

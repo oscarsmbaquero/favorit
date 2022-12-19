@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "../../assets/images/cartas/cartaNormal.jpg";
+import menu_navidad from "../../assets/images/cartas/menu_navidad.jpg";
 import './Alert.scss'
 
 export default function Alert() {
@@ -8,7 +8,7 @@ export default function Alert() {
   useEffect(() => {
     const timeoutID = setTimeout(() => {
       setIsShown(false);
-    }, 3000);
+    }, 7000);
 
     return () => {
       // 👇️ clear timeout when component unmounts
@@ -20,7 +20,8 @@ export default function Alert() {
     <div>
       {isShown ? (
         <div className="message">
-          <h6>Consulta nuestra carta. ¡Reserva ya!</h6>
+          <img className="message__logo" src={menu_navidad} alt="" ></img>
+          {/* <h6>Consulta nuestra carta. ¡Reserva ya!</h6> */}
         </div>
       ) : (
         <div></div>
