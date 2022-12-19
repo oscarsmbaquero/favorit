@@ -61,7 +61,7 @@ const header2 = () => {
             </NavDropdown>
             <Nav.Link as={Link} to={"/oferta_navidad"} routerLinkActive="active">
             <i class="fa-solid fa-gift"></i>
-              &nbsp;Oferta Navideña
+              &nbsp;Oferta Navidad
             </Nav.Link>
             {/* <IconButton aria-label="show-items-shopping" color="inherit">
             <Badge badgeContent={2} color="success">
