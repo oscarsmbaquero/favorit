@@ -59,6 +59,10 @@ const header2 = () => {
               <NavDropdown.Item href="/cartaCervezas"><i class="fa-solid fa-beer-mug-empty">&nbsp;</i>Cervezas</NavDropdown.Item>
               <NavDropdown.Item href="/cartaVino"><i class="fa-solid fa-wine-glass-empty">&nbsp;</i>Vinos</NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link as={Link} to={"/oferta_navidad"} routerLinkActive="active">
+            <i class="fa-solid fa-gift"></i>
+              &nbsp;Oferta Navideña
+            </Nav.Link>
             {/* <IconButton aria-label="show-items-shopping" color="inherit">
             <Badge badgeContent={2} color="success">
             <ShoppingCart fontSize="large"  color="primary"/>

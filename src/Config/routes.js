@@ -14,6 +14,7 @@ import MapContainer from "../pages/Map/MapContainer";
 import Reservas from "../pages/Reservas/Reservas";
 import Especialidades from "../pages/Especialidades/Especialidades";
 import Pedidos from "../pages/Pedidos/Pedidos";
+import CartaNavidad from "../pages/Cartas/OfertaNavidad";
 
 
 
@@ -67,11 +68,9 @@ const routes = [
     element: <Especialidades/>,
   },
   {
-    path: "/pedidos",
-    element: <Pedidos/>,
-  },
-  
-  
+    path: "/oferta_navidad",
+    element: <CartaNavidad/>,
+  }  
 ];
 
 export default routes;
