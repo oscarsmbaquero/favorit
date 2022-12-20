@@ -12,8 +12,8 @@ const Home = () => {
         <img className="logo" src={logo} alt="logo"></img>
         <p>
           Somos un gastrobar innovador, ofrecemos los mejores servicios para
-          todo tipo de clientes. Cocina oriental, occidental y tradicional con
-          cartas para vegetarianos y celíacos. También
+          todo tipo de clientes. Cocina tradicional, occidental y oriental. Disponemos de
+          cartas para  celíacos y vegetarianos . También
           puedes disfrutar de nuestro delicioso café, vino y copas con tus
           familiares y amigos.
         </p>
