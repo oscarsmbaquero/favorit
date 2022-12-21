@@ -2,6 +2,7 @@ import React,{useContext} from "react";
 import { SWContext } from "../../context/context";
 import "./Pictures.scss";
 import { Parallax } from "react-parallax";
+import logo from "../../assets/images/logoFavorit.jpeg";
 import firstImage from "../../assets/images/bar1.jfif";
 import secondImage from "../../assets/images/bar6.jfif";
 import thirdImage from "../../assets/images/logoFavorit.jpeg";
@@ -23,7 +24,11 @@ const Pictures = () => {
         }}
       >
       
-        <div style={{ height: "700px" }}></div>
+        <div style={{ height: "100vh" }}>
+          <div className="contenido">
+          <img src={logo} alt="logo" className="logo"></img>
+          </div>
+        </div>
       </Parallax>
       ))}
     </div>
