@@ -1,6 +1,6 @@
 import React from 'react'
 import './Horario.scss';
-import horario from "../../assets/images/horario.jpg";
+import horario from "../../assets/images/horarioNavidad.jpg";
 
 const Horario = () => {
   return (

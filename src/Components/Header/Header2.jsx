@@ -47,6 +47,10 @@ const header2 = () => {
             <i class="fa-regular fa-clock"></i>
               &nbsp;Horario
             </Nav.Link>
+            <Nav.Link as={Link} to={"/pictures"} routerLinkActive="active">
+            <i class="fa-regular fa-clock"></i>
+              &nbsp;Pictures
+            </Nav.Link>
             {/* <Nav.Link as={Link} to={"/pedidos"} routerLinkActive="active">
             <i class="fa-solid fa-bag-shopping"></i>
               &nbsp;Pedidos
