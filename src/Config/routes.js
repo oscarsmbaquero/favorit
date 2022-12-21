@@ -10,7 +10,7 @@ import Contact from "../pages/Contact/Contact";
 import Gallery from "../pages/Gallery/Gallery";
 import Home from "../pages/Home/Home";
 import Horario from "../pages/Horario/Horario";
-import MapContainer from "../pages/Map/MapContainer";
+//import MapContainer from "../pages/Map/MapContainer";
 import Reservas from "../pages/Reservas/Reservas";
 import Especialidades from "../pages/Especialidades/Especialidades";
 import Pedidos from "../pages/Pedidos/Pedidos";
@@ -27,10 +27,6 @@ const routes = [
   {
     path: "/gallery",
     element: <Gallery/>,
-  },
-  {
-    path: "/location",
-    element: <MapContainer/>,
   },
   {
     path: "/contact",

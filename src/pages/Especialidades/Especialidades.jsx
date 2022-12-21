@@ -89,9 +89,10 @@ export default function Especialidades() {
                   </IconButton>
                 }
                 title={item.title}
-                subheader=<Badge bg="primary" text="bold">
-                  {item.price}&nbsp;€
-                </Badge>
+                // subheader=
+                // <Badge bg="primary" text="bold">
+                //   {item.price}&nbsp;€
+                // </Badge>
               />
               <CardMedia
                 component="img"

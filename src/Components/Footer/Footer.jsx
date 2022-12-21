@@ -47,58 +47,19 @@ export default function App() {
               </p>
             </MDBCol> */}
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Enlaces de interés</h6>
-              <p>
-                <a href="https://www.plasencia.es/web/turismo-plasencia/guia-de-la-ciudad/conoceplasencia" className="text-reset">
-                <i class="fa-solid fa-city">&nbsp;</i>
-                   Conoce Plasencia
-                </a>
-              </p>
-             {/* <p> */}
-             {/* <a href="https://www.miteco.gob.es/es/red-parques-nacionales/nuestros-parques/monfrague/" className="text-reset">
-             <i class="fa-solid fa-tree">&nbsp;</i>
-                  Monfrague
-                </a>
-             </p>  */}
-              {/* <p>
-                <a href='#!' className='text-reset'><i class="fa-solid fa-utensils">&nbsp;</i>
-                Carta Celíacos
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'><i class="fa-solid fa-utensils">&nbsp;</i>
-                Carta Vegetariana
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'><i class="fa-solid fa-beer-mug-empty">&nbsp;</i>
-                Cervezas
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'><i class="fa-solid fa-wine-glass-empty">&nbsp;</i>
-                Vinos
-                </a>
-              </p> */}
-            </MDBCol>
-
-            {/* <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">
-                Enlaces de interes
+                Enlaces de interés
               </h6>
               <p>
-                <a href="/reservas" className="text-reset">
-                  <i class="fa-sharp fa-solid fa-address-book">&nbsp;</i>
-                  Reservas
+                <a
+                  href="https://www.plasencia.es/web/turismo-plasencia/guia-de-la-ciudad/conoceplasencia"
+                  className="text-reset"
+                >
+                  <i class="fa-solid fa-city">&nbsp;</i>
+                  Conoce Plasencia
                 </a>
               </p>
-              <p>
-                <a href="/location" className="text-reset">
-                  <i class="fa-sharp fa-solid fa-location-dot">&nbsp;</i>
-                  Localización
-                </a>
-              </p>
-            </MDBCol> */}
+            </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Contacto</h6>
@@ -106,7 +67,7 @@ export default function App() {
                 {/* <MDBIcon icon="home" className="me-2" /> */}
                 <i class="fa-sharp fa-solid fa-location-dot"></i>
                 <a href="https://www.google.com/maps/dir/40.04365,-6.06593/gastro+bar+favorite/@40.0405937,-6.0837457,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd3e178eca5fed05:0xf13018a0bffa0458!2m2!1d-6.08123!2d40.03829">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Plaza Juan de Loaisa, Plasencia
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Plaza Juan de Loaisa, Plasencia
                 </a>
               </p>
               <p>
@@ -124,15 +85,20 @@ export default function App() {
                 <a href="tel:+34691487362">+ 34 618 932 661</a> */}
               </p>
               <p>
-              <i class="fa-brands fa-whatsapp"></i>
-              <a href="https://wa.me/+34691487362" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ 34 691 487 362
-              </a>
-              {/* <a href="https://wa.me/+34618932661" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-whatsapp"></i>
+                <a
+                  href="https://wa.me/+34691487362"
+                  class="whatsapp_float"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ 34 691 487 362
+                </a>
+                {/* <a href="https://wa.me/+34618932661" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ 34 618 932 661
               </a> */}
               </p>
-              
+
               {/* <p>
              <i class="fa-brands fa-whatsapp"></i>
              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -153,7 +119,7 @@ export default function App() {
         className="text-center p-4"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
       >
-        © 2022 Copyright: 
+        © 2022 Copyright:
         <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
           &nbsp;App Developed by OSMB
         </a>

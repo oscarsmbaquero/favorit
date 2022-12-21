@@ -11,35 +11,26 @@
     url('../../assets/images/logoFavorit.jpeg');
     display: block;
     background-size:cover;
-    
  
-    &__image{
-      height: 100vh;
-      width: 100%;
-     // display:flex;
-     // margin:auto;
-     
- }
   p{
-    //color:whitesmoke;
     color: black;
     font-size: 32px;
     font-weight: bold;
     padding: 70px 20px 50px 20px;
     font-family: 'Caveat', cursive;
   }
-  .logo{
+  &__logo{
     margin-top: 90px;
     width: 250px;
     border-radius: 50%;
     
   }
-  .logos{
-    margin-top: 60px;
-    width: 500px;
-    border-radius: 2%;
-    margin: 0 auto;
-  }
+  // .logos{
+  //   margin-top: 60px;
+  //   width: 500px;
+  //   border-radius: 2%;
+  //   margin: 0 auto;
+  // }
  }
 //  .star-wars-intro {
 //   width: 100%;

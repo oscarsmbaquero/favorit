@@ -9,7 +9,7 @@ const Home = () => {
     
       <div className="home">
       <Alert/>
-        <img className="logo" src={logo} alt="logo"></img>
+        <img className="home__logo" src={logo} alt="logo"></img>
         <p>
           Somos un gastrobar innovador, ofrecemos los mejores servicios para
           todo tipo de clientes. Cocina tradicional, occidental y oriental. Disponemos de
