@@ -1,0 +1,41 @@
+{
+  "app.contact": "Contact",
+  "app.textHome": "We are an innovative gastrobar, we offer the best services for all types of customers. Traditional, western and oriental cuisine. We have menus for celiacs and vegetarians. You can also enjoy our delicious coffee, wine and drinks with your family and friends.",
+  
+  "app.gallery": "Gallery",  
+  "app.especialidades":" Specialties",
+  "app.localizacion":"Location",
+  "app.reservas":"Bookings",
+  "app.horario":"Schedule",
+  "app.ofertaNavidad":"Christmas Offer",
+  "app.carta":" Menu",
+  "app.celiaco":" Celiac",
+  "app.vegetariana":" Vegetarian",
+  "app.cerveza":" Beer",
+  "app.vino":"Wines",
+
+
+  "app.mail":"Email",
+  "app.name":"Name",
+  "app.comments": "Comments ",
+  "app.tlf": "Telephone",
+  "app.fecha": "Reservation date",
+  "app.comensales": "Number of diners *",
+  "app.send": "Send",
+  "app.home": "Home",
+  "app.header": "Full Stack Developer",
+  "app.footer":"Follow us on our social networks",
+  "app.form":"Fill out our online reservation form and enjoy the Santa Ana experience with a few clicks. Once the request is received we will contact you to confirm the reservation details.",
+  
+  
+  "app.martes":"Tuesday",
+  "app.sabado":"Saturday",
+  "app.domingo":"Sunday",
+  "app.reservar":"Reserve",
+  "app.condiciones":"Legal conditions",
+  "app.texto":"Welcome to the reservation portal of Café Bar Santa Ana, do not reserve a superior number of diners as desired It is important that the number of diners who attend the restaurant is the same that appears in the reservation, because you are less we will charge 25 € for each guest who does not know present Your reservation is accepted once you receive ours confirmation, if you do not receive said confirmation, try again because something has failed.",
+  "app.aceptar":"Accept",
+  "app.mensajeError":"For reservations of more than 10 diners, consult availability by telephone. Thank you",
+  "app.a":"to",
+  "app.plaza":"Santa Ana Square"
+  }

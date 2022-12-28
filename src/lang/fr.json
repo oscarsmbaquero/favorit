@@ -1,0 +1,15 @@
+{
+    "app.contact": "Contact",
+    "app.projects": "Projets",
+    "app.text": "Bienvenue dans mon portfolio où vous trouverez des informations sur mon parcours académique, mon expérience professionnelle et mes projets. Pour toute question, requête ou contact, remplissez le formulaire et je vous contacterai dans les plus brefs délais. Merci!!!",
+    "app.alert":"Découvrez mes projets et téléchargez mon cv",
+    "app.mail":"E-mail",
+    "app.name":"Nom",
+    "app.comments": "Commentaires",
+    "app.send": "Envoyer",
+    "app.home": "Début",
+    "app.header": "Développeur Full Stack",    
+    "app.footer":"Rejoignez-nous sur les réseaux sociaux",
+    "app.form":"Remplissez notre formulaire de réservation en ligne et vivez l'expérience Santa Ana en quelques clics. Une fois la demande reçue, nous vous contacterons pour confirmer les détails de la réservation."
+
+    }

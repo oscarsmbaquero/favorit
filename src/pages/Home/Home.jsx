@@ -3,6 +3,8 @@ import "./Home.scss";
 import logo from "../../assets/images/logoFavorit.jpeg";
 import Alert from "../Alert/Alert";
 
+import { FormattedMessage } from "react-intl";
+
 const Home = () => {
   return (
     <>
@@ -11,11 +13,7 @@ const Home = () => {
       <Alert/>
         <img className="home__logo" src={logo} alt="logo"></img>
         <p>
-          Somos un gastrobar innovador, ofrecemos los mejores servicios para
-          todo tipo de clientes. Cocina tradicional, occidental y oriental. Disponemos de
-          cartas para  celíacos y vegetarianos . También
-          puedes disfrutar de nuestro delicioso café, vino y copas con tus
-          familiares y amigos.
+        <FormattedMessage id="app.textHome" />
         </p>
         {/* <div class="star-wars-intro">
           <h2 class="main-logo"></h2>

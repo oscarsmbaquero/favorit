@@ -1,0 +1,42 @@
+{
+    "app.contact": "Contacto",
+    "app.textHome": "Somos un gastrobar innovador, ofrecemos los mejores servicios para todo tipo de clientes. Cocina tradicional, occidental y oriental. Disponemos de cartas para celíacos y vegetarianos . También puedes disfrutar de nuestro delicioso café, vino y copas con tus familiares y amigos.",
+    
+    "app.gallery": "Galería",    
+    "app.especialidades":" Especialidades",
+    "app.localizacion":"Localización",
+    "app.reservas":"Reservas",
+    "app.horario":"Horario",
+    "app.ofertaNavidad":"Oferta Navidad",
+    "app.carta":" Cartas",
+    "app.celiaco":" Celíaco",
+    "app.vegetariana":" Vegetariano",
+    "app.cerveza":" Cervezas",
+    "app.vino":"Vinos",
+
+
+    "app.mail":"Mail",
+    "app.name":"Nombre",
+    "app.comments": "Comentarios",
+    "app.tlf": "Teléfono",
+    "app.fecha": "Fecha de reserva",
+    "app.comensales": "Número de comensales *",
+    "app.send": "Enviar",
+    "app.home": "Inicio",
+    "app.header": "Desarrollador Full Stack",
+    "app.footer":"Siguenos en las redes sociales.",
+    "app.form":"Rellena nuestro formulario de reserva online y disfruta de la experiencia Santa Ana con unos pocos clics. Una vez recibida la solicitud nos pondremos en contacto con usted para confirmar los datos de la reserva.",
+    
+    
+    "app.martes":"Martes",
+    "app.sabado":"Sábado",
+    "app.domingo":"Domingo",
+    "app.reservar":"Reservar",
+    "app.condiciones":"Condiciones legales",
+    "app.texto":"Bienvenidos al portal de reservas del Café Bar Santa Ana, no reserves un número de comensales superior al deseado. Es importante que el número de comensales que acuden al restaurante sea el mismo que aparece en la reserva, ya que si sois menos cargaremos en la cuenta 25 € por cada comensal que no se presente. Tu reserva queda aceptada una vez recibes nuestra confirmación, si no recibes dicha confirmación, vuelva a intentarlo porque algo ha fallado.",
+    "app.aceptar":"Aceptar",
+    "app.mensajeError":"Para reservas de mas de 10 comensales, consulte disponibilidad por teléfono. Gracias",
+    "app.a":"a",
+    "app.plaza":"Plaza Santa Ana"
+    
+  }

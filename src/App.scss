@@ -50,5 +50,38 @@ p{
   color: white;
 }
 
+.i18n {
+  position: fixed;
+  top: 7rem;
+  right: 1.5rem;
+
+}
+
+.i18n img {
+  width: 3rem;
+
+  @media screen  and (max-width: 760px) {
+    width: 2rem;
+    }
+}
+.i18n img:hover {
+  cursor: pointer;
+}
+figcaption {
+  display:none; 
+  transition: all .5s;
+}
+/* Visible texto */
+figure:hover > figcaption {
+  display:block;
+  transition: all .5s;
+  color:red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bold-option{
+  font-weight: bolder;
+  color:red;
+}
+
 
 
