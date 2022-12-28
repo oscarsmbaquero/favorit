@@ -13,7 +13,7 @@ export default function App() {
   return (
     <MDBFooter bgColor="dark" className="text-center text-lg-start text-muted">
       <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-        <div className="me-5 d-none d-lg-block">
+        <div className="me-5 d-none d-lg-block text-white">
           <span>Síguenos en nuestras redes sociales:</span>
         </div>
 
@@ -47,7 +47,7 @@ export default function App() {
               </p>
             </MDBCol> */}
             <MDBCol md="4" lg="4" xl="6" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">
+              <h6 className="text-uppercase fw-bold mb-4 text-primary">
                 Horario
               </h6>
               <p>
@@ -65,8 +65,8 @@ export default function App() {
               <p>Lunes y Martes: Cerrado</p>
             </MDBCol>
 
-            <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Contacto</h6>
+            <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4 ">
+              <h6 className="text-uppercase fw-bold mb-4 text-primary">Contacto</h6>
               <p>
                 {/* <MDBIcon icon="home" className="me-2" /> */}
                 <i class="fa-sharp fa-solid fa-location-dot"></i>
@@ -121,7 +121,7 @@ export default function App() {
       </section>
 
       <div
-        className="text-center p-4"
+        className="text-center p-4 text-white"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
       >
         © 2022 Copyright:
