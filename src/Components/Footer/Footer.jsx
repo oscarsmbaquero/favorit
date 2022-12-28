@@ -22,19 +22,19 @@ export default function App() {
             href="https://m.facebook.com/?tbua=1#!/profile.php?id=100087651520108&eav=AfaL-P9irUqWmW5PoIuyl-6P5jXAShnlaeIaqLmfEbwsIyziNU62dnrS4WkHreMbNug&tsid=0.055033883435088526&source=result"
             className="me-4 text-reset"
           >
-            <MDBIcon fab icon="facebook-f" />
+            <MDBIcon fab icon="facebook-f" color="primary"/>
           </a>
           {/* <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="twitter" />
           </a> */}
           <a href="" className="me-4 text-reset">
-            <MDBIcon fab icon="google" />
+            <MDBIcon fab icon="google" color="danger"/>
           </a>
           <a
             href="https://www.instagram.com/favorit.gastrobar/?igshid=YmMyMTA2M2Y%3D"
             className="me-4 text-reset"
           >
-            <MDBIcon fab icon="instagram" />
+            <MDBIcon fab icon="instagram" color="white" />
           </a>
         </div>
       </section>
@@ -46,19 +46,23 @@ export default function App() {
               <p><img src={logo} className='logos'  alt={logo}/>
               </p>
             </MDBCol> */}
-            <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
+            <MDBCol md="4" lg="4" xl="6" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">
-                Enlaces de interés
+                Horario
               </h6>
               <p>
-                <a
+              Miercoles y Jueves: 11:00 a 01:00
+                {/* <a
                   href="https://www.plasencia.es/web/turismo-plasencia/guia-de-la-ciudad/conoceplasencia"
                   className="text-reset"
                 >
                   <i class="fa-solid fa-city">&nbsp;</i>
                   Conoce Plasencia
-                </a>
+                </a> */}
               </p>
+              <p>Viernes y Sábado: 12:00 a 02:00</p>
+              <p>Domingo: 12:00 a 01:30</p>
+              <p>Lunes y Martes: Cerrado</p>
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
@@ -66,31 +70,32 @@ export default function App() {
               <p>
                 {/* <MDBIcon icon="home" className="me-2" /> */}
                 <i class="fa-sharp fa-solid fa-location-dot"></i>
-                <a href="https://www.google.com/maps/dir/40.04365,-6.06593/gastro+bar+favorite/@40.0405937,-6.0837457,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd3e178eca5fed05:0xf13018a0bffa0458!2m2!1d-6.08123!2d40.03829">
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Plaza Juan de Loaisa, Plasencia
+                <a href="https://www.google.com/maps/dir/40.04365,-6.06593/gastro+bar+favorite/@40.0405937,-6.0837457,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd3e178eca5fed05:0xf13018a0bffa0458!2m2!1d-6.08123!2d40.03829"  className="mdbicon">
+                  &nbsp;&nbsp;&nbsp; Pl. Juan de Loaissa 4, Plasencia
                 </a>
               </p>
               <p>
-                <MDBIcon icon="envelope" className="me-3" />
-                <a href="mailto:favoritgastrobar@gmail.com">
+                <MDBIcon icon="envelope" className="me-3" color="white" />
+                <a href="mailto:favoritgastrobar@gmail.com"  className="mdbicon">
                   favoritgastrobar@gmail.com
                 </a>
               </p>
 
               <p>
-                <MDBIcon icon="phone" className="me-3" />
-                <a href="tel:+34618932661">&nbsp;+ 34 691 487 362</a>
+                <MDBIcon icon="phone" className="me-3" color="primary"/>
+                <a href="tel:+34618932661" className="mdbicon">&nbsp;+ 34 691 487 362</a>
                 {/* <br /> */}
                 {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="tel:+34691487362">+ 34 618 932 661</a> */}
               </p>
               <p>
-                <i class="fa-brands fa-whatsapp"></i>
+              <MDBIcon color="success" fab icon="whatsapp" size='1x'/>
                 <a
                   href="https://wa.me/+34691487362"
                   class="whatsapp_float"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="mdbicon"
                 >
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ 34 691 487 362
                 </a>

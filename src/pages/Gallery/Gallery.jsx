@@ -9,7 +9,9 @@ export default function Gallery() {
 
   return (
     <section className="gallerySection">
-    <MDBCarousel showControls showIndicators dark fade>
+    <MDBCarousel data-interval="1000"
+    //showControls showIndicators light fade
+    >
     {galeria.map(item =>(
       <MDBCarouselItem
         className='w-100 d-block'
