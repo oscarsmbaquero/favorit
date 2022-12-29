@@ -20,6 +20,7 @@ import Portuguese from "../src/lang/pt.json";
 import EusKara from "../src/lang/eu.json";
 import French from "../src/lang/fr.json";
 import I18n from "./context/i18n/I18n";
+import logo from './assets/images/reservas.png'
 export const ContextI18n = React.createContext();
 
 function App() {
@@ -81,11 +82,11 @@ function App() {
                       />
                     ))}
                   </Routes>
-                  {/* <div className="i18n">
+                  <div className="i18n">
                     <figure>
-                      <I18n></I18n>
+                    <img className="logoReservas1" src={logo} alt="logo"></img>
                     </figure>
-                  </div> */}
+                  </div>
                   <Footer />
                 </Router>
               </SWContextProvider>

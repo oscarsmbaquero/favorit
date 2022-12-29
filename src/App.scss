@@ -10,39 +10,7 @@
   background-color: #282828 ;
 }
 
-.nuevo-gasto {
-  position: fixed;
-  bottom: 3rem;
-  right: 0.7rem;
 
- 
-}
-
-.nuevo-gasto img {
-  width: 3rem;
-
-  @media screen  and (max-width: 760px) {
-    width: 3rem;
-    }
-}
-.nuevo-gasto img:hover {
-  cursor: pointer;
-}
-figcaption {
-  display:none; 
-  transition: all .5s;
-}
-/* Visible texto */
-figure:hover > figcaption {
-  display:block;
-  transition: all .5s;
-  color:red;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.bold-option{
-  font-weight: bolder;
-  color:red;
-}
 p{
   color: white;
 }
@@ -53,15 +21,15 @@ p{
 .i18n {
   position: fixed;
   top: 7rem;
-  right: 1.5rem;
+  right: 2.5rem;
 
 }
 
 .i18n img {
-  width: 3rem;
+  width: 5rem;
 
   @media screen  and (max-width: 760px) {
-    width: 2rem;
+    width: 3rem;
     }
 }
 .i18n img:hover {
