@@ -3,7 +3,7 @@ import "./Reservas.scss";
 import emailjs from "@emailjs/browser";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
-import logo from "../../assets/images/logoFavorit.jpeg";
+import logo from "../../assets/images/logoF.png";
 import fondo from "../../assets/images/logo2.jpeg";
 
 import { Button } from "@material-ui/core";

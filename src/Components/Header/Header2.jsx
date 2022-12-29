@@ -7,14 +7,14 @@ import { Link } from "react-router-dom";
 import { FormattedMessage } from "react-intl";
 import "bootstrap/dist/css/bootstrap.min.css";
 //import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
-import logo from "../../assets/images/logoFavorit.jpeg";
+import logo from "../../assets/images/logoF.png";
 import I18n from "../../context/i18n/I18n";
 //import {ShoppingCart } from "@material-ui/icons";
 //import { Badge, IconButton } from "@mui/material";
 
 const header2 = () => {
   return (
-    <Navbar collapseOnSelect bg="dark" variant="dark" expand="md">
+    <Navbar collapseOnSelect bg="dark" variant="dark" expand="md" class="navbar-fixed-top">
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} className="logo" alt={logo} />
