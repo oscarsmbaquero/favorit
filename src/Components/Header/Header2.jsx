@@ -14,7 +14,7 @@ import I18n from "../../context/i18n/I18n";
 
 const header2 = () => {
   return (
-    <Navbar collapseOnSelect bg="dark" variant="dark" expand="md" class="navbar-fixed-top">
+    <Navbar collapseOnSelect bg="dark" variant="dark" expand="xs">
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} className="logo" alt={logo} />

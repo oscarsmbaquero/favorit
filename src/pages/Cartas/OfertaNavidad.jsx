@@ -2,18 +2,8 @@ import React,{useEffect} from "react";
 import "./Cartas.scss";
 import ofertaNavidad from "../../assets/images/cartas/menu_navidad.jpg";
 
-const snow = () => {
-  "https://app.embed.im/snow.js"
-}
-
-
-
-
 const CartaFood = () => {
 
-  useEffect(() => {
-   snow()
-  }, [])
   return (
     <section className="food">
       <div className="food__container">
