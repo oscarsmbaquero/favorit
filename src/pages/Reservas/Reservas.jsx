@@ -5,15 +5,31 @@ import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import logo from "../../assets/images/logoF.png";
 import fondo from "../../assets/images/logo2.jpeg";
+import Confirm from "../../core/ConfirmDialog/Confirm";
 
 import { Button } from "@material-ui/core";
 
 import SendIcon from "@material-ui/icons/Send";
+import { useEffect } from "react";
 //import TextareaAutosize from "@mui/material/TextareaAutosize";
 
 const Reservas = () => {
   let navigate = useNavigate();
+  const [open, setOpen] = React.useState(false);
   
+  useEffect(() => {
+    handleClickOpen()
+  }, [])
+  
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+
+  };
 
   // const sendMail2 =(e)=>{
   //   e.preventDefault();
@@ -61,6 +77,7 @@ const Reservas = () => {
   return (
     <>
       <div className="container" >
+      <Confirm open={open} handleClose={handleClose} />
         <section className="sectionFormReservas row">
           <div className="col-12 col-lg-6 my-auto d-none d-lg-block">
             <img className="logoReservas" src={fondo} alt="logo"></img>

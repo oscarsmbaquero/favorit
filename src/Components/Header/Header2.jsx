@@ -26,12 +26,12 @@ const header2 = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link as={Link} to={"/"} routerLinkActive="active">
-              <i class="fa-sharp fa-solid fa-house"></i>
+              {/* <i class="fa-sharp fa-solid fa-house"></i> */}
               &nbsp;
               <FormattedMessage id="app.home" />
             </Nav.Link>
             <Nav.Link as={Link} to={"/gallery"} routerLinkActive="active">
-              <i class="fa-sharp fa-solid fa-image"></i>
+              {/* <i class="fa-sharp fa-solid fa-image"></i> */}
               &nbsp;
               <FormattedMessage id="app.gallery" />
             </Nav.Link>
@@ -40,7 +40,7 @@ const header2 = () => {
               to={"/especialidades"}
               routerLinkActive="active"
             >
-              <i class="fa-solid fa-utensils"></i>
+              {/* <i class="fa-solid fa-utensils"></i> */}
               &nbsp;
               <FormattedMessage id="app.especialidades" />
             </Nav.Link>
@@ -48,17 +48,17 @@ const header2 = () => {
               href="https://www.google.com/maps/dir/40.04365,-6.06593/gastro+bar+favorite/@40.0405937,-6.0837457,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd3e178eca5fed05:0xf13018a0bffa0458!2m2!1d-6.08123!2d40.03829"
               routerLinkActive="active"
             >
-              <i class="fa-sharp fa-solid fa-location-dot"></i>
+              {/* <i class="fa-sharp fa-solid fa-location-dot"></i> */}
               &nbsp;
               <FormattedMessage id="app.localizacion" />
             </Nav.Link>
             <Nav.Link as={Link} to={"/reservas"} routerLinkActive="active">
-              <i class="fa-sharp fa-solid fa-address-book"></i>
+              {/* <i class="fa-sharp fa-solid fa-address-book"></i> */}
               &nbsp;
               <FormattedMessage id="app.reservas" />
             </Nav.Link>
             <Nav.Link as={Link} to={"/horario"} routerLinkActive="active">
-              <i class="fa-regular fa-clock"></i>
+              {/* <i class="fa-regular fa-clock"></i> */}
               &nbsp;
               <FormattedMessage id="app.horario" />
             </Nav.Link>
@@ -75,24 +75,24 @@ const header2 = () => {
               id="basic-nav-dropdown"
             >
               <NavDropdown.Item as={Link} to={"/cartaFood"}>
-                <i class="fa-solid fa-utensils">&nbsp;</i>
+                {/* <i class="fa-solid fa-utensils">&nbsp;</i> */}
                 <FormattedMessage id="app.carta" />
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to={"/cartaCeliaca"}>
-                <i class="fa-solid fa-utensils">&nbsp;</i>
+                {/* <i class="fa-solid fa-utensils">&nbsp;</i> */}
                 <FormattedMessage id="app.celiaco" />
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to={"/cartaVegetariana"}>
-                <i class="fa-solid fa-utensils">&nbsp;</i>
+                {/* <i class="fa-solid fa-utensils">&nbsp;</i> */}
                 <FormattedMessage id="app.vegetariana" />
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item as={Link} to={"/cartaCervezas"}>
-                <i class="fa-solid fa-beer-mug-empty">&nbsp;</i>
+                {/* <i class="fa-solid fa-beer-mug-empty">&nbsp;</i> */}
                 <FormattedMessage id="app.cerveza" />
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to={"/cartaVino"}>
-                <i class="fa-solid fa-wine-glass-empty">&nbsp;</i>
+                {/* <i class="fa-solid fa-wine-glass-empty">&nbsp;</i> */}
                 <FormattedMessage id="app.vino" />
               </NavDropdown.Item>
             </NavDropdown>
@@ -101,7 +101,7 @@ const header2 = () => {
               to={"/oferta_navidad"}
               routerLinkActive="active"
             >
-              <i class="fa-solid fa-gift"></i>
+              {/* <i class="fa-solid fa-gift"></i> */}
               &nbsp;
               <FormattedMessage id="app.ofertaNavidad" />
             </Nav.Link>
