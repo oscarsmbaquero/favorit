@@ -84,7 +84,7 @@ function App() {
                   </Routes>
                   <div className="i18n">
                     <figure>
-                    <img className="logoReservas1" src={logo} alt="logo"></img>
+                    <img src={logo} alt="logo"></img>
                     </figure>
                   </div>
                   <Footer />
