@@ -84,7 +84,9 @@ function App() {
                   </Routes>
                   <div className="i18n">
                     <figure>
+                  <Link to={'/reservas'}>
                     <img src={logo} alt="logo"></img>
+                    </Link> 
                     </figure>
                   </div>
                   <Footer />
