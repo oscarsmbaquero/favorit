@@ -15,7 +15,7 @@ import Reservas from "../pages/Reservas/Reservas";
 import Especialidades from "../pages/Especialidades/Especialidades";
 import Pedidos from "../pages/Pedidos/Pedidos";
 import CartaNavidad from "../pages/Cartas/OfertaNavidad";
-//import Pictures from "../pages/Pictures/Pictures";
+import Pictures from "../pages/Pictures/Pictures";
 //import Especialidades from "../pages/Especialidades/Specialite";
 
 
@@ -69,10 +69,10 @@ const routes = [
     path: "/oferta_navidad",
     element: <CartaNavidad/>,
   },
-  // {
-  //   path: "/pictures",
-  //   element: <Pictures/>,
-  // }   
+  {
+    path: "/pictures",
+    element: <Pictures/>,
+  }   
 ];
 
 export default routes;

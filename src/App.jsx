@@ -20,7 +20,8 @@ import Portuguese from "../src/lang/pt.json";
 import EusKara from "../src/lang/eu.json";
 import French from "../src/lang/fr.json";
 import I18n from "./context/i18n/I18n";
-import logo from './assets/images/reservas.png'
+import logo from "./assets/images/reservas.png";
+import CookieConsent from "react-cookie-consent";
 export const ContextI18n = React.createContext();
 
 function App() {
@@ -73,6 +74,19 @@ function App() {
               <SWContextProvider>
                 <Router>
                   <Header2 />
+                  <CookieConsent
+                    location="bottom"
+                    buttonText="Sure man!!"
+                    cookieName="myAwesomeCookieName2"
+                    style={{ background: "#2B373B" }}
+                    buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+                    expires={150}
+                  >
+                    This website uses cookies to enhance the user experience.{" "}
+                    <span style={{ fontSize: "10px" }}>
+                      This bit of text is smaller :O
+                    </span>
+                  </CookieConsent>
                   <Routes>
                     {routes.map((route) => (
                       <Route
@@ -84,9 +98,9 @@ function App() {
                   </Routes>
                   <div className="i18n">
                     <figure>
-                  <Link to={'/reservas'}>
-                    <img src={logo} alt="logo"></img>
-                    </Link> 
+                      <Link to={"/reservas"}>
+                        <img src={logo} alt="logo"></img>
+                      </Link>
                     </figure>
                   </div>
                   <Footer />
