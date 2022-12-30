@@ -22,13 +22,13 @@ export default function App() {
             href="https://m.facebook.com/?tbua=1#!/profile.php?id=100087651520108&eav=AfaL-P9irUqWmW5PoIuyl-6P5jXAShnlaeIaqLmfEbwsIyziNU62dnrS4WkHreMbNug&tsid=0.055033883435088526&source=result"
             className="me-4 text-reset"
           >
-            <MDBIcon fab icon="facebook-f" color="primary"/>
+            <MDBIcon fab icon="facebook-f" color="white"/>
           </a>
           {/* <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="twitter" />
           </a> */}
           <a href="" className="me-4 text-reset">
-            <MDBIcon fab icon="google" color="danger"/>
+            <MDBIcon fab icon="google" color="white"/>
           </a>
           <a
             href="https://www.instagram.com/favorit.gastrobar/?igshid=YmMyMTA2M2Y%3D"
@@ -47,7 +47,7 @@ export default function App() {
               </p>
             </MDBCol> */}
             <MDBCol md="4" lg="4" xl="6" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4 text-primary">
+              <h6 className="text-uppercase fw-bold mb-4 text-white">
                 Horario
               </h6>
               <p>
@@ -66,7 +66,7 @@ export default function App() {
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4 ">
-              <h6 className="text-uppercase fw-bold mb-4 text-primary">Contacto</h6>
+              <h6 className="text-uppercase fw-bold mb-4 text-white">Contacto</h6>
               <p>
                 {/* <MDBIcon icon="home" className="me-2" /> */}
                 <i class="fa-sharp fa-solid fa-location-dot"></i>
@@ -82,14 +82,14 @@ export default function App() {
               </p>
 
               <p>
-                <MDBIcon icon="phone" className="me-3" color="primary"/>
+                <MDBIcon icon="phone" className="me-3" color="white"/>
                 <a href="tel:+34618932661" className="mdbicon">&nbsp;+ 34 691 487 362</a>
                 {/* <br /> */}
                 {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="tel:+34691487362">+ 34 618 932 661</a> */}
               </p>
               <p>
-              <MDBIcon color="success" fab icon="whatsapp" size='1x'/>
+              <MDBIcon color="white" fab icon="whatsapp" size='1x'/>
                 <a
                   href="https://wa.me/+34691487362"
                   class="whatsapp_float"
