@@ -96,7 +96,7 @@ function App() {
                       />
                     ))}
                   </Routes>
-                  <div className="i18n">
+                  <div className="reservas">
                     <figure>
                       <Link to={"/reservas"}>
                         <img src={logo} alt="logo"></img>

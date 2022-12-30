@@ -18,21 +18,21 @@ p{
   color: white;
 }
 
-.i18n {
+.reservas {
   position: fixed;
   top: 7rem;
   right: 0.8rem;
 
 }
 
-.i18n img {
+.reservas img {
   width: 5rem;
 
   @media screen  and (max-width: 760px) {
     width: 4rem;
     }
 }
-.i18n img:hover {
+.reservas img:hover {
   cursor: pointer;
 }
 figcaption {

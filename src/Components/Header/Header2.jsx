@@ -105,8 +105,9 @@ const header2 = () => {
               &nbsp;
               <FormattedMessage id="app.ofertaNavidad" />
             </Nav.Link>
+           
             {/* <Nav.Link>
-                  <I18n></I18n>
+            <I18n></I18n>   
             </Nav.Link>   */}
             
             {/* <IconButton aria-label="show-items-shopping" color="inherit">
