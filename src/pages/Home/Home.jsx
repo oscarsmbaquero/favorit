@@ -7,10 +7,12 @@ import { SWContext } from "../../context/context";
 import alhambra from "../../assets/images/alhambras.jpg";
 import barondeley from "../../assets/images/barondeley.jpg";
 import logoAlhambra from "../../assets/images/logoAlhambra.png";
-import logoBaron from "../../assets/images/logobaron.png";
+import museum from "../../assets/images/fincaMuseum.jpg";
+import logoMuseum from "../../assets/images/logomuseum.png";
 
 import { FormattedMessage } from "react-intl";
 import { convertLength } from "@mui/material/styles/cssUtils";
+import { responsiveFontSizes } from "@mui/material";
 
 const Home = () => {
   const { galeria } = useContext(SWContext);
@@ -25,14 +27,15 @@ const Home = () => {
         <div style={{ height: "100%", width: "100%" }}>
           <Parallax
             strength={500}
-            //blur={{ min: -15, max: 15 }}
-            bgImage={alhambra}            
+            // blur={{ min: -8, max: 5 }}
+            bgImage={alhambra}
             style={{             
-              width: "100vw",
-              height: "1750px",
+              backgroundize:'cover',
+              backgroundPosition:'center',
+              height: "1550px",
             }}
           >
-            <div style={{ height: "100vh", width: "100vw" }}>
+            <div style={{ height: "100%", width: "100%" }}>
               <div className="contenido">
                 <img src={logoAlhambra} alt="logo" className="logo"></img>
               </div>
@@ -40,16 +43,16 @@ const Home = () => {
           </Parallax>
           <Parallax
             strength={500}
-            //blur={{ min: -15, max: 15 }}
-            bgImage={barondeley}
+            //blur={{ min: -5, max: 5 }}
+            bgImage={museum}
             style={{             
               width: "100vw",
-              height: "1750px",
+              height: "1350px",
             }}
           >
             <div style={{ height: "100vh" }}>
               <div className="contenido">
-                <img src={logoBaron} alt="logo" className="logo"></img>
+                <img src={logoMuseum} alt="logo" className="logo"></img>
               </div>
             </div>
           </Parallax>
