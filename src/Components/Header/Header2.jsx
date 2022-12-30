@@ -57,11 +57,11 @@ const header2 = () => {
               &nbsp;
               <FormattedMessage id="app.reservas" />
             </Nav.Link>
-            <Nav.Link as={Link} to={"/horario"} routerLinkActive="active">
-              {/* <i class="fa-regular fa-clock"></i> */}
+            {/* <Nav.Link as={Link} to={"/horario"} routerLinkActive="active">
+              <i class="fa-regular fa-clock"></i>
               &nbsp;
               <FormattedMessage id="app.horario" />
-            </Nav.Link>
+            </Nav.Link> */}
             {/* <Nav.Link as={Link} to={"/pictures"} routerLinkActive="active">
             <i class="fa-regular fa-clock"></i>
               &nbsp;Pictures
