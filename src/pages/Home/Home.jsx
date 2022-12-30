@@ -25,14 +25,12 @@ const Home = () => {
         <div style={{ height: "100%", width: "100%" }}>
           <Parallax
             strength={500}
-            blur={{ min: -15, max: 15 }}
-            bgImage={alhambra}
-            
-            
-            // style={{
-            //   backgroundSize: "cover",
-            //   backgroundPosition: "center",
-            // }}
+            //blur={{ min: -15, max: 15 }}
+            bgImage={alhambra}            
+            style={{             
+              width: "100vw",
+              height: "1750px",
+            }}
           >
             <div style={{ height: "100vh", width: "100vw" }}>
               <div className="contenido">
@@ -40,24 +38,21 @@ const Home = () => {
               </div>
             </div>
           </Parallax>
-          {/* <Parallax
+          <Parallax
             strength={500}
-            blur={{ min: -15, max: 15 }}
+            //blur={{ min: -15, max: 15 }}
             bgImage={barondeley}
-            
-            
-            // style={{
-            //   backgroundSize: "cover",
-            //   backgroundPosition: "center",
-            // }}
+            style={{             
+              width: "100vw",
+              height: "1750px",
+            }}
           >
             <div style={{ height: "100vh" }}>
               <div className="contenido">
                 <img src={logoBaron} alt="logo" className="logo"></img>
               </div>
             </div>
-          </Parallax> */}
-          
+          </Parallax>
         </div>
       </div>
     </>
