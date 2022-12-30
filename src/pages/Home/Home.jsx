@@ -32,7 +32,7 @@ const Home = () => {
             style={{             
               backgroundize:'cover',
               backgroundPosition:'center',
-              height: "800px",
+              height: "600px",
             }}
           >
             <div style={{ height: "100%", width: "100%" }}>
