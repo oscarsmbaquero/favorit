@@ -76,13 +76,13 @@ function App() {
                   <Header2 />
                   <CookieConsent
                     location="bottom"
-                    buttonText="Sure man!!"
+                    buttonText="OK!!"
                     cookieName="myAwesomeCookieName2"
                     style={{ background: "#2B373B" }}
                     buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
                     expires={150}
                   >
-                    This website uses cookies to enhance the user experience.{" "}
+                    Este sitio web utiliza cookies para mejorar la experiencia del usuario.{" "}
                     <span style={{ fontSize: "10px" }}>
                       This bit of text is smaller :O
                     </span>

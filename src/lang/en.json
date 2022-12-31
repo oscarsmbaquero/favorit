@@ -28,8 +28,10 @@
   "app.form":"Fill out our online reservation form and enjoy the Santa Ana experience with a few clicks. Once the request is received we will contact you to confirm the reservation details.",
   
   
-  "app.martes":"Tuesday",
-  "app.sabado":"Saturday",
+  "app.miercolesjueves":"Wednesday and Thursday",
+  "app.lunesmartes":"Monday and Tuesday",
+  "app.closed": "Closed",
+  "app.viernessabado":"Friday and Saturday",
   "app.domingo":"Sunday",
   "app.reservar":"Reserve",
   "app.condiciones":"Legal conditions",
@@ -37,5 +39,5 @@
   "app.aceptar":"Accept",
   "app.mensajeError":"For reservations of more than 10 diners, consult availability by telephone. Thank you",
   "app.a":"to",
-  "app.plaza":"Santa Ana Square"
+  "app.plaza":"Juan de Loaissa Square"
   }

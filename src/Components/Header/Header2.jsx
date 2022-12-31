@@ -18,6 +18,7 @@ const header2 = () => {
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} className="logo" alt={logo} />
+          <I18n></I18n>
         </Navbar.Brand>
         {/* <Navbar.Brand><img src={logo} className='logo'  alt={logo}/></Navbar.Brand> */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav">

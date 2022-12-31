@@ -9,12 +9,14 @@ import {
 import logo from "../../assets/images/logoFavorit.jpeg";
 import "./Footer.scss";
 import ReactWhatsapp from "react-whatsapp";
+import { FormattedMessage } from "react-intl";
+
 export default function App() {
   return (
     <MDBFooter bgColor="dark" className="text-center text-lg-start text-muted">
       <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
         <div className="me-5 d-none d-lg-block text-white">
-          <span>Síguenos en nuestras redes sociales:</span>
+          <span><FormattedMessage id="app.footer" /></span>
         </div>
 
         <div>
@@ -48,30 +50,22 @@ export default function App() {
             </MDBCol> */}
             <MDBCol md="4" lg="4" xl="6" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4 text-white">
-                Horario
+              <FormattedMessage id="app.horario"/>
               </h6>
-              <p>
-              Miercoles y Jueves: 11:00 a 01:00
-                {/* <a
-                  href="https://www.plasencia.es/web/turismo-plasencia/guia-de-la-ciudad/conoceplasencia"
-                  className="text-reset"
-                >
-                  <i class="fa-solid fa-city">&nbsp;</i>
-                  Conoce Plasencia
-                </a> */}
-              </p>
-              <p>Viernes y Sábado: 12:00 a 02:00</p>
-              <p>Domingo: 12:00 a 01:30</p>
-              <p>Lunes y Martes: Cerrado</p>
+              <p><FormattedMessage id="app.lunesmartes"/>: <FormattedMessage id="app.closed"/></p>
+              <p><FormattedMessage id="app.miercolesjueves"/>: 11:00 a 01:00</p>
+              <p><FormattedMessage id="app.viernessabado"/>: 12:00 a 02:00</p>
+              <p><FormattedMessage id="app.domingo"/>: 12:00 a 01:30</p>
+              
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4 ">
-              <h6 className="text-uppercase fw-bold mb-4 text-white">Contacto</h6>
+              <h6 className="text-uppercase fw-bold mb-4 text-white"><FormattedMessage id="app.contact"/></h6>
               <p>
                 {/* <MDBIcon icon="home" className="me-2" /> */}
                 <i class="fa-sharp fa-solid fa-location-dot"></i>
                 <a href="https://www.google.com/maps/dir/40.04365,-6.06593/gastro+bar+favorite/@40.0405937,-6.0837457,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd3e178eca5fed05:0xf13018a0bffa0458!2m2!1d-6.08123!2d40.03829"  className="mdbicon">
-                  &nbsp;&nbsp;&nbsp; Pl. Juan de Loaissa 4, Plasencia
+                  &nbsp;&nbsp;&nbsp;<FormattedMessage id="app.plaza"/> 4, Plasencia
                 </a>
               </p>
               <p>
@@ -124,7 +118,7 @@ export default function App() {
         className="text-center p-4 text-white"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
       >
-        © 2022 Copyright:
+        © 2023 Copyright:
         <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
           &nbsp;App Developed by OSMB
         </a>
