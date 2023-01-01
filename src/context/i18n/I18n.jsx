@@ -13,11 +13,18 @@ import french from "../../assets/banderas/french.png";
 
 const I18n = () => {
   const { locale, selectLanguage } = useContext(ContextI18n);
-  console.log(locale);
   return (
     <div class="i18n">
       {locale === "es-ES" ? (
-        ""
+        <IconButton onClick={() => selectLanguage("en")}>
+        <img src={english} alt="spain" className="bandera"></img>
+          {/* <Avatar
+            sx={{ width: 24, height: 24 }}
+            src={english}
+            //  sx={{ bgcolor: red[500] }}
+            aria-label="recipe"
+          ></Avatar> */}
+        </IconButton>
       ) : (
         <IconButton onClick={() => selectLanguage("es-ES")}>
         <img src={spain} alt="spain" className="bandera"></img>
@@ -29,55 +36,6 @@ const I18n = () => {
           ></Avatar> */}
         </IconButton>
       )}
-      {locale === "en" ? (
-        ""
-      ) : (
-        <IconButton onClick={() => selectLanguage("en")}>
-        <img src={english} alt="spain" className="bandera"></img>
-          {/* <Avatar
-            sx={{ width: 24, height: 24 }}
-            src={english}
-            //  sx={{ bgcolor: red[500] }}
-            aria-label="recipe"
-          ></Avatar> */}
-        </IconButton>
-      )}
-      {/* {locale === "pt" ? (
-        ""
-      ) : (
-        <IconButton onClick={() => selectLanguage("pt")}>
-          <Avatar
-            sx={{ width: 24, height: 24 }}
-            src={portuguese}
-            //  sx={{ bgcolor: red[500] }}
-            aria-label="recipe"
-          ></Avatar>
-        </IconButton>
-      )}
-      {locale === "eu" ? (
-        ""
-      ) : (
-        <IconButton onClick={() => selectLanguage("eu")}>
-          <Avatar
-            sx={{ width: 24, height: 24 }}
-            src={ikurriña}
-            //  sx={{ bgcolor: red[500] }}
-            aria-label="recipe"
-          ></Avatar>
-        </IconButton>
-      )} */}
-      {/* {locale === "fr" ? (
-        ""
-      ) : (
-        <IconButton onClick={() => selectLanguage("fr")}>
-          <Avatar
-            sx={{ width: 24, height: 24, border: '0.2px solid lightgray'}}
-            src={french}
-            //  sx={{ bgcolor: red[500] }}
-            aria-label="recipe"
-          ></Avatar>
-        </IconButton>
-      )} */}
     </div>
   );
 };

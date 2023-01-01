@@ -168,7 +168,7 @@ const Reservas = () => {
                 style={{
                   borderRadius: 50,
                   backgroundColor: "black",
-                  color: "orange",
+                  color: "white",
                   // marginTop:'0px'
                 }}
               >
