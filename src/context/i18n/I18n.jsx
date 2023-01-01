@@ -13,31 +13,33 @@ import french from "../../assets/banderas/french.png";
 
 const I18n = () => {
   const { locale, selectLanguage } = useContext(ContextI18n);
-
+  console.log(locale);
   return (
     <div class="i18n">
       {locale === "es-ES" ? (
         ""
       ) : (
         <IconButton onClick={() => selectLanguage("es-ES")}>
-          <Avatar
+        <img src={spain} alt="spain" className="bandera"></img>
+          {/* <Avatar
             sx={{ width: 24, height: 24 }}
             src={spain}
             //  sx={{ bgcolor: red[500] }}
             aria-label="recipe"
-          ></Avatar>
+          ></Avatar> */}
         </IconButton>
       )}
       {locale === "en" ? (
         ""
       ) : (
         <IconButton onClick={() => selectLanguage("en")}>
-          <Avatar
+        <img src={english} alt="spain" className="bandera"></img>
+          {/* <Avatar
             sx={{ width: 24, height: 24 }}
             src={english}
             //  sx={{ bgcolor: red[500] }}
             aria-label="recipe"
-          ></Avatar>
+          ></Avatar> */}
         </IconButton>
       )}
       {/* {locale === "pt" ? (

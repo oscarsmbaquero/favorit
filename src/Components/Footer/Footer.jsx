@@ -115,11 +115,11 @@ export default function App() {
       </section>
 
       <div
-        className="text-center p-4 text-white"
+        className="text-center p-4 text-muted"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
       >
         © 2023 Copyright:
-        <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
+        <a className="text-reset fw-bold" href="https://oit-oscarsmbaquero.vercel.app/">
           &nbsp;App Developed by OSMB
         </a>
       </div>
