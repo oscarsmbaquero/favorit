@@ -22,6 +22,8 @@ import French from "../src/lang/fr.json";
 import I18n from "./context/i18n/I18n";
 import logo from "./assets/images/reservas.png";
 import CookieConsent from "react-cookie-consent";
+import ReservasIcono from "./core/ReservasIcono/ReservasIcono";
+import ReservaIcono3 from "./core/ReservasIcono/ReservasIcono3";
 export const ContextI18n = React.createContext();
 
 function App() {
@@ -96,13 +98,14 @@ function App() {
                       />
                     ))}
                   </Routes>
-                  <div className="reservas">
+                 <ReservasIcono/> 
+                  {/* <div className="reservas">
                     <figure>
                       <Link to={"/reservas"}>
                         <img src={logo} alt="logo"></img>
                       </Link>
                     </figure>
-                  </div>
+                  </div> */}
                   <Footer />
                 </Router>
               </SWContextProvider>
