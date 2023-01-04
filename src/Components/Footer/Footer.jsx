@@ -6,7 +6,7 @@ import {
   MDBCol,
   MDBIcon,
 } from "mdb-react-ui-kit";
-import logo from "../../assets/images/logoFavorit.jpeg";
+import logo from "../../assets/images/logoF.png";
 import "./Footer.scss";
 import ReactWhatsapp from "react-whatsapp";
 import { FormattedMessage } from "react-intl";
@@ -44,12 +44,11 @@ export default function App() {
       <section className="">
         <MDBContainer className="text-center text-md-start mt-5">
           <MDBRow className="mt-3">
-            {/* <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-              <p><img src={logo} className='logos'  alt={logo}/>
-              </p>
-            </MDBCol> */}
+            <MDBCol md="2" lg="2" xl="2" className='mx-auto my-4'>
+              <img src={logo} className='logos'  alt={logo}/>
+            </MDBCol>
             <MDBCol md="4" lg="4" xl="6" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4 text-white">
+              <h6 className="text-uppercase fw-bold mb-4 text-muted">
               <FormattedMessage id="app.horario"/>
               </h6>
               <p><FormattedMessage id="app.lunesmartes"/>: <FormattedMessage id="app.closed"/></p>
@@ -60,7 +59,7 @@ export default function App() {
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4 ">
-              <h6 className="text-uppercase fw-bold mb-4 text-white"><FormattedMessage id="app.contact"/></h6>
+              <h6 className="text-uppercase fw-bold mb-4 text-muted"><FormattedMessage id="app.contact"/></h6>
               <p>
                 {/* <MDBIcon icon="home" className="me-2" /> */}
                 <i class="fa-sharp fa-solid fa-location-dot"></i>
