@@ -53,9 +53,9 @@ export default function App() {
               <FormattedMessage id="app.horario"/>
               </h6>
               <p><FormattedMessage id="app.lunesmartes"/>: <FormattedMessage id="app.closed"/></p>
-              <p><FormattedMessage id="app.miercolesjueves"/>: 11:00 a 01:00</p>
-              <p><FormattedMessage id="app.viernessabado"/>: 12:00 a 02:00</p>
-              <p><FormattedMessage id="app.domingo"/>: 12:00 a 01:30</p>
+              <p><FormattedMessage id="app.miercolesjueves"/>: 11:00 - 01:00</p>
+              <p><FormattedMessage id="app.viernessabado"/>: 12:00 - 02:00</p>
+              <p><FormattedMessage id="app.domingo"/>: 12:00 - 01:30</p>
               
             </MDBCol>
 

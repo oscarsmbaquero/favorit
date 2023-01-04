@@ -7,7 +7,7 @@ const ReservaIcono3 = () => {
     "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1672784769/reservas_riyjxl.png"
   );
   window.addEventListener("scroll", (e) => {
-    if (window.scrollY > 240) {
+    if (window.scrollY > 420) {
       handleImage(
         "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1672784769/reservas_riyjxl.png"
         
