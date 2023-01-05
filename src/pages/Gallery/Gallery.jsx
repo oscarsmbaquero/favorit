@@ -1,27 +1,48 @@
-import React,{useContext} from 'react';
-import { SWContext } from "../../context/context";
-import { MDBCarousel, MDBCarouselItem} from 'mdb-react-ui-kit';
+import React from 'react';
+import {
+  MDBCarousel,
+  MDBCarouselItem,
+} from 'mdb-react-ui-kit';
 
-export default function Gallery() {
+import bar6 from '../../assets/images/bar6.jfif'
+import bar7 from '../../assets/images/bar7.jfif'
+import bar8 from '../../assets/images/bar8.jfif'
+import bar9 from '../../assets/images/bar9.jfif'
+import bar10 from '../../assets/images/bar10.jfif'
 
-  const { galeria } = useContext(SWContext);
-
+export default function App() {
   return (
-    <MDBCarousel 
-     activeItem={1} length={3} showControls={true} showIndicators={true}  interval={2500}
-    >
-    {galeria.map(item =>(
+    <MDBCarousel showControls  showIndicators  dealy={3000}>
       <MDBCarouselItem
         className='w-100 d-block'
-        key={item.id}
-        itemId={item.id}
-        src={item.image}
+        itemId={1}
+        src={bar6}
         alt='...'
-      >
-       </MDBCarouselItem>
-    ))}
-    
+      />
+      <MDBCarouselItem
+        className='w-100 d-block'
+        itemId={2}
+        src={bar7}
+        alt='...'
+      />
+      <MDBCarouselItem
+        className='w-100 d-block'
+        itemId={3}
+        src={bar8}
+        alt='...'
+      />
+      <MDBCarouselItem
+        className='w-100 d-block'
+        itemId={4}
+        src={bar10}
+        alt='...'
+      />
+      <MDBCarouselItem
+        className='w-100 d-block'
+        itemId={5}
+        src={bar9}
+        alt='...'
+      />
     </MDBCarousel>
-    
   );
 }
