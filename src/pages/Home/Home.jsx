@@ -13,13 +13,13 @@ import "./Home.scss";
 import { FormattedMessage } from "react-intl";
 // import { convertLength } from "@mui/material/styles/cssUtils";
 // import { responsiveFontSizes } from "@mui/material";
-import Gallery from '../Gallery/Gallery'
+import Gallery from "../Gallery/Gallery";
 
 const Home = () => {
   //const { galeria } = useContext(SWContext);
   return (
     <>
-    <Gallery/>
+      <Gallery/>
       <div className="home">
         {/* <Alert/> */}
         {/* <img className="home__logo" src={logo} alt="logo"></img> */}
@@ -59,8 +59,7 @@ const Home = () => {
             </div>
           </Parallax>
         </div> */}
-        
-      </div>
+      </div> 
     </>
   );
 };
