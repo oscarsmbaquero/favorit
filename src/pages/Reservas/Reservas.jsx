@@ -6,7 +6,7 @@ import Swal from "sweetalert2";
 import logo from "../../assets/images/logoF.png";
 import fondo from "../../assets/images/logo2.jpeg";
 import Confirm from "../../core/ConfirmDialog/Confirm";
-
+import { FormattedMessage } from "react-intl";
 import { Button } from "@material-ui/core";
 
 import SendIcon from "@material-ui/icons/Send";
@@ -16,6 +16,7 @@ import { useEffect } from "react";
 const Reservas = () => {
   let navigate = useNavigate();
   const [open, setOpen] = React.useState(false);
+  
   
   useEffect(() => {
     handleClickOpen()
@@ -67,7 +68,7 @@ const Reservas = () => {
       Swal.fire({
         //title: "Success!",
         text: "Para Grupos superiores a 10 personas consulte disponibiliad por teléfono",
-        icon: "success",
+        icon: "error",
         confirmButtonText: "Ok",
       });
       navigate("/reservas");
@@ -88,7 +89,7 @@ const Reservas = () => {
               <br />
               <div className="d-flex flex-column flex-md-row">
                 <div className="d-flex flex-column col-11 col-md-6">
-                  <label className="form__label">Fecha de Reserva * </label>
+                  <label className="form__label"><FormattedMessage id="app.fecha" /></label>
                   <input
                     className="form-control"
                     type="datetime-local"
@@ -96,7 +97,7 @@ const Reservas = () => {
                   />
                 </div>
                 <div className="d-flex flex-column col-11 col-md-6 mx-md-3">
-                  <label className="form__label">Nombre * </label>
+                  <label className="form__label"><FormattedMessage id="app.name" /></label>
                   <input
                     className="form-control"
                     type="text"
@@ -111,7 +112,7 @@ const Reservas = () => {
                   <input className="form-control" type="text" name="email" />
                 </div>
                 <div className="d-flex flex-column col-11 col-md-6 mx-md-3">
-                  <label className="form__label">Teléfono * </label>
+                  <label className="form__label"><FormattedMessage id="app.tlf" /></label>
                   <input
                     className="form-control"
                     type="text"
@@ -122,7 +123,7 @@ const Reservas = () => {
               </div>
               <div className="d-flex flex-column">
                 <div className="d-flex flex-column col-11 mx-md-3 ">
-                  <label className="form__label">Personas * </label>
+                  <label className="form__label"><FormattedMessage id="app.comensales" /></label>
                   {/* <input className="form-control" type="text" name="personas" /> */}
                   <select
                     class="form-control"
@@ -130,21 +131,21 @@ const Reservas = () => {
                     name="personas"
                     onChange={(e) => setAviso(e.target.value)}
                   >
-                    <option value="1">1 Persona</option>
-                    <option value="2">2 Personas</option>
-                    <option value="3">3 Personas</option>
-                    <option value="4">4 Personas</option>
-                    <option value="5">5 Personas</option>
-                    <option value="6">6 Personas</option>
-                    <option value="7">7 Personas</option>
-                    <option value="8">8 Personas</option>
-                    <option value="9">9 Personas</option>
-                    <option value="10">10 Personas</option>
-                    <option value="+10">+10 Personas</option>
+                    <option value="1">1 <FormattedMessage id="app.diners"/></option>
+                    <option value="2">2 <FormattedMessage id="app.diners"/></option>
+                    <option value="3">3 <FormattedMessage id="app.diners"/></option>
+                    <option value="4">4 <FormattedMessage id="app.diners"/></option>
+                    <option value="5">5 <FormattedMessage id="app.diners"/></option>
+                    <option value="6">6 <FormattedMessage id="app.diners"/></option>
+                    <option value="7">7 <FormattedMessage id="app.diners"/></option>
+                    <option value="8">8 <FormattedMessage id="app.diners"/></option>
+                    <option value="9">9 <FormattedMessage id="app.diners"/></option>
+                    <option value="10">10 <FormattedMessage id="app.diners"/></option>
+                    <option value="+10">+10 <FormattedMessage id="app.diners"/></option>
                   </select>
                 </div>
                 <div className="d-flex flex-column col-11 mx-md-3">
-                  <label className="form__label">Comentarios</label>
+                  <label className="form__label"><FormattedMessage id="app.comments" /></label>
                   <textarea
                     className="form-control"
                     name="comentarios"
@@ -159,21 +160,19 @@ const Reservas = () => {
                 </div>
               </div>
               <br />
-              <Button
+              {/* <Button
                 variant="contained"
-                //color="primary"
                 type="submit"
-                //onClick={sendMail}
                 endIcon={<SendIcon />}
                 style={{
                   borderRadius: 50,
                   backgroundColor: "black",
                   color: "white",
-                  // marginTop:'0px'
                 }}
               >
                 Reservar
-              </Button>
+              </Button> */}
+              <button class="btn-13"><span>Reservar</span></button>
             </form>
           </div>
         </section>

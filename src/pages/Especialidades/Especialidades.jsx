@@ -105,27 +105,30 @@ export default function Especialidades() {
                   {item.descripcion}
                 </Typography>
               </CardContent>
-              <CardActions disableSpacing>
+              <CardActions disableSpacing
+              sx={{justifyContent:'space-between'}}
+              >
                 <IconButton aria-label="add to favorites">
-                  <AddShoppingCart />
+                  <FavoriteIcon style={{ fill: '#D81D0A' }}/>
                 </IconButton>
                 <div className="text-warning mb-1 me-2">
                   <MDBIcon fas icon="star" />
                   <MDBIcon fas icon="star" />
                   <MDBIcon fas icon="star" />
                   <MDBIcon fas icon="star" />
+                  <span className="text-black mx-2">{getRandomInt(25)}</span>
                 </div>
-                <span>{getRandomInt(25)}</span>
-                <ExpandMore
+               
+                {/* <ExpandMore
                   expand={expanded}
                   onClick={handleExpandClick}
                   aria-expanded={expanded}
                   aria-label="show more"
                 >
                   <ExpandMoreIcon />
-                </ExpandMore>
+                </ExpandMore> */}
               </CardActions>
-              <Collapse in={expanded} timeout="auto" unmountOnExit>
+              {/* <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
                   <Typography paragraph>Method:</Typography>
                   <Typography paragraph>
@@ -157,7 +160,7 @@ export default function Especialidades() {
                     then serve.
                   </Typography>
                 </CardContent>
-              </Collapse>
+              </Collapse> */}
             </Card>
           </Grid>
         ))}
