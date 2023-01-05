@@ -1,30 +1,32 @@
 import React, { useState, useEffect, useContext } from "react";
 import "./Home.scss";
-import logo from "../../assets/images/logoF.png";
-import Alert from "../Alert/Alert";
-import { Parallax } from "react-parallax";
-import { SWContext } from "../../context/context";
-import alhambra from "../../assets/images/alhambras.jpg";
-import barondeley from "../../assets/images/barondeley.jpg";
-import logoAlhambra from "../../assets/images/logoAlhambra.png";
-import museum from "../../assets/images/fincaMuseum.jpg";
-import logoMuseum from "../../assets/images/logomuseum.png";
+//import logo from "../../assets/images/logoF.png";
+//import Alert from "../Alert/Alert";
+//import { Parallax } from "react-parallax";
+//import { SWContext } from "../../context/context";
+// import alhambra from "../../assets/images/alhambras.jpg";
+// import barondeley from "../../assets/images/barondeley.jpg";
+// import logoAlhambra from "../../assets/images/logoAlhambra.png";
+// import museum from "../../assets/images/fincaMuseum.jpg";
+// import logoMuseum from "../../assets/images/logomuseum.png";
 
 import { FormattedMessage } from "react-intl";
-import { convertLength } from "@mui/material/styles/cssUtils";
-import { responsiveFontSizes } from "@mui/material";
+// import { convertLength } from "@mui/material/styles/cssUtils";
+// import { responsiveFontSizes } from "@mui/material";
+import Gallery from '../Gallery/Gallery'
 
 const Home = () => {
-  const { galeria } = useContext(SWContext);
+  //const { galeria } = useContext(SWContext);
   return (
     <>
+    <Gallery/>
       <div className="home">
         {/* <Alert/> */}
-        <img className="home__logo" src={logo} alt="logo"></img>
+        {/* <img className="home__logo" src={logo} alt="logo"></img> */}
         <p>
           <FormattedMessage id="app.textHome" />
         </p>
-        <div style={{ height: "100%", width: "100%" }}>
+        {/* <div style={{ height: "100%", width: "100%" }}>
           <Parallax
             strength={500}
             // blur={{ min: -8, max: 5 }}
@@ -56,7 +58,8 @@ const Home = () => {
               </div>
             </div>
           </Parallax>
-        </div>
+        </div> */}
+        
       </div>
     </>
   );

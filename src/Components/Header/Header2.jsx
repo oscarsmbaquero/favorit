@@ -31,16 +31,16 @@ const header2 = () => {
               &nbsp;
               <FormattedMessage id="app.home" />
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               as={Link}
               eventKey="1"
               to={"/gallery"}
               routerLinkActive="active"
             >
-              {/* <i class="fa-sharp fa-solid fa-image"></i> */}
+              <i class="fa-sharp fa-solid fa-image"></i>
               &nbsp;
               <FormattedMessage id="app.gallery" />
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link
               as={Link}
               eventKey="2"
