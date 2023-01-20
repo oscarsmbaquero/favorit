@@ -109,16 +109,16 @@ const header2 = () => {
                 <FormattedMessage id="app.vino" />
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link
+            {/* <Nav.Link
               as={Link}
               eventKey="10"
               to={"/oferta_navidad"}
               routerLinkActive="active"
             >
-              {/* <i class="fa-solid fa-gift"></i> */}
+              <i class="fa-solid fa-gift"></i>
               &nbsp;
               <FormattedMessage id="app.ofertaNavidad" />
-            </Nav.Link>
+            </Nav.Link> */}
 
             {/* <Nav.Link>
             <I18n></I18n>   
