@@ -3,6 +3,8 @@ import React from "react";
 import { useContext } from "react";
 import { SWContext } from "../../context/context";
 
+import { FormattedMessage } from "react-intl";
+
 import EntrantesFrios from "./Components/EntrantesFrios";
 import EntrantesCalientes from "./Components/EntrantesCalientes";
 import Carnes from "./Components/Carnes";
@@ -21,14 +23,17 @@ const Specialite = () => {
   };
   //filtros por tipo de plato
   const entrantesFrios = platos.filter((plato) => plato.tipo === "frio");
-  const entrantesCalientes = platos.filter((plato) => plato.tipo === "caliente");
-  const pastasOccidente = platos.filter((plato)=>plato.tipo === "occidente")
-  const especialidades = platos.filter((plato) => plato.tipo === "especialidad");
+  const entrantesCalientes = platos.filter(
+    (plato) => plato.tipo === "caliente"
+  );
+  const pastasOccidente = platos.filter((plato) => plato.tipo === "occidente");
+  const especialidades = platos.filter(
+    (plato) => plato.tipo === "especialidad"
+  );
   const carnes = platos.filter((plato) => plato.tipo === "carnes");
   const pastasOriente = platos.filter((plato) => plato.tipo === "oriente");
   const peques = platos.filter((plato) => plato.tipo === "peques");
   const postres = platos.filter((plato) => plato.tipo === "postres");
-   
 
   //fin de filtro por platos
 
@@ -43,14 +48,96 @@ const Specialite = () => {
           aria-label="scrollable auto tabs example"
           //centered
         >
-          <Tab label="Entrantes Frios"  style={{ backgroundColor: '#EAC029' ,color:'#fff'}} />
-          <Tab label="Entrantes Calientes" style={{ backgroundColor: '#19C7AC' ,color:'#fff'}}/>
-          <Tab label="Pastas de Occidente" style={{ backgroundColor: '#199FC7',color:'#fff' }}/>
-          <Tab label="Carnes" style={{ backgroundColor: '#EAC029',color:'#fff' }}/>
-          <Tab label="Pastas de Oriente" style={{ backgroundColor: '#19C7AC',color:'#fff' }}/>
-          <Tab label="Especialidades" style={{ backgroundColor: '#199FC7',color:'#fff' }}/>
-          <Tab label="Péques" style={{ backgroundColor: '#EAC029',color:'#fff' }}/>
-          <Tab label="Postres" style={{ backgroundColor: '#19C7AC',color:'#fff' }}/>
+          <Tab
+            label=<FormattedMessage id="app.entrantesfrios" />
+            style={{
+              backgroundColor: "#EAC029",
+              color: "#fff",
+              borderRadius: "50px 50px 50px 50px",
+              marginLeft: "5px",
+              marginBottom:"5px",
+              marginTop:"5px",
+            }}
+          />
+          <Tab
+            label=<FormattedMessage id="app.entrantescalientes" />
+            style={{
+              backgroundColor: "#19C7AC",
+              color: "#fff",
+              borderRadius: "50px 50px 50px 50px",
+              marginLeft: "5px",
+              marginBottom:"5px",
+              marginTop:"5px",
+            }}
+          />
+          <Tab
+            label=<FormattedMessage id="app.pastasOccidente" />
+            style={{
+              backgroundColor: "#199FC7",
+              color: "#fff",
+              borderRadius: "50px 50px 50px 50px",
+              marginLeft: "5px",
+              marginBottom:"5px",
+              marginTop:"5px",
+            }}
+          />
+          <Tab
+            label=<FormattedMessage id="app.carnes" />
+            style={{
+              backgroundColor: "#EAC029",
+              color: "#fff",
+              borderRadius: "50px 50px 50px 50px",
+              marginLeft: "5px",
+              marginBottom:"5px",
+              marginTop:"5px",
+            }}
+          />
+          <Tab
+            label=<FormattedMessage id="app.pastasOriente" />
+            style={{
+              backgroundColor: "#19C7AC",
+              color: "#fff",
+              borderRadius: "50px 50px 50px 50px",
+              marginLeft: "5px",
+              marginBottom:"5px",
+              marginTop:"5px",
+            }}
+          />
+          <Tab
+            label=<FormattedMessage id="app.especialidades" />
+            style={{
+              backgroundColor: "#199FC7",
+              color: "#fff",
+              borderRadius: "50px 50px 50px 50px",
+              marginLeft: "5px",
+              marginBottom:"5px",
+              marginTop:"5px",
+            }}
+          />
+          <Tab
+           label=<FormattedMessage id="app.peques" />
+            //label="Péques"
+            style={{
+              backgroundColor: "#EAC029",
+              color: "#fff",
+              borderRadius: "50px 50px 50px 50px",
+              marginLeft: "5px",
+              marginBottom:"5px",
+              marginTop:"5px",
+            }}
+          />
+          <Tab
+            //label="Postres"
+            label=<FormattedMessage id="app.postres" />
+            style={{
+              backgroundColor: "#19C7AC",
+              color: "#fff",
+              borderRadius: "50px 50px 50px 50px",
+              marginLeft: "5px",
+              marginBottom:"5px",
+              marginTop:"5px",
+            }}
+          />
         </Tabs>
       </Box>
       <Box sx={{ padding: 1 }}>
@@ -71,27 +158,27 @@ const Specialite = () => {
         )}
         {value === 3 && (
           <Box>
-           <Carnes carnes={carnes}/>
+            <Carnes carnes={carnes} />
           </Box>
         )}
         {value === 4 && (
           <Box>
-           <PastasOriente pastasOriente={pastasOriente}/> 
+            <PastasOriente pastasOriente={pastasOriente} />
           </Box>
         )}
         {value === 5 && (
           <Box>
-           <Especialidades especialidades={especialidades}/> 
+            <Especialidades especialidades={especialidades} />
           </Box>
         )}
         {value === 6 && (
           <Box>
-           <Peques peques={peques}/> 
+            <Peques peques={peques} />
           </Box>
         )}
         {value === 7 && (
           <Box>
-           <Postres postres={postres}/> 
+            <Postres postres={postres} />
           </Box>
         )}
       </Box>

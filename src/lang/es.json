@@ -44,7 +44,7 @@
 
 
     "app.ensalada.favorit":"Ensalada Favorit",
-    "app.receta.favorit":"Mézclum de lechugas, pechuga de pollo, bacón crujiente, lascas de parmesano y nuestra salsa cesar casera",
+    "app.receta.favorit":"Mézclum de lechugas, nueces, bacón crujiente, queso de cabra y nuestra vinagreta casera de frambuesa",
 
     "app.ensalada.cesar":"Ensalada Cesar de Pollo",
     "app.receta.cesar":"Mézclum de lechugas, pechuga de pollo, bacón crujiente, lascas de parmesano y nuestra salsa cesar casera",
@@ -59,7 +59,17 @@
     "app.receta.solomillocerdosalsasetas":"Solomillo de cerdo con salsa de setas",
 
     "app.pollotikka": "Pollo Tikka Masala",
-    "app.receta.pollotikka":"Dados de pollo con salsa tikka masala, leche de coco, piña y platano sobre una cama de arroz basmati y sésamo"
+    "app.receta.pollotikka":"Dados de pollo con salsa tikka masala, leche de coco, piña y platano sobre una cama de arroz basmati y sésamo",
+
+    "app.entrantesfrios" : "Entrantes frios",
+    "app.entrantescalientes": "Entrantes Calientes",
+    "app.pastasOccidente": "Pastas de Occidente",
+    "app.pastasOriente": "Pastas de Oriente",
+    "app.carnes": " Nuestras Carnes",
+    "app.peques": "Para los peques",
+    "app.especialidades": "Especialidades",
+    "app.postres": "Postres"
+
 
 
 

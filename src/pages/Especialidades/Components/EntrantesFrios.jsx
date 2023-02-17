@@ -23,6 +23,10 @@ import logo from "../../../assets/images/logoFavorit.jpeg";
 
 
 const EntrantesFrios = ({entrantesFrios}) => {
+
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
   return (
     <div>
     {/* <Box sx={{ flexGrow: 1 }}> */}
@@ -73,17 +77,20 @@ const EntrantesFrios = ({entrantesFrios}) => {
               <FormattedMessage id={item.descripcion}/>
               </Typography>
             </CardContent>
-            <CardActions disableSpacing>
-              <IconButton aria-label="add to favorites">
-                <AddShoppingCart />
-              </IconButton>
-              <div className="text-warning mb-1 me-2">
-                <MDBIcon fas icon="star" />
-                <MDBIcon fas icon="star" />
-                <MDBIcon fas icon="star" />
-                <MDBIcon fas icon="star" />
-              </div>
-            </CardActions>
+            <CardActions disableSpacing
+              sx={{justifyContent:'space-between'}}
+              >
+                <IconButton aria-label="add to favorites">
+                  <FavoriteIcon style={{ fill: '#D81D0A' }}/>
+                </IconButton>
+                <div className="text-warning mb-1 me-2">
+                  <MDBIcon fas icon="star" />
+                  <MDBIcon fas icon="star" />
+                  <MDBIcon fas icon="star" />
+                  <MDBIcon fas icon="star" />
+                  <span className="text-black mx-2">{getRandomInt(65)}</span>
+                </div>
+              </CardActions>
           </Card>
         </Grid>
       ))}

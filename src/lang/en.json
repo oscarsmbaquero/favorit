@@ -59,5 +59,13 @@
   "app.receta.solomillocerdosalsasetas":"Pork tenderloin with mushroom sauce",
 
   "app.pollotikka": "Chicken Tikka Masala",
-  "app.receta.pollotikka":"Chicken cubes with tikka masala sauce, coconut milk, pineapple and banana on a bed of basmati rice and sesame"
+  "app.receta.pollotikka":"Chicken cubes with tikka masala sauce, coconut milk, pineapple and banana on a bed of basmati rice and sesame",
+
+  "app.entrantesfrios" : "Cold Starters",
+  "app.entrantescalientes": "Hot Starters" ,
+  "app.pastasOccidente": "Western Pasta",
+  "app.pastasOriente": "Pasta from the Orient",
+  "app.carnes": "Meats",
+  "app.peques": "Children's Letter",
+  "app.postres": "Desserts"
   }
