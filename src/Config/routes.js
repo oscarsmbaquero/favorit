@@ -12,11 +12,11 @@ import Home from "../pages/Home/Home";
 import Horario from "../pages/Horario/Horario";
 //import MapContainer from "../pages/Map/MapContainer";
 import Reservas from "../pages/Reservas/Reservas";
-import Especialidades from "../pages/Especialidades/Especialidades";
+//import Especialidades from "../pages/Especialidades/Especialidades";
 import Pedidos from "../pages/Pedidos/Pedidos";
 import CartaNavidad from "../pages/Cartas/OfertaNavidad";
 import Pictures from "../pages/Pictures/Pictures";
-//import Especialidades from "../pages/Especialidades/Specialite";
+import Especialidades from "../pages/Especialidades/Specialite";
 
 
 

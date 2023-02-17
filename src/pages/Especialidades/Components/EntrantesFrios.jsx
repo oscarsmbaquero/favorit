@@ -18,6 +18,8 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import { AddShoppingCart } from "@material-ui/icons";
 import { MDBIcon } from "mdb-react-ui-kit";
+import { FormattedMessage } from "react-intl";
+import logo from "../../../assets/images/logoFavorit.jpeg";
 
 
 const EntrantesFrios = ({entrantesFrios}) => {
@@ -46,7 +48,7 @@ const EntrantesFrios = ({entrantesFrios}) => {
                 <Avatar
                   // sx={{ bgcolor: red[500] }}
                   aria-label="recipe"
-                  //src={logo}
+                  src={logo}
                 ></Avatar>
               }
               action={
@@ -54,7 +56,7 @@ const EntrantesFrios = ({entrantesFrios}) => {
                   <MoreVertIcon />
                 </IconButton>
               }
-              title={item.title}
+              title=<FormattedMessage id={item.title} />
               // subheader=
               // <Badge bg="primary" text="bold">
               //   {item.price}&nbsp;€
@@ -68,7 +70,7 @@ const EntrantesFrios = ({entrantesFrios}) => {
             />
             <CardContent>
               <Typography variant="body2" color="text.secondary">
-                {item.descripcion}
+              <FormattedMessage id={item.descripcion}/>
               </Typography>
             </CardContent>
             <CardActions disableSpacing>
