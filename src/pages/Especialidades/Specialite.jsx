@@ -34,7 +34,7 @@ const Specialite = () => {
 
   return (
     <>
-      <Box sx={{ width: "1/2", backgroundColor: "white" }}>
+      <Box sx={{ width: "1/2", color: "#f0f0f0" }}>
         <Tabs
           value={value}
           onChange={handleChange}
@@ -43,14 +43,14 @@ const Specialite = () => {
           aria-label="scrollable auto tabs example"
           //centered
         >
-          <Tab label="Entrantes Frios" />
-          <Tab label="Entrantes Calientes" />
-          <Tab label="Pastas de Occidente" />
-          <Tab label="Carnes" />
-          <Tab label="Pastas de Oriente" />
-          <Tab label="Especialidades" />
-          <Tab label="Peques" />
-          <Tab label="Postres" />
+          <Tab label="Entrantes Frios"  style={{ backgroundColor: '#EAC029' ,color:'#fff'}} />
+          <Tab label="Entrantes Calientes" style={{ backgroundColor: '#19C7AC' ,color:'#fff'}}/>
+          <Tab label="Pastas de Occidente" style={{ backgroundColor: '#199FC7',color:'#fff' }}/>
+          <Tab label="Carnes" style={{ backgroundColor: '#EAC029',color:'#fff' }}/>
+          <Tab label="Pastas de Oriente" style={{ backgroundColor: '#19C7AC',color:'#fff' }}/>
+          <Tab label="Especialidades" style={{ backgroundColor: '#199FC7',color:'#fff' }}/>
+          <Tab label="Peques" style={{ backgroundColor: '#19c7ac',color:'#fff' }}/>
+          <Tab label="Postres" style={{ backgroundColor: '#EAC029',color:'#fff' }}/>
         </Tabs>
       </Box>
       <Box sx={{ padding: 1 }}>

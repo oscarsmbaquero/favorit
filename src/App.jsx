@@ -85,9 +85,9 @@ function App() {
                     expires={150}
                   >
                     Este sitio web utiliza cookies para mejorar la experiencia del usuario.{" "}
-                    <span style={{ fontSize: "10px" }}>
+                    {/* <span style={{ fontSize: "10px" }}>
                       This bit of text is smaller :O
-                    </span>
+                    </span> */}
                   </CookieConsent>
                   <Routes>
                     {routes.map((route) => (
