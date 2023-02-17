@@ -41,5 +41,23 @@
   "app.aceptar":"Accept",
   "app.mensajeError":"For reservations of more than 10 diners, consult availability by telephone. Thank you",
   "app.a":"to",
-  "app.plaza":"Juan de Loaissa Square"
+  "app.plaza":"Juan de Loaissa Square",
+
+  "app.ensalada.favorit":"Favorite Salad",
+  "app.receta.favorit":"Lettuce mix, chicken breast, crispy bacon, Parmesan flakes and our homemade Caesar sauce",
+
+  "app.ensalada.cesar":"Chicken Caesar Salad",
+  "app.receta.cesar":"Lettuce mix, chicken breast, crispy bacon, Parmesan flakes and our homemade Caesar sauce",
+
+  "app.bacalaropiquillos":"Cod with ali oli from Piquillos",
+  "app.receta.bacalaopiquillos":"Cod fillet with piquillo pepper aioli, on potatoes and onion confit",
+
+  "app.huevosconfoie": "Eggs with Foie",
+  "app.receta.huevosconfoie":"Scrambled eggs with boletus and garlic confit, slices of foie gras and Serrano ham",
+
+  "app.solomillocerdosalsasetas": "Pork tenderloin with mushroom sauce",
+  "app.receta.solomillocerdosalsasetas":"Pork tenderloin with mushroom sauce",
+
+  "app.pollotikka": "Chicken Tikka Masala",
+  "app.receta.pollotikka":"Chicken cubes with tikka masala sauce, coconut milk, pineapple and banana on a bed of basmati rice and sesame"
   }

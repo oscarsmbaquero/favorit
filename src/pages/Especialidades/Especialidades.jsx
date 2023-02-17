@@ -15,6 +15,7 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import ShareIcon from "@mui/icons-material/Share";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
+import { FormattedMessage } from "react-intl";
 
 import logo from "../../assets/images/logoFavorit.jpeg";
 import { Grid } from "@material-ui/core";
@@ -88,7 +89,8 @@ export default function Especialidades() {
                     <MoreVertIcon />
                   </IconButton>
                 }
-                title={item.title}
+                title=<FormattedMessage id={item.title} />
+                //title={item.title}
                 // subheader=
                 // <Badge bg="primary" text="bold">
                 //   {item.price}&nbsp;€
@@ -102,7 +104,7 @@ export default function Especialidades() {
               />
               <CardContent>
                 <Typography variant="body2" color="text.secondary">
-                  {item.descripcion}
+                <FormattedMessage id={item.descripcion}/>
                 </Typography>
               </CardContent>
               <CardActions disableSpacing

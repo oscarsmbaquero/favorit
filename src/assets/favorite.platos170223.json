@@ -1,0 +1,50 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1669151422/samples/huevosFoie_i2bstx.jpg",
+    "title": "app.ensalada.favorit",
+    "descripcion": "app.receta.favorit",
+    "id": "1",
+    "price": "12.95",
+    "tipo": "frio"
+  },
+  {
+    "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1669151421/samples/ensaladaCesar_l54dmj.jpg",
+    "title": "app.ensalada.cesar",
+    "descripcion": "app.receta.cesar",
+    "id": "2",
+    "price": "11.95",
+    "tipo": "frio"
+  },
+  {
+    "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1669151421/samples/bacalaoPiquillo_fcytcu.jpg",
+    "title": "app.bacalaropiquillos",
+    "descripcion": "app.receta.bacalaopiquillos",
+    "id": "3",
+    "price": "14.95",
+    "tipo": "especialidad"
+  },
+  {
+    "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1669151422/samples/huevosFoie_i2bstx.jpg",
+    "title": "app.huevosconfoie",
+    "descripcion": "app.receta.huevosconfoie",
+    "id": "4",
+    "price": "12.95",
+    "tipo": "caliente"
+  },
+  {
+    "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1669379588/samples/Solomillo_de_cerdo_con_salsa_de_setas_kctr1r.jpg",
+    "title": "app.solomillocerdosalsasetas",
+    "descripcion": "app.receta.solomillocerdosalsasetas",
+    "id": "5",
+    "price": "14.95",
+    "tipo": "carnes"
+  },
+  {
+    "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1669379582/samples/Pollo_Tikka_Masala_flqwp7.jpg",
+    "title": "app.pollotikka",
+    "descripcion": "app.receta.pollotikka",
+    "id": "6",
+    "price": "11.55",
+    "tipo": "oriente"
+  }
+]
