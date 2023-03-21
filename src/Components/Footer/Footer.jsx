@@ -51,10 +51,10 @@ export default function App() {
               <h6 className="text-uppercase fw-bold mb-4 text-muted">
               <FormattedMessage id="app.horario"/>
               </h6>
-              <p><FormattedMessage id="app.lunesmartes"/>: <FormattedMessage id="app.closed"/></p>
-              <p><FormattedMessage id="app.miercolesjueves"/>: 11:00 - 01:00</p>
-              <p><FormattedMessage id="app.viernessabado"/>: 12:00 - 02:00</p>
-              <p><FormattedMessage id="app.domingo"/>: 12:00 - 01:30</p>
+              <p><FormattedMessage id="app.lunes"/>: <FormattedMessage id="app.closed"/></p>
+              <p><FormattedMessage id="app.martesJueves"/>:&nbsp;11:00-17:00&nbsp;<FormattedMessage id="app.y"/>&nbsp;19:00&nbsp;<FormattedMessage id="app.cierre"/></p>
+              <p><FormattedMessage id="app.viernesDomingo"/>: 12:00&nbsp;<FormattedMessage id="app.cierre"/></p>
+              {/* <p><FormattedMessage id="app.domingo"/>: 12:00 - 01:30</p> */}
               
             </MDBCol>
 

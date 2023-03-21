@@ -30,11 +30,13 @@
   "app.form":"Fill out our online reservation form and enjoy the Santa Ana experience with a few clicks. Once the request is received we will contact you to confirm the reservation details.",
   
   
-  "app.miercolesjueves":"Wednesday and Thursday",
-  "app.lunesmartes":"Monday and Tuesday",
+  "app.lunes":"Monday",
+  "app.martesJueves":" From Tuesday to Thursday",
   "app.closed": "Closed",
-  "app.viernessabado":"Friday and Saturday",
-  "app.domingo":"Sunday",
+  "app.viernesDomingo":" From Friday to Sunday",
+  "app.y":"and",
+  "app.cierre":"to closing",
+
   "app.reservar":"Reserve",
   "app.condiciones":"Legal conditions",
   "app.texto":"Welcome to the Gastro Bar Favorit reservation portal, do not reserve a number of diners greater than desired. It is important that the number of diners that come to the restaurant is the same that appears in the reservation. Your reservation is accepted once you receive our confirmation, if you do not receive said confirmation, try again because something has failed.  ",
