@@ -39,7 +39,7 @@
     
     "app.reservar":"Reservar",
     "app.condiciones":"Condiciones legales",
-    "app.texto":"Bienvenidos al portal de reservas de Gastro Bar Favorit, no reserves un número de comensales superior al deseado. Es importante que el número de comensales que acuden al restaurante sea el mismo que aparece en la reserva. Tu reserva queda aceptada una vez recibes nuestra confirmación, si no recibes dicha confirmación, vuelva a intentarlo porque algo ha fallado.",
+    "app.texto":"Gracias por utilizar el portal de reservas de Gastro Bar Favorit. En breve, recibirás un correo electrónico de confirmación de recepción de tu reserva. Posteriormente, te enviaremos un segundo correo electrónico para confirmar oficialmente tu reserva. Si no recibes la confirmación de reserva, te sugerimos que vuelvas a intentarlo, ya que puede haber habido algún error. Estamos encantados de recibirte y esperamos brindarte una experiencia gastronómica inolvidable. ¡Hasta pronto!",
     "app.aceptar":"Aceptar",
     "app.mensajeError":"Para reservas de mas de 10 comensales, consulte disponibilidad por teléfono. Gracias",
     "app.a":"a",
