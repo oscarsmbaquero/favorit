@@ -77,7 +77,7 @@ const Reservas = () => {
 
   return (
     <>
-      <div className="container" >
+      <div className="containers" >
       <Confirm open={open} handleClose={handleClose} />
         <section className="sectionFormReservas row">
           <div className="col-12 col-lg-6 my-auto d-none d-lg-block">
