@@ -46,84 +46,99 @@ const Specialite = () => {
           variant="scrollable"
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
+          
           //centered
         >
           <Tab
             label=<FormattedMessage id="app.entrantesfrios" />
             style={{
               backgroundColor: "#EAC029",
-              color: "#fff",
-              borderRadius: "50px 50px 50px 50px",
+              color: "black",
+              //borderRadius: "50px 0px 0px 0px",
+              clipPath: "polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%)",
               marginLeft: "5px",
-              marginBottom:"5px",
-              marginTop:"5px",
+              marginBottom: "5px",
+              marginTop: "5px",
+              fontWeight: "bold",
             }}
           />
           <Tab
             label=<FormattedMessage id="app.entrantescalientes" />
             style={{
               backgroundColor: "#19C7AC",
-              color: "#fff",
-              borderRadius: "50px 50px 50px 50px",
+              color: "black",
+              //borderRadius: "0px 0px 50px 0px",
+              clipPath: "polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%)",
               marginLeft: "5px",
-              marginBottom:"5px",
-              marginTop:"5px",
+              marginBottom: "5px",
+              marginTop: "5px",
+              fontWeight: "bold",
             }}
           />
           <Tab
             label=<FormattedMessage id="app.pastasOccidente" />
             style={{
               backgroundColor: "#199FC7",
-              color: "#fff",
-              borderRadius: "50px 50px 50px 50px",
+              color: "black",
+            //  borderRadius: "50px 0px 0px 0px",
+            clipPath: "polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%)",
               marginLeft: "5px",
-              marginBottom:"5px",
-              marginTop:"5px",
+              marginBottom: "5px",
+              marginTop: "5px",
+              fontWeight: "bold",
             }}
           />
           <Tab
             label=<FormattedMessage id="app.carnes" />
             style={{
               backgroundColor: "#EAC029",
-              color: "#fff",
-              borderRadius: "50px 50px 50px 50px",
+              color: "black",
               marginLeft: "5px",
-              marginBottom:"5px",
-              marginTop:"5px",
+              marginBottom: "5px",
+              marginTop: "5px",
+              borderBottom: "1px solid #fff",
+              clipPath: "polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%)",
+              fontWeight: "bold",
             }}
           />
           <Tab
             label=<FormattedMessage id="app.pastasOriente" />
             style={{
               backgroundColor: "#19C7AC",
-              color: "#fff",
-              borderRadius: "50px 50px 50px 50px",
+              color: "black",
+              //borderRadius: "50px 50px 50px 50px",
+              clipPath: "polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%)",
               marginLeft: "5px",
-              marginBottom:"5px",
-              marginTop:"5px",
+              marginBottom: "5px",
+              marginTop: "5px",
+              fontWeight: "bold",
             }}
           />
           <Tab
             label=<FormattedMessage id="app.especialidades" />
             style={{
               backgroundColor: "#199FC7",
-              color: "#fff",
-              borderRadius: "50px 50px 50px 50px",
+              color: "black",
+              //borderRadius: "50px 50px 50px 50px",
+              clipPath: "polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%)",
               marginLeft: "5px",
-              marginBottom:"5px",
-              marginTop:"5px",
+              marginBottom: "5px",
+              marginTop: "5px",
+              fontWeight: "bold",
             }}
           />
           <Tab
-           label=<FormattedMessage id="app.peques" />
+            label=<FormattedMessage id="app.peques" />
             //label="Péques"
             style={{
               backgroundColor: "#EAC029",
-              color: "#fff",
-              borderRadius: "50px 50px 50px 50px",
+              color: "black",
+              //borderRadius: "50px 50px 50px 50px",
+              clipPath: "polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%)",
               marginLeft: "5px",
-              marginBottom:"5px",
-              marginTop:"5px",
+              marginBottom: "5px",
+              marginTop: "5px",
+              fontWeight: "bold",
             }}
           />
           <Tab
@@ -131,11 +146,13 @@ const Specialite = () => {
             label=<FormattedMessage id="app.postres" />
             style={{
               backgroundColor: "#19C7AC",
-              color: "#fff",
-              borderRadius: "50px 50px 50px 50px",
+              color: "black",
+              //borderRadius: "50px 50px 50px 50px",
+              clipPath: "polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%)",
               marginLeft: "5px",
-              marginBottom:"5px",
-              marginTop:"5px",
+              marginBottom: "5px",
+              marginTop: "5px",
+              fontWeight: "bold",
             }}
           />
         </Tabs>
