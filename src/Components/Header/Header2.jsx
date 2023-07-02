@@ -18,7 +18,7 @@ const header2 = () => {
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} className="logo" alt={logo} />
-          <I18n></I18n>
+          
         </Navbar.Brand>
         {/* <Navbar.Brand><img src={logo} className='logo'  alt={logo}/></Navbar.Brand> */}
         <Navbar.Toggle>
@@ -53,7 +53,7 @@ const header2 = () => {
             </Nav.Link>
             <Nav.Link
               eventKey="3"
-              href="https://www.google.com/maps/dir/40.04365,-6.06593/gastro+bar+favorite/@40.0405937,-6.0837457,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd3e178eca5fed05:0xf13018a0bffa0458!2m2!1d-6.08123!2d40.03829"
+              href="https://www.google.com/maps/dir//C.+Juan+Loaisa,+2,+10600+Plasencia,+C%C3%A1ceres/@40.0382689,-6.1512699,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0xd3e178eca5fed05:0xf13018a0bffa0458!2m2!1d-6.08123!2d40.03829?entry=ttu"
               routerLinkActive="active"
             >
               {/* <i class="fa-sharp fa-solid fa-location-dot"></i> */}
@@ -129,6 +129,8 @@ const header2 = () => {
             <ShoppingCart fontSize="large"  color="primary"/>
             </Badge>
             </IconButton> */}
+            
+            <I18n></I18n>
           </Nav>
         </Navbar.Collapse>
       </Container>
