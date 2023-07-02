@@ -129,8 +129,10 @@ const header2 = () => {
             <ShoppingCart fontSize="large"  color="primary"/>
             </Badge>
             </IconButton> */}
+            <Nav.Link>
+               <I18n></I18n>
+            </Nav.Link>
             
-            <I18n></I18n>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -11,6 +11,8 @@ import { Button } from "@material-ui/core";
 
 import SendIcon from "@material-ui/icons/Send";
 import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 //import TextareaAutosize from "@mui/material/TextareaAutosize";
 
 const Reservas = () => {
@@ -20,8 +22,11 @@ const Reservas = () => {
   
   useEffect(() => {
     handleClickOpen()
-  }, [])
-  
+  }, []);
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -77,7 +82,7 @@ const Reservas = () => {
 
   return (
     <>
-      <div className="containers" >
+      <div className="containers" data-aos="fade-up">
       <Confirm open={open} handleClose={handleClose} />
         <section className="sectionFormReservas row">
           <div className="col-12 col-lg-6 my-auto d-none d-lg-block">
