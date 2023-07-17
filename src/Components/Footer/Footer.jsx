@@ -76,7 +76,7 @@ export default function App() {
 
               <p>
                 <MDBIcon icon="phone" className="me-3" color="white"/>
-                <a href="tel:+34618932661" className="mdbicon">&nbsp;+ 34 691 487 362</a>
+                <a href="tel:+34618932661" className="mdbicon">&nbsp;+ 34 618 932 661</a>
                 {/* <br /> */}
                 {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="tel:+34691487362">+ 34 618 932 661</a> */}
@@ -84,13 +84,13 @@ export default function App() {
               <p>
               <MDBIcon color="white" fab icon="whatsapp" size='1x'/>
                 <a
-                  href="https://wa.me/+34691487362"
+                  href="https://wa.me/+34618932661"
                   class="whatsapp_float"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mdbicon"
                 >
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ 34 691 487 362
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ 34 618 932 661
                 </a>
                 {/* <a href="https://wa.me/+34618932661" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ 34 618 932 661

@@ -21,7 +21,6 @@ export const SWContextProvider = ({ children }) => {
     fetchGalery();
   }, []);
 
-  console.log(galeria,'galeria')
   useEffect(() => {
     const fetchPlatos = async () => {
       const res = await axios.get(`${BASEURL}/favoritPlatos`);

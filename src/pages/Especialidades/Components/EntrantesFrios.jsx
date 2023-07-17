@@ -32,7 +32,8 @@ const EntrantesFrios = ({entrantesFrios}) => {
     {/* <Box sx={{ flexGrow: 1 }}> */}
     <Grid container spacing={2}>
       {entrantesFrios.map((item) => (
-        <Grid item xs={12} md={6} lg={4}>
+        
+        <Grid item xs={12} md={6} lg={4} key={item.id}>
           <Card
             elevation={5}
             sx={{
@@ -60,6 +61,7 @@ const EntrantesFrios = ({entrantesFrios}) => {
                   <MoreVertIcon />
                 </IconButton>
               }
+              key={item.id}
               title=<FormattedMessage id={item.title} />
               // subheader=
               // <Badge bg="primary" text="bold">

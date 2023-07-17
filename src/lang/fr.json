@@ -1,15 +1,80 @@
 {
-    "app.contact": "Contact",
-    "app.projects": "Projets",
-    "app.text": "Merci d'utiliser le portail de réservation du Gastro Bar Favorit. Dans un instant, vous recevrez un e-mail confirmant la réception de votre réservation. Par la suite, nous vous enverrons un second e-mail pour confirmer officiellement votre réservation. Si vous ne recevez pas la confirmation de réservation, nous vous recommandons de réessayer car il pourrait y avoir eu une erreur. Nous sommes ravis de vous accueillir et nous sommes impatients de vous offrir une expérience gastronomique inoubliable. À bientôt !",
-    "app.alert":"Découvrez mes projets et téléchargez mon cv",
-    "app.mail":"E-mail",
-    "app.name":"Nom",
-    "app.comments": "Commentaires",
+    "app.contact": "contact",
+    "app.textHome": "Nous sommes un gastrobar innovant, nous offrons les meilleurs services pour tous les types de clients. Cuisine traditionnelle, occidentale et orientale. Nous avons des menus pour coeliaques et végétariens. Vous pouvez également profiter de notre délicieux café, vin, boissons et notre délicieuse bière, avec votre famille et vos amis.",
+    
+    "app.gallery": "Galeri",    
+    "app.especialidades":"Spécialités",
+    "app.localizacion":"Emplacement",
+    "app.reservas":"Réservations",
+    "app.horario":"Calendrier",
+    "app.ofertaNavidad":"Offre de Noël",
+    "app.carta":" Cartes",
+    "app.celiaco":" Coeliaque",
+    "app.vegetariana":"Végétarien",
+    "app.cerveza":"Biéres",
+    "app.vino":"Vins",
+    "app.diners":"Dîners",
+    "app.message.swal":"Pour les groupes de plus de 10 personnes vérifier la disponibilité par téléphone",
+
+
+    "app.mail":"E-mail*",
+    "app.name":"Nom*",
+    "app.comments": "Coeliaque",
+    "app.tlf": "Téléphone *",
+    "app.fecha": "Date de réservation *",
+    "app.comensales": "Nombre de convives *",
     "app.send": "Envoyer",
     "app.home": "Début",
-    "app.header": "Développeur Full Stack",    
-    "app.footer":"Rejoignez-nous sur les réseaux sociaux",
-    "app.form":"Remplissez notre formulaire de réservation en ligne et vivez l'expérience Santa Ana en quelques clics. Une fois la demande reçue, nous vous contacterons pour confirmer les détails de la réservation."
+    
+    "app.footer":"Suivez-nous sur les réseaux sociaux.",
+    
+    
+    
+    "app.lunes":"Lundi",
+    "app.martesJueves":"Mardi-Jeudi",
+    "app.closed": "Fermé",
+    "app.viernesDomingo":"Vendredi-Dimanche",
+    "app.y":"et",
+    "app.cierre":"à la fermeture",
+    
+    "app.reservar":"Reserver",
+    "app.condiciones":"Conditions légales",
+    "app.texto":"Merci d'utiliser le portail de réservation Gastro Bar Favorit. Vous recevrez sous peu un e-mail confirmant la réception de votre réservation. Par la suite, nous vous enverrons un deuxième courriel pour confirmer officiellement votre réservation. Si vous ne recevez pas la confirmation de réservation, nous vous suggérons de réessayer, car il se peut qu'il y ait eu une erreur. Nous sommes ravis de vous accueillir et espérons vous faire vivre une expérience gastronomique inoubliable. À bientôt!",
+    "app.aceptar":"Accepter",
+    "app.mensajeError":"Pour les réservations de plus de 10 convives, vérifiez les disponibilités par téléphone. Merci",
+    "app.a":"a",
+    "app.plaza":"Place Juan de Loaissa",
 
-    }
+
+    "app.ensalada.favorit":"Salade Favorit",
+    "app.receta.favorit":"Mézclum de laitue, noix, lardons croustillants, fromage de chèvre et notre vinaigrette maison aux framboises",
+
+    "app.ensalada.cesar":"Salade César au poulet",
+    "app.receta.cesar":"Mélange de laitue, poitrine de poulet, bacon croustillant, copeaux de parmesan et notre sauce césar maison",
+
+    "app.bacalaropiquillos":"Cabillaud à l'oli oli de Piquillos",
+    "app.receta.bacalaopiquillos":"Filet de cabillaud à l'aïoli au piquillo, sur pommes de terre et confit d'oignons",
+
+    "app.huevosconfoie": "Oeufs au foie",
+    "app.receta.huevosconfoie":"Oeufs brouillés aux cèpes et ail confit, tranches de foie gras et jambon Serrano",
+
+    "app.solomillocerdosalsasetas": "Filet de porc à la sauce aux champignons",
+    "app.receta.solomillocerdosalsasetas":"Filet de porc à la sauce aux champignons",
+
+    "app.pollotikka": "Poulet Tikka Masala",
+    "app.receta.pollotikka":"Cubes de poulet sauce tikka masala, lait de coco, ananas et banane sur lit de riz basmati et sésame",
+
+    "app.entrantesfrios" : "Entrées froides",
+    "app.entrantescalientes": "Entrées chaudes",
+    "app.pastasOccidente": "Pastas de Occidente",
+    "app.pastasOriente": "pâtes occidentales",
+    "app.carnes": " Nuestras Carnes",
+    "app.peques": "Pour les petits",
+    "app.postres": "Desserts"
+
+
+
+
+
+    
+  }

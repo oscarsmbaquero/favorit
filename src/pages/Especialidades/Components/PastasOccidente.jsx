@@ -28,7 +28,7 @@ const PastasOccidente = ({pastasOccidente}) => {
     {/* <Box sx={{ flexGrow: 1 }}> */}
     <Grid container spacing={2}>
       {pastasOccidente.map((item) => (
-        <Grid item xs={12} md={6} lg={4}>
+        <Grid item xs={12} md={6} lg={4} key={item.id}>
           <Card
             elevation={5}
             sx={{
