@@ -1,26 +1,31 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { ContextI18n } from "../../App";
 import { Avatar, IconButton, MenuItem, Select } from "@mui/material";
-import spainFlag from "../../assets/banderas/spain2.png";
+import spainFlag from "../../assets/banderas/spain.png";
 import englishFlag from "../../assets/banderas/english.jpg";
 import frenchFlag from "../../assets/banderas/french.png";
+import "./I18n.scss";
 import { styled } from "@mui/material/styles";
+
+const WhiteLabel = ({ children }) => (
+  <label className="white-label">{children}</label>
+);
 
 const I18n = () => {
   const { locale, selectLanguage } = useContext(ContextI18n);
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleLanguageChange = (event) => {
     selectLanguage(event.target.value);
   };
-  const WhiteLabel = styled("label")({
-    color: "black",
-    padding:"5px"
-  });
-  const SmallAvatar = styled(Avatar)(({ theme }) => ({
-    width: theme.spacing(2),
-    height: theme.spacing(2),
-    borderRadius: 0,
-  }));
+
+  const handleOpen = () => {
+    setIsOpen(true);
+  };
+
+  const handleClose = () => {
+    setIsOpen(false);
+  };
 
   const languageOptions = [
     { value: "es-ES", label: "Español", flag: spainFlag },
@@ -28,14 +33,33 @@ const I18n = () => {
     { value: "fr", label: "Français", flag: frenchFlag },
   ];
 
+  const RectangularAvatar = styled(Avatar)({
+    borderRadius: 0,
+    width:"15px",
+    height:"12px",
+  });
+  
+
   return (
     <div className="i18n">
-      <Select value={locale} onChange={handleLanguageChange}>
+      <Select
+        value={locale}
+        onChange={handleLanguageChange}
+        open={isOpen}
+        onOpen={handleOpen}
+        onClose={handleClose}
+        inputProps={{ "aria-label": "language" }}
+        className="black-select"
+      >
         {languageOptions.map((option) => (
           <MenuItem key={option.value} value={option.value}>
             <IconButton>
-            <SmallAvatar src={option.flag} alt={option.label} />
               {/* <Avatar src={option.flag} alt={option.label} /> */}
+              <RectangularAvatar
+                src={option.flag}
+                alt={option.label}
+                className="flag-avatar"
+              />
             </IconButton>
             <WhiteLabel>{option.label}</WhiteLabel>
           </MenuItem>
@@ -46,6 +70,7 @@ const I18n = () => {
 };
 
 export default I18n;
+
 
 // import { Avatar, IconButton } from "@mui/material";
 // import React, { useContext } from "react";

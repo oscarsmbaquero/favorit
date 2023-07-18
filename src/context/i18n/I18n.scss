@@ -23,3 +23,16 @@
     height: 15px;
     border-radius: 4px;
 }
+
+.i18n .black-select {
+    background-color: black;
+    color: white;
+  
+    & > div {
+      color: white;
+    }
+  }
+  .flag-avatar {
+    width: 24px;
+    height: 16px;
+  }
