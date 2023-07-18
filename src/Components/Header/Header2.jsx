@@ -24,7 +24,9 @@ const header2 = () => {
         </Navbar.Toggle>
         <Navbar.Collapse>
           <Nav className="ml-auto">
-            <Nav.Link as={Link} eventKey="0" to={"/"} routerLinkActive="active">
+            <Nav.Link as={Link} eventKey="0" to={"/"} 
+           // routerLinkActive="active"
+           >
               &nbsp;
               <FormattedMessage id="app.home" />
             </Nav.Link>
@@ -32,7 +34,7 @@ const header2 = () => {
               as={Link}
               eventKey="2"
               to={"/especialidades"}
-              routerLinkActive="active"
+              //routerLinkActive="active"
             >
               &nbsp;
               <FormattedMessage id="app.especialidades" />
@@ -40,7 +42,7 @@ const header2 = () => {
             <Nav.Link
               eventKey="3"
               href="https://www.google.com/maps/dir//C.+Juan+Loaisa,+2,+10600+Plasencia,+C%C3%A1ceres/@40.0382689,-6.1512699,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0xd3e178eca5fed05:0xf13018a0bffa0458!2m2!1d-6.08123!2d40.03829?entry=ttu"
-              routerLinkActive="active"
+              //routerLinkActive="active"
             >
               &nbsp;
               <FormattedMessage id="app.localizacion" />
@@ -49,7 +51,7 @@ const header2 = () => {
               as={Link}
               eventKey="4"
               to={"/reservas"}
-              routerLinkActive="active"
+              //routerLinkActive="active"
             >
               &nbsp;
               <FormattedMessage id="app.reservas" />
