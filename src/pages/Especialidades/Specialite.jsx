@@ -46,15 +46,12 @@ const Specialite = () => {
           variant="scrollable"
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
-          
-          //centered
         >
           <Tab
             label=<FormattedMessage id="app.entrantesfrios" />
             style={{
               backgroundColor: "#EAC029",
               color: "black",
-              //borderRadius: "50px 0px 0px 0px",
               clipPath: "polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%)",
               marginLeft: "5px",
               marginBottom: "5px",

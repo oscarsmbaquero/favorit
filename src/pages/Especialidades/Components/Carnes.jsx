@@ -25,7 +25,6 @@ import logo from "../../../assets/images/logoFavorit.jpeg";
 const Carnes = ({carnes}) => {
   return (
     <div>
-    {/* <Box sx={{ flexGrow: 1 }}> */}
     <Grid container spacing={2}>
       {carnes.map((item) => (
         <Grid item xs={12} md={6} lg={4} key={item.id}>
@@ -57,14 +56,9 @@ const Carnes = ({carnes}) => {
                 </IconButton>
               }
               title=<FormattedMessage id={item.title} />
-              // subheader=
-              // <Badge bg="primary" text="bold">
-              //   {item.price}&nbsp;€
-              // </Badge>
             />
             <CardMedia
               component="img"
-              //height="450"
               image={item.image}
               alt="Ensalada Favorit"
             />

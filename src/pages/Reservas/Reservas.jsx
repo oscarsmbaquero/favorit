@@ -3,13 +3,13 @@ import "./Reservas.scss";
 import emailjs from "@emailjs/browser";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
-import logo from "../../assets/images/logoF.png";
+//import logo from "../../assets/images/logoF.png";
 import fondo from "../../assets/images/logo2.jpeg";
 import Confirm from "../../core/ConfirmDialog/Confirm";
 import { FormattedMessage } from "react-intl";
-import { Button } from "@material-ui/core";
+//import { Button } from "@material-ui/core";
 
-import SendIcon from "@material-ui/icons/Send";
+//import SendIcon from "@material-ui/icons/Send";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -36,11 +36,6 @@ const Reservas = () => {
     setOpen(false);
 
   };
-
-  // const sendMail2 =(e)=>{
-  //   e.preventDefault();
-  //   console.log('Entro2')
-  // }
   const sendMail = (e) => {
     e.preventDefault();
     console.log('Entro')  
@@ -90,7 +85,6 @@ const Reservas = () => {
           </div>
           <div className="col-12 col-lg-6 my-auto">
             <form  className="form" onSubmit={sendMail}>
-              {/* <img className="logoReservas1" src={logo} alt="logo"></img> */}
               <br />
               <div className="d-flex flex-column flex-md-row">
                 <div className="d-flex flex-column col-11 col-md-6">
@@ -122,7 +116,6 @@ const Reservas = () => {
                     className="form-control"
                     type="text"
                     name="telefono"
-                    //placeholder="Nombre"
                   />
                 </div>
               </div>
@@ -155,28 +148,9 @@ const Reservas = () => {
                     className="form-control"
                     name="comentarios"
                   ></textarea>
-                  {/* <TextareaAutosize
-                    name="comentarios"
-                    placeholder="Comentarios"
-                    maxRows={4}
-                    aria-label="maximum height"
-                    style={{ width: 200 }}
-                  /> */}
                 </div>
               </div>
               <br />
-              {/* <Button
-                variant="contained"
-                type="submit"
-                endIcon={<SendIcon />}
-                style={{
-                  borderRadius: 50,
-                  backgroundColor: "black",
-                  color: "white",
-                }}
-              >
-                Reservar
-              </Button> */}
               <button class="btn-13"><span>Reservar</span></button>
             </form>
           </div>
