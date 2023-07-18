@@ -43,7 +43,7 @@ const I18n = () => {
   return (
     <div className="i18n">
       <Select
-        value={locale}
+        value={locale || 'es'}
         onChange={handleLanguageChange}
         open={isOpen}
         onOpen={handleOpen}

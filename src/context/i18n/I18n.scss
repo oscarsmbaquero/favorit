@@ -25,11 +25,14 @@
 }
 
 .i18n .black-select {
-    background-color: black;
+    //background-color: black;
     color: white;
   
     & > div {
       color: white;
+      & svg {
+        color: white; // Establecer el color de la flecha
+      }
     }
   }
   .flag-avatar {
