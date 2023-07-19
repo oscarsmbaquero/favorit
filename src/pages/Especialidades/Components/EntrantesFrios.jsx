@@ -57,6 +57,7 @@ const EntrantesFrios = ({ entrantesFrios }) => {
                 justifyContent: "flex-start",
                 flex: "1 0 auto",
                 margin: "20px",
+                
                 flexDirection: "column",
                 flexWrap: "wrap",
                 ":hover": {
