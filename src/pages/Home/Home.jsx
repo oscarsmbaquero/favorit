@@ -20,12 +20,23 @@ const Home = () => {
   return (
     <>
       <Gallery/>
-      <div className="home">
+      {/* <div className="home"> */}
         {/* <Alert/> */}
         {/* <img className="home__logo" src={logo} alt="logo"></img> */}
-        <p>
+        <div class="star-wars-intro">
+        {/* <h2 class="main-logo"></h2> */}
+        {/* <p class="intro-text"></p> */}
+        <div class="main-content">
+          <div class="title-content">
+            {/* <h1 class="content-body"> */}
+            <FormattedMessage id="app.textHome"/>
+            {/* </h1> */}
+          </div>
+        </div>
+      {/* </div> */}
+        {/* <p>
           <FormattedMessage id="app.textHome" />
-        </p>
+        </p> */}
         {/* <div style={{ height: "100%", width: "100%" }}>
           <Parallax
             strength={500}
