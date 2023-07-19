@@ -20,57 +20,23 @@ const Home = () => {
   return (
     <>
       <Gallery/>
-      {/* <div className="home"> */}
-        {/* <Alert/> */}
-        {/* <img className="home__logo" src={logo} alt="logo"></img> */}
-        <div class="star-wars-intro">
-        {/* <h2 class="main-logo"></h2> */}
-        {/* <p class="intro-text"></p> */}
+      
+        {/* <div class="star-wars-intro">
         <div class="main-content">
           <div class="title-content">
-            {/* <h1 class="content-body"> */}
             <FormattedMessage id="app.textHome"/>
-            {/* </h1> */}
           </div>
-        </div>
+        </div> */}
       {/* </div> */}
+      <div className="home">
+      <p>
+          <FormattedMessage id="app.textHome" />
+        </p>
+       </div>
         {/* <p>
           <FormattedMessage id="app.textHome" />
         </p> */}
-        {/* <div style={{ height: "100%", width: "100%" }}>
-          <Parallax
-            strength={500}
-            // blur={{ min: -8, max: 5 }}
-            bgImage={alhambra}
-            style={{             
-              backgroundize:'cover',
-              backgroundPosition:'center',
-              height: "600px",
-            }}
-          >
-            <div style={{ height: "100%", width: "100%" }}>
-              <div className="contenido">
-                <img src={logoAlhambra} alt="logo" className="logo"></img>
-              </div>
-            </div>
-          </Parallax>
-          <Parallax
-            strength={500}
-            //blur={{ min: -5, max: 5 }}
-            bgImage={museum}
-            style={{             
-              width: "100vw",
-              height: "1350px",
-            }}
-          >
-            <div style={{ height: "100vh" }}>
-              <div className="contenido">
-                <img src={logoMuseum} alt="logo" className="logo"></img>
-              </div>
-            </div>
-          </Parallax>
-        </div> */}
-      </div> 
+      {/* </div>  */}
     </>
   );
 };
