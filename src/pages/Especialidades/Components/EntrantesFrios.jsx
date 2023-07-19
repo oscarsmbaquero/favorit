@@ -1,5 +1,5 @@
 //import { IconButton } from '@mui/material'
-import React from "react";
+import React, { useEffect } from "react";
 import Card from "@mui/material/Card";
 import { Grid } from "@material-ui/core";
 import CardHeader from "@mui/material/CardHeader";
@@ -22,6 +22,8 @@ import logo from "../../../assets/images/logoFavorit.jpeg";
 import { useState } from "react";
 //import FavoriteIcon from '@material-ui/icons/Favorite';
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const EntrantesFrios = ({ entrantesFrios }) => {
   const [isFavorite, setIsFavorite] = useState(false);
@@ -29,6 +31,9 @@ const EntrantesFrios = ({ entrantesFrios }) => {
   function getRandomInt(max) {
     return Math.floor(Math.random() * max);
   }
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
 
   const onclickAddFavorite = () => {
     // Lógica para agregar a favoritos
@@ -36,17 +41,13 @@ const EntrantesFrios = ({ entrantesFrios }) => {
     console.log("Agregado a favoritos");
   };
 
-  // const buttonStyle = {
-  //   fill: isFavorite ? "#D81D0A" : "#FFFFFF",
-  //   border: isFavorite ? "1px solid #000000" : "none",
-  // };
-
   return (
-    <div>
-      {/* <Box sx={{ flexGrow: 1 }}> */}
+    <div data-aos="fade-left">
       <Grid container spacing={2}>
-        {entrantesFrios.map((item) => (
-          <Grid item xs={12} md={6} lg={4} key={item.id}>
+        {entrantesFrios.map((item,index) => (
+          <Grid item xs={12} md={6} lg={4} key={item.id}
+          data-aos={index % 2 === 0 ? "fade-left" : "fade-right"} // Alternar la dirección de la animación
+          >
             <Card
               elevation={5}
               sx={{
@@ -64,7 +65,6 @@ const EntrantesFrios = ({ entrantesFrios }) => {
               <CardHeader
                 avatar={
                   <Avatar
-                    // sx={{ bgcolor: red[500] }}
                     aria-label="recipe"
                     src={logo}
                   ></Avatar>
@@ -76,10 +76,6 @@ const EntrantesFrios = ({ entrantesFrios }) => {
                 }
                 key={item.id}
                 title=<FormattedMessage id={item.title} />
-                // subheader=
-                // <Badge bg="primary" text="bold">
-                //   {item.price}&nbsp;€
-                // </Badge>
               />
               <CardMedia
                 component="img"
@@ -107,14 +103,13 @@ const EntrantesFrios = ({ entrantesFrios }) => {
                   <MDBIcon fas icon="star" />
                   <MDBIcon fas icon="star" />
                   <MDBIcon fas icon="star" />
-                  <span className="text-black mx-2">{getRandomInt(65)}</span>
+                  <span className="text-black mx-2">{getRandomInt(65)|| 2 } </span>
                 </div>
               </CardActions>
             </Card>
           </Grid>
         ))}
       </Grid>
-      {/* </Box>  */}
     </div>
   );
 };

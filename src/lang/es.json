@@ -80,8 +80,10 @@
     "app.pastasOriente": "Pastas de Oriente",
     "app.carnes": " Nuestras Carnes",
     "app.peques": "Para los peques",
-    "app.postres": "Postres"
+    "app.postres": "Postres",
 
+    "app.hamburguesa.mini":"Hamburguesa Mini",
+    "app.receta.hamburguesa.mini":"Mini Hamburguesa con patatas fritas"
 
 
 

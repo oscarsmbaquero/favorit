@@ -79,9 +79,10 @@
     "app.pastasOriente": "pâtes occidentales",
     "app.carnes": " Nuestras Carnes",
     "app.peques": "Pour les petits",
-    "app.postres": "Desserts"
+    "app.postres": "Desserts",
 
-
+    "app.hamburguesa.mini":"Hamburguesa Mini",
+    "app.receta.hamburguesa.mini":"Mini burger avec frites"
 
 
 

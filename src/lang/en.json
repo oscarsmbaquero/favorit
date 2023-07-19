@@ -78,5 +78,11 @@
   "app.pastasOriente": "Pasta from the Orient",
   "app.carnes": "Meats",
   "app.peques": "Children's Letter",
-  "app.postres": "Desserts"
-  }
+  "app.postres": "Desserts",
+
+  "app.hamburguesa.mini":"Mini Burguer",
+  "app.receta.hamburguesa.mini":"Mini burger with fries"
+
+
+
+}
