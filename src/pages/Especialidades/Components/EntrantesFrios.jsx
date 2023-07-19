@@ -69,11 +69,11 @@ const EntrantesFrios = ({ entrantesFrios }) => {
                     src={logo}
                   ></Avatar>
                 }
-                action={
-                  <IconButton aria-label="settings">
-                    <MoreVertIcon />
-                  </IconButton>
-                }
+                // action={
+                //   <IconButton aria-label="settings">
+                //     <MoreVertIcon />
+                //   </IconButton>
+                // }
                 key={item.id}
                 title=<FormattedMessage id={item.title} />
               />
@@ -81,7 +81,7 @@ const EntrantesFrios = ({ entrantesFrios }) => {
                 component="img"
                 //height="450"
                 image={item.image}
-                alt="Ensalada Favorit"
+                //alt=<FormattedMessage id={item.title} />
               />
               <CardContent>
                 <Typography variant="body2" color="text.secondary">
