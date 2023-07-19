@@ -1,6 +1,6 @@
 
 //import { IconButton } from '@mui/material'
-import React from 'react';
+import React, { useEffect } from 'react';
 import Card from "@mui/material/Card";
 import { Grid } from "@material-ui/core";
 import CardHeader from "@mui/material/CardHeader";
@@ -20,21 +20,30 @@ import { AddShoppingCart } from "@material-ui/icons";
 import { MDBIcon } from "mdb-react-ui-kit";
 import { FormattedMessage } from "react-intl";
 import logo from "../../../assets/images/logoFavorit.jpeg";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Entrantescalientes = ({entrantesCalientes}) => {
   
   /*Funcion Random para pintar el nuemro de reseñas*/ 
   function getRandomInt(max) {
     return Math.floor(Math.random() * max);
+
   }
+
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
+
 
   return (
     <div>
     {/* <Box sx={{ flexGrow: 1 }}> */}
     <Grid container spacing={2}>
-      {entrantesCalientes.map((item) => (
-        <Grid item xs={12} md={4} lg={4} key={item.id}>
+      {entrantesCalientes.map((item,index) => (
+        <Grid item xs={12} md={4} lg={4} key={item.id}
+        data-aos={index % 2 === 0 ? "fade-left" : "fade-right"} // Alternar la dirección de la animación
+        >
           <Card
             elevation={5}
             sx={{
@@ -46,7 +55,9 @@ const Entrantescalientes = ({entrantesCalientes}) => {
               flexWrap: "wrap",
               ":hover": {
                 boxShadow: 20, // theme.shadows[20]
+                
               },
+              border: "1px solid rgb(226, 178, 19)",
             }}
           >
             <CardHeader
@@ -57,11 +68,11 @@ const Entrantescalientes = ({entrantesCalientes}) => {
                   src={logo}
                 ></Avatar>
               }
-              action={
-                <IconButton aria-label="settings">
-                  <MoreVertIcon />
-                </IconButton>
-              }d
+              // action={
+              //   <IconButton aria-label="settings">
+              //     <MoreVertIcon />
+              //   </IconButton>
+              // }d
               title=<FormattedMessage id={item.title} />
               // subheader=
               // <Badge bg="primary" text="bold">
@@ -72,14 +83,14 @@ const Entrantescalientes = ({entrantesCalientes}) => {
               component="img"
               //height="450"
               image={item.image}
-              alt="Ensalada Favorit"
+              //alt="Ensalada Favorit"
             />
             <CardContent>
               <Typography variant="body2" color="text.secondary">
               <FormattedMessage id={item.descripcion}/>
               </Typography>
             </CardContent>
-            <CardActions disableSpacing
+            {/* <CardActions disableSpacing
               sx={{justifyContent:'space-between'}}
               >
                 <IconButton aria-label="add to favorites">
@@ -92,7 +103,7 @@ const Entrantescalientes = ({entrantesCalientes}) => {
                   <MDBIcon fas icon="star" />
                   <span className="text-black mx-2">{getRandomInt(65)}</span>
                 </div>
-              </CardActions>
+              </CardActions> */}
           </Card>
         </Grid>
       ))}

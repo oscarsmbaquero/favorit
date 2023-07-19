@@ -45,7 +45,6 @@
     "app.a":"a",
     "app.plaza":"Plaza Juan de Loaissa",
 
-
     "app.ensalada.favorit":"Ensalada Favorit",
     "app.receta.favorit":"Mézclum de lechugas, nueces, bacón crujiente, queso de cabra y nuestra vinagreta casera de frambuesa",
 
@@ -61,12 +60,22 @@
     "app.carpaccio.ternera":"Carpaccio de ternera",
     "app.receta.carpaccio.ternera":"Finas capas de carne de ternera cruda(previamente congelada) con aceite de albahaca y las cascas de parmesano",
 
+    "app.sinfoniaFoie":"Sinfonia Templada de Foie",
+    "app.receta.sinfoniaFoie":"milhojas de micuit de foie, manzana caramelizada en su punto de azúcar de caña, queso de cabra  y rapsodia caramelizada",
+
+    "app.huevosconfoie": "Huevos con Foie",
+    "app.receta.huevosconfoie":"Revuelto de boletus y ajos confitados, lascas de foie y jamón serrano",
+
 
     "app.bacalaropiquillos":"Bacalao con ali oli de Piquillos",
     "app.receta.bacalaopiquillos":"Lomito de bacalao con alioli de piquillos, sobre patatas y cebolla confitada",
 
-    "app.huevosconfoie": "Huevos con Foie",
-    "app.receta.huevosconfoie":"Revuelto de boletus y ajos confitados, lascas de foie y jamón serrano",
+    "app.milhojasPatatas":"Milhojas de patatas con queso y bacón crujiente",
+    "app.receta.milhojasPatatas":"Patatas fritas con bacon y salsa cesar casera, gratinada al horno con queso gouda",
+
+    "app.kinchi":"",
+    "app.receta.kinchi":"",
+    
 
     "app.solomillocerdosalsasetas": "Solomillo de cerdo con salsa de setas",
     "app.receta.solomillocerdosalsasetas":"Solomillo de cerdo con salsa de setas",

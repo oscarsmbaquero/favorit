@@ -78,7 +78,7 @@ function App() {
                   <Header2 />
                   <CookieConsent
                     location="bottom"
-                    buttonText="OK!!"
+                    buttonText="Aceptar"
                     cookieName="myAwesomeCookieName2"
                     style={{ background: "#2B373B" }}
                     buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
