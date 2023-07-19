@@ -24,6 +24,8 @@ import { useState } from "react";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { faBold } from "@fortawesome/free-solid-svg-icons";
+import { Bolt } from "@mui/icons-material";
 
 const EntrantesFrios = ({ entrantesFrios }) => {
   const [isFavorite, setIsFavorite] = useState(false);
@@ -60,6 +62,7 @@ const EntrantesFrios = ({ entrantesFrios }) => {
                 ":hover": {
                   boxShadow: 20, // theme.shadows[20]
                 },
+                border: "1px solid rgb(226, 178, 19)",
               }}
             >
               <CardHeader
@@ -84,11 +87,11 @@ const EntrantesFrios = ({ entrantesFrios }) => {
                 //alt=<FormattedMessage id={item.title} />
               />
               <CardContent>
-                <Typography variant="body2" color="text.secondary">
+                <Typography variant="body3" color="text.primary">
                   <FormattedMessage id={item.descripcion} />
                 </Typography>
               </CardContent>
-              <CardActions
+              {/* <CardActions
                 disableSpacing
                 sx={{ justifyContent: "space-between" }}
               >
@@ -105,7 +108,7 @@ const EntrantesFrios = ({ entrantesFrios }) => {
                   <MDBIcon fas icon="star" />
                   <span className="text-black mx-2">{getRandomInt(65)|| 2 } </span>
                 </div>
-              </CardActions>
+              </CardActions> */}
             </Card>
           </Grid>
         ))}
