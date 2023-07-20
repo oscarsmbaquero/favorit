@@ -102,8 +102,13 @@
   "app.postres": "Desserts",
 
   "app.hamburguesa.mini":"Mini Burguer",
-  "app.receta.hamburguesa.mini":"Mini burger with fries"
+  "app.receta.hamburguesa.mini":"Mini burger with fries",
+  
+  "app.hamburguesa.parisien":"Parisian Burger",
+  "app.receta.hamburguesa.parisien":"100% national beef burger, mayonnaise, lettuce, tomato, pickles, onion, cheddar cheese and bacon",
 
+  "app.hamburguesa.favorit":"Favorit Burger",
+  "app.receta.hamburguesa.favorit":"100% national beef burger with goat cheese"
 
 
 }

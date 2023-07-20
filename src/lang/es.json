@@ -92,6 +92,14 @@
     "app.kinchi":"",
     "app.receta.kinchi":"",
     
+    "app.hamburguesa.mini":"Hamburguesa Mini",
+    "app.receta.hamburguesa.mini":"Mini Hamburguesa con patatas fritas",
+
+    "app.hamburguesa.parisien":"Hamburguesa Parisien",
+    "app.receta.hamburguesa.parisien":"Hamburguesa 100% de vacuno nacional, mahonesa, lechuga,tomate, pepinillos, cebolla, queso chedar y bacón",
+
+    "app.hamburguesa.favorit":"Hamburguesa Favorit",
+    "app.receta.hamburguesa.favorit":"Hamburguesa 100% de vacuno nacional, con queso de cabra",
 
     "app.solomillocerdosalsasetas": "Solomillo de cerdo con salsa de setas",
     "app.receta.solomillocerdosalsasetas":"Solomillo de cerdo con salsa de setas",
@@ -105,10 +113,9 @@
     "app.pastasOriente": "Pastas de Oriente",
     "app.carnes": " Nuestras Carnes",
     "app.peques": "Para los peques",
-    "app.postres": "Postres",
+    "app.postres": "Postres"
 
-    "app.hamburguesa.mini":"Hamburguesa Mini",
-    "app.receta.hamburguesa.mini":"Mini Hamburguesa con patatas fritas"
+    
 
 
 
