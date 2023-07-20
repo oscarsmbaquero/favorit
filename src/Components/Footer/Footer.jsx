@@ -44,9 +44,9 @@ export default function App() {
       <section className="">
         <MDBContainer className="text-center text-md-start mt-5">
           <MDBRow className="mt-3">
-            <MDBCol md="2" lg="2" xl="2" className='mx-auto my-4'>
+            {/* <MDBCol md="2" lg="2" xl="2" className='mx-auto my-4'>
               <img src={logo} className='logos'  alt={logo}/>
-            </MDBCol>
+            </MDBCol> */}
             <MDBCol md="4" lg="4" xl="6" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4 text-muted">
               <FormattedMessage id="app.horario"/>
