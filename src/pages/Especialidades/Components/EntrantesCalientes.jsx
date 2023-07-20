@@ -86,7 +86,7 @@ const Entrantescalientes = ({entrantesCalientes}) => {
               //alt="Ensalada Favorit"
             />
             <CardContent>
-              <Typography variant="body2" color="text.secondary">
+              <Typography variant="body2" color="text.primary">
               <FormattedMessage id={item.descripcion}/>
               </Typography>
             </CardContent>
