@@ -108,7 +108,14 @@
   "app.receta.hamburguesa.parisien":"100% national beef burger, mayonnaise, lettuce, tomato, pickles, onion, cheddar cheese and bacon",
 
   "app.hamburguesa.favorit":"Favorit Burger",
-  "app.receta.hamburguesa.favorit":"100% national beef burger with goat cheese"
+  "app.receta.hamburguesa.favorit":"100% national beef burger with goat cheese",
+
+  "app.entrecot.parrilla":"Grilled entrecote and Gorgonzola cheese sauce",
+  "app.receta.entrecot.parrilla":"Grilled entrecote and Gorgonzola cheese sauce",
+  "app.entrecot.micuit":"Entrecote with foie micuit and PX reduction",
+  "app.receta.entrecot.micuit":"Entrecote with foie micuit and PX reduction",
+  "app.solomillo.cerdo":"Pork tenderloin with foie mousse",
+  "app.receta.solomillo.cerdo":"Pork tenderloin with foie mousse"
 
 
 }

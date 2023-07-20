@@ -1,50 +1,178 @@
 [
   {
-    "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1669151422/samples/huevosFoie_i2bstx.jpg",
-    "title": "app.ensalada.favorit",
-    "descripcion": "app.receta.favorit",
-    "id": "1",
-    "price": "12.95",
-    "tipo": "caliente"
+   "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1689767630/samples/ensaladaCesar_yqgfhq.png",
+   "title": "app.ensalada.cesar",
+   "descripcion": "app.receta.cesar",
+   "id": "1",
+   "price": "12.95",
+   "tipo": "frio"
   },
   {
-    "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1669151421/samples/ensaladaCesar_l54dmj.jpg",
-    "title": "app.ensalada.cesar",
-    "descripcion": "app.receta.cesar",
-    "id": "2",
-    "price": "11.95",
-    "tipo": "frio"
+   "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1689765032/samples/hamburguesa1_o5qkob.jpg",
+   "title": "app.hamburguesa.parisien",
+   "descripcion": "app.receta.hamburguesa.parisien",
+   "id": "18",
+   "price": "11.95",
+   "tipo": "carnes"
   },
   {
-    "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1669151421/samples/bacalaoPiquillo_fcytcu.jpg",
-    "title": "app.bacalaropiquillos",
-    "descripcion": "app.receta.bacalaopiquillos",
-    "id": "3",
-    "price": "14.95",
-    "tipo": "especialidad"
+   "image": "",
+   "title": "app.hamburguesa.favorit",
+   "descripcion": "app.receta.hamburguesa.favorit",
+   "id": "19",
+   "price": "11.95",
+   "tipo": "carnes"
   },
   {
-    "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1669151422/samples/huevosFoie_i2bstx.jpg",
-    "title": "app.huevosconfoie",
-    "descripcion": "app.receta.huevosconfoie",
-    "id": "4",
-    "price": "12.95",
-    "tipo": "caliente"
+   "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1669151421/samples/ensaladaFavorit_tf0i3r.jpg",
+   "title": "app.ensalada.favorit",
+   "descripcion": "app.receta.favorit",
+   "id": "2",
+   "price": "12.95",
+   "tipo": "frio"
   },
   {
-    "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1669379588/samples/Solomillo_de_cerdo_con_salsa_de_setas_kctr1r.jpg",
-    "title": "app.solomillocerdosalsasetas",
-    "descripcion": "app.receta.solomillocerdosalsasetas",
-    "id": "5",
-    "price": "14.95",
-    "tipo": "carnes"
+   "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1689766653/samples/burrata_iy6ylq.jpg",
+   "title": "app.ensalada.burrata",
+   "descripcion": "app.receta.ensalada.burrata",
+   "id": "3",
+   "price": "12.95",
+   "tipo": "frio"
   },
   {
-    "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1669379582/samples/Pollo_Tikka_Masala_flqwp7.jpg",
-    "title": "app.pollotikka",
-    "descripcion": "app.receta.pollotikka",
-    "id": "6",
-    "price": "11.55",
-    "tipo": "oriente"
-  }
-]
+   "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1689786505/_MG_2080_htpvv9.jpg",
+   "title": "app.ensalada.caprese",
+   "descripcion": "app.receta.ensalada.caprese",
+   "id": "4",
+   "price": "12.50",
+   "tipo": "frio"
+  },
+  {
+   "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1689767301/samples/carpaccio_hmifc0.png",
+   "title": "app.carpaccio.ternera",
+   "descripcion": "app.receta.carpaccio.ternera",
+   "id": "5",
+   "price": "12.95",
+   "tipo": "frio"
+  },
+  {
+   "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1669151421/samples/bacalaoPiquillo_fcytcu.jpg",
+   "title": "app.bacalaropiquillos",
+   "descripcion": "app.receta.bacalaopiquillos",
+   "id": "6",
+   "price": "14.95",
+   "tipo": "especialidad"
+  },
+  {
+   "image": "",
+   "title": "app.sinfoniaFoie",
+   "descripcion": "app.receta.sinfoniaFoie",
+   "id": "7",
+   "price": "12.95",
+   "tipo": "caliente"
+  },
+  {
+   "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1689788335/milhojas_nfmwjf.jpg",
+   "title": "app.milhojasPatatas",
+   "descripcion": "app.receta.milhojasPatatas",
+   "id": "8",
+   "price": "11.95",
+   "tipo": "caliente"
+  },
+  {
+   "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1669151422/samples/huevosFoie_i2bstx.jpg",
+   "title": "app.huevosconfoie",
+   "descripcion": "app.receta.huevosconfoie",
+   "id": "9",
+   "price": "12.95",
+   "tipo": "caliente"
+  },
+  {
+   "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1669379588/samples/Solomillo_de_cerdo_con_salsa_de_setas_kctr1r.jpg",
+   "title": "app.solomillocerdosalsasetas",
+   "descripcion": "app.receta.solomillocerdosalsasetas",
+   "id": "10",
+   "price": "14.95",
+   "tipo": "carnes"
+  },
+  {
+   "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1669379582/samples/Pollo_Tikka_Masala_flqwp7.jpg",
+   "title": "app.pollotikka",
+   "descripcion": "app.receta.pollotikka",
+   "id": "11",
+   "price": "11.55",
+   "tipo": "oriente"
+  },
+  {
+   "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1689765032/samples/hamburguesa1_o5qkob.jpg",
+   "title": "app.hamburguesa.mini",
+   "descripcion": "app.receta.hamburguesa.mini",
+   "id": "12",
+   "price": "5.95",
+   "tipo": "peques"
+  },
+  {
+   "image": "",
+   "title": "app.patatasKinchi",
+   "descripcion": "app.receta.patatasKinchi",
+   "id": "14",
+   "price": "5.95",
+   "tipo": "caliente"
+  },
+  {
+   "image": "",
+   "title": "app.pastaBolonesa",
+   "descripcion": "app.receta.pastaBolonesa",
+   "id": "13",
+   "price": "12.95",
+   "tipo": "occidente"
+  },
+  {
+   "image": "",
+   "title": "app.pastaFredo",
+   "descripcion": "app.receta.pastaFredo",
+   "id": "14",
+   "price": "11.50",
+   "tipo": "occidente"
+  },
+  {
+   "image": "",
+   "title": "app.lasanaGourmet",
+   "descripcion": "app.receta.lasanaGourmet",
+   "id": "15",
+   "price": "12.50",
+   "tipo": "occidente"
+  },
+  {
+   "image": "",
+   "title": "app.lasanaVerduras",
+   "descripcion": "app.receta.lasanaVerduras",
+   "id": "16",
+   "price": "12.50",
+   "tipo": "occidente"
+  },
+  {
+     "image": "",
+     "title": "app.entrecot.parrilla",
+     "descripcion": "app.receta.entrecot.parrilla",
+     "id": "16",
+     "price": "12.50",
+     "tipo": "carnes"
+    },
+    {
+     "image": "",
+     "title": "app.entrecot.micuit",
+     "descripcion": "app.receta.entrecot.parrilla",
+     "id": "17",
+     "price": "12.50",
+     "tipo": "carnes"
+    },
+    {
+     "image": "",
+     "title": "app.solomillo.cerdo",
+     "descripcion": "app.receta.solomillo.cerdo",
+     "id": "18",
+     "price": "12.50",
+     "tipo": "carnes"
+    }
+ ]

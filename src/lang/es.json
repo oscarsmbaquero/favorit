@@ -82,15 +82,18 @@
    "app.receta.lasanaVerduras": "Capas de pasta rellenas con champiñones, calabacín, berenjena, salsa de tomate. Gratinada al horno con queso mozarrela y oregano",
 
 
-
     "app.bacalaropiquillos":"Bacalao con ali oli de Piquillos",
     "app.receta.bacalaopiquillos":"Lomito de bacalao con alioli de piquillos, sobre patatas y cebolla confitada",
 
     "app.milhojasPatatas":"Milhojas de patatas con queso y bacón crujiente",
     "app.receta.milhojasPatatas":"Patatas fritas con bacon y salsa cesar casera, gratinada al horno con queso gouda",
 
-    "app.kinchi":"",
-    "app.receta.kinchi":"",
+    "app.entrecot.parrilla":"Entrecot a la parrilla y salsa de queso Gorgonzola",
+    "app.receta.entrecot.parrilla":"Entrecot a la parrilla y salsa de queso Gorgonzola",
+    "app.entrecot.micuit":"Entrecot con micuit de foie y reducción de PX",
+    "app.receta.entrecot.micuit":"Entrecot con micuit de foie y reducción de PX",
+    "app.solomillo.cerdo":"Solomillo de cerdo con musse de foie",
+    "app.receta.solomillo.cerdo":"Solomillo de cerdo con musse de foie",
     
     "app.hamburguesa.mini":"Hamburguesa Mini",
     "app.receta.hamburguesa.mini":"Mini Hamburguesa con patatas fritas",
@@ -101,11 +104,13 @@
     "app.hamburguesa.favorit":"Hamburguesa Favorit",
     "app.receta.hamburguesa.favorit":"Hamburguesa 100% de vacuno nacional, con queso de cabra",
 
+    "app.pollotikka": "Pollo Tikka Masala",
+    "app.receta.pollotikka":"Dados de pollo con salsa tikka masala, leche de coco, piña y platano sobre una cama de arroz basmati y sésamo",
+
     "app.solomillocerdosalsasetas": "Solomillo de cerdo con salsa de setas",
     "app.receta.solomillocerdosalsasetas":"Solomillo de cerdo con salsa de setas",
 
-    "app.pollotikka": "Pollo Tikka Masala",
-    "app.receta.pollotikka":"Dados de pollo con salsa tikka masala, leche de coco, piña y platano sobre una cama de arroz basmati y sésamo",
+    
 
     "app.entrantesfrios" : "Entrantes frios",
     "app.entrantescalientes": "Entrantes Calientes",

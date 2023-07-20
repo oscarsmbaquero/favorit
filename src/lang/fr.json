@@ -109,7 +109,14 @@
     "app.receta.hamburguesa.parisien":"Burger de boeuf 100% national, mayonnaise, laitue, tomate, cornichon, oignon, fromage cheddar et bacon",
 
     "app.hamburguesa.favorit":"Favorit Burger",
-    "app.receta.hamburguesa.favorit":"Burger de boeuf 100% national au fromage de chèvre"
+    "app.receta.hamburguesa.favorit":"Burger de boeuf 100% national au fromage de chèvre",
+
+    "app.entrecot.parrilla":"Entrecôte grillée et sauce au fromage Gorgonzola",
+    "app.receta.entrecot.parrilla":"Entrecôte grillée et sauce au fromage Gorgonzola",
+    "app.entrecot.micuit":"Entrecôte au foie mi-cuit et réduction PX",
+    "app.receta.entrecot.micuit":"Entrecôte au foie mi-cuit et réduction PX",
+    "app.solomillo.cerdo":"Filet mignon de porc à la mousse de foie",
+    "app.receta.solomillo.cerdo":"Filet mignon de porc à la mousse de foie"
 
 
     
