@@ -152,27 +152,35 @@
    "tipo": "occidente"
   },
   {
-     "image": "",
-     "title": "app.entrecot.parrilla",
-     "descripcion": "app.receta.entrecot.parrilla",
-     "id": "16",
-     "price": "12.50",
-     "tipo": "carnes"
-    },
-    {
-     "image": "",
-     "title": "app.entrecot.micuit",
-     "descripcion": "app.receta.entrecot.parrilla",
-     "id": "17",
-     "price": "12.50",
-     "tipo": "carnes"
-    },
-    {
-     "image": "",
-     "title": "app.solomillo.cerdo",
-     "descripcion": "app.receta.solomillo.cerdo",
-     "id": "18",
-     "price": "12.50",
-     "tipo": "carnes"
-    }
+   "image": "",
+   "title": "app.entrecot.parrilla",
+   "descripcion": "app.receta.entrecot.parrilla",
+   "id": "16",
+   "price": "12.50",
+   "tipo": "carnes"
+  },
+  {
+   "image": "",
+   "title": "app.entrecot.micuit",
+   "descripcion": "app.receta.entrecot.parrilla",
+   "id": "17",
+   "price": "12.50",
+   "tipo": "carnes"
+  },
+  {
+   "image": "",
+   "title": "app.solomillo.cerdo",
+   "descripcion": "app.receta.solomillo.cerdo",
+   "id": "18",
+   "price": "12.50",
+   "tipo": "carnes"
+  },
+  {
+    "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1689872145/tarta_queso_wsgz3k.jpg",
+    "title": "app.tarta.queso",
+    "descripcion": "app.tarta.queso",
+    "id": "19",
+    "price": "4.95",
+    "tipo": "postres"
+   }
  ]
