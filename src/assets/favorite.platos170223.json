@@ -64,6 +64,14 @@
    "tipo": "especialidad"
   },
   {
+    "image": "",
+    "title": "app.timbal.huerta",
+    "descripcion": "app.receta.timbal.huerta",
+    "id": "6",
+    "price": "14.95",
+    "tipo": "especialidad"
+   },
+  {
    "image": "",
    "title": "app.sinfoniaFoie",
    "descripcion": "app.receta.sinfoniaFoie",
@@ -104,37 +112,37 @@
    "tipo": "oriente"
   },
   {
-    "image": "",
-    "title": "app.thai.luxe",
-    "descripcion": "app.receta.thai.luxe",
-    "id": "25",
-    "price": "11.55",
-    "tipo": "oriente"
-   },
-   {
-    "image": "",
-    "title": "app.pollo.glaseado",
-    "descripcion": "app.receta.pollo.glaseado",
-    "id": "27",
-    "price": "11.55",
-    "tipo": "oriente"
-   },
-   {
-    "image": "",
-    "title": "app.thai.wok",
-    "descripcion": "app.receta.thai.wok",
-    "id": "11",
-    "price": "11.55",
-    "tipo": "oriente"
-   },
-   {
-    "image": "",
-    "title": "app.rissoto.meloso",
-    "descripcion": "app.rissoto.meloso",
-    "id": "11",
-    "price": "11.55",
-    "tipo": "oriente"
-   },
+   "image": "",
+   "title": "app.thai.luxe",
+   "descripcion": "app.receta.thai.luxe",
+   "id": "25",
+   "price": "11.55",
+   "tipo": "oriente"
+  },
+  {
+   "image": "",
+   "title": "app.pollo.glaseado",
+   "descripcion": "app.receta.pollo.glaseado",
+   "id": "27",
+   "price": "11.55",
+   "tipo": "oriente"
+  },
+  {
+   "image": "",
+   "title": "app.thai.wok",
+   "descripcion": "app.receta.thai.wok",
+   "id": "11",
+   "price": "11.55",
+   "tipo": "oriente"
+  },
+  {
+   "image": "",
+   "title": "app.rissoto.meloso",
+   "descripcion": "app.rissoto.meloso",
+   "id": "11",
+   "price": "11.55",
+   "tipo": "oriente"
+  },
   {
    "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1689765032/samples/hamburguesa1_o5qkob.jpg",
    "title": "app.hamburguesa.mini",
