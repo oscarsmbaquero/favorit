@@ -76,7 +76,7 @@
    "app.receta.pastaFredo":"Pasta corta con nata, queso parmesano, dados de pollo y bacón crujiente",
 
    "app.lasanaGourmet":"Lasaña de Ternera Gourmet",
-   "app.receta.lasanaGourmet":"",
+   "app.receta.lasanaGourmet":"Capas de pasta rellenas con nuestra salsa boloñesa casera, salsa bechamel, champiñones y bacon crocante, horneadas al horno con queso gouda",
 
    "app.lasanaVerduras":"Lasagna de verduras",
    "app.receta.lasanaVerduras": "Capas de pasta rellenas con champiñones, calabacín, berenjena, salsa de tomate. Gratinada al horno con queso mozarrela y oregano",
@@ -84,6 +84,9 @@
 
     "app.bacalaropiquillos":"Bacalao con ali oli de Piquillos",
     "app.receta.bacalaopiquillos":"Lomito de bacalao con alioli de piquillos, sobre patatas y cebolla confitada",
+
+    "app.timbal.huerta":"Timbal templado de la huerta",
+    "app.receta.timbal.huerta":"Milhojas de calabacín, tomate, berenjena, champiñones con queso de cabra y nuestra salsa cesar casera",
 
     "app.milhojasPatatas":"Milhojas de patatas con queso y bacón crujiente",
     "app.receta.milhojasPatatas":"Patatas fritas con bacon y salsa cesar casera, gratinada al horno con queso gouda",
@@ -106,6 +109,17 @@
 
     "app.pollotikka": "Pollo Tikka Masala",
     "app.receta.pollotikka":"Dados de pollo con salsa tikka masala, leche de coco, piña y platano sobre una cama de arroz basmati y sésamo",
+
+    "app.thai.luxe":"Noodles Thai de Luxe",
+    "app.receta.thai.luxe":"Salteado de verduras (calabacín, cebolla, pimientos verde y rojo y champiñones) con trocitos de pollo y gambas, salsa thai y cebolla frita, sobre una cama de noodles de arroz",
+
+    "app.pollo.glaseado":"Pollo glaseado en jugo de naranja",
+    "app.receta.pollo.glaseado":"Sabrosa pechuga de pollo en un caramelo de azúcar de caña y jugo de naranja sobre cama de arroz basmati y verduras salteadas",
+
+    "app.thai.wok":"Thai Wok de langostinos",
+    "app.receta.thai.wok":"Verduras salteadas, con dados de langostinos, salsa thai, sobre cama de arroz basmati con sesamo",
+
+    "app.rissoto.meloso":"Rissoto Meloso de setas al Parmesano",
 
     "app.solomillocerdosalsasetas": "Solomillo de cerdo con salsa de setas",
     "app.receta.solomillocerdosalsasetas":"Solomillo de cerdo con salsa de setas",

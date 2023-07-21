@@ -104,6 +104,38 @@
    "tipo": "oriente"
   },
   {
+    "image": "",
+    "title": "app.thai.luxe",
+    "descripcion": "app.receta.thai.luxe",
+    "id": "25",
+    "price": "11.55",
+    "tipo": "oriente"
+   },
+   {
+    "image": "",
+    "title": "app.pollo.glaseado",
+    "descripcion": "app.receta.pollo.glaseado",
+    "id": "27",
+    "price": "11.55",
+    "tipo": "oriente"
+   },
+   {
+    "image": "",
+    "title": "app.thai.wok",
+    "descripcion": "app.receta.thai.wok",
+    "id": "11",
+    "price": "11.55",
+    "tipo": "oriente"
+   },
+   {
+    "image": "",
+    "title": "app.rissoto.meloso",
+    "descripcion": "app.rissoto.meloso",
+    "id": "11",
+    "price": "11.55",
+    "tipo": "oriente"
+   },
+  {
    "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1689765032/samples/hamburguesa1_o5qkob.jpg",
    "title": "app.hamburguesa.mini",
    "descripcion": "app.receta.hamburguesa.mini",
@@ -176,11 +208,11 @@
    "tipo": "carnes"
   },
   {
-    "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1689872145/tarta_queso_wsgz3k.jpg",
-    "title": "app.tarta.queso",
-    "descripcion": "app.tarta.queso",
-    "id": "19",
-    "price": "4.95",
-    "tipo": "postres"
-   }
+   "image": "https://res.cloudinary.com/dcfk8yjwr/image/upload/v1689872145/tarta_queso_wsgz3k.jpg",
+   "title": "app.tarta.queso",
+   "descripcion": "app.tarta.queso",
+   "id": "19",
+   "price": "4.95",
+   "tipo": "postres"
+  }
  ]

@@ -84,11 +84,11 @@ export default function Especialidades() {
                     src={logo}
                   ></Avatar>
                 }
-                action={
-                  <IconButton aria-label="settings">
-                    <MoreVertIcon />
-                  </IconButton>
-                }
+                // action={
+                //   <IconButton aria-label="settings">
+                //     <MoreVertIcon />
+                //   </IconButton>
+                // }
                 title=<FormattedMessage id={item.title} />
                 //title={item.title}
                 // subheader=

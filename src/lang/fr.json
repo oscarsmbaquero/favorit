@@ -82,6 +82,9 @@
     "app.bacalaropiquillos":"Cabillaud à l'oli oli de Piquillos",
     "app.receta.bacalaopiquillos":"Filet de cabillaud à l'aïoli au piquillo, sur pommes de terre et confit d'oignons",
 
+    "app.timbal.huerta":"Kettledrum trempé du jardin",
+    "app.receta.timbal.huerta":"Millefeuille courgette, tomate, aubergine, champignons au chèvre et notre sauce césar maison",
+
     "app.milhojasPatatas":"Millefeuille de pommes de terre au fromage et bacon croustillant",
     "app.receta.milhojasPatatas":"Frites avec bacon et sauce césar maison, cuites au four avec du fromage gouda",
 
@@ -93,6 +96,17 @@
 
     "app.pollotikka": "Poulet Tikka Masala",
     "app.receta.pollotikka":"Cubes de poulet sauce tikka masala, lait de coco, ananas et banane sur lit de riz basmati et sésame",
+
+    "app.thai.luxe":"Nouilles thaïlandaises de luxe",
+    "app.receta.thai.luxe":"Légumes sautés (courgettes, oignons, poivrons verts et rouges et champignons) avec dés de poulet et gambas, sauce thaï et oignons frits, sur un lit de nouilles de riz",
+
+    "app.pollo.glaseado":"Poulet glacé au jus d'orange",
+    "app.receta.pollo.glaseado":"Blanc de poulet salé dans un caramel au sucre de canne et jus d'orange sur un lit de riz basmati et légumes sautés",
+
+    "app.thai.wok":"Wok thaï aux crevettes",
+    "app.receta.thai.wok":"Légumes sautés, aux dés de gambas, sauce thai, sur un lit de riz basmati au sésame",
+
+    "app.rissoto.meloso":"Rissoto crémeux aux champignons et parmesan",
 
     "app.entrantesfrios" : "Entrées froides",
     "app.entrantescalientes": "Entrées chaudes",

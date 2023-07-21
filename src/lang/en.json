@@ -81,6 +81,9 @@
   "app.bacalaropiquillos":"Cod with ali oli from Piquillos",
   "app.receta.bacalaopiquillos":"Cod fillet with piquillo pepper aioli, on potatoes and onion confit",
 
+  "app.timbal.huerta":"Tempered kettledrum from the garden",
+  "app.receta.timbal.huerta":"Millefeuille zucchini, tomato, eggplant, mushrooms with goat cheese and our homemade caesar sauce",
+
   "app.huevosconfoie": "Eggs with Foie",
   "app.receta.huevosconfoie":"Scrambled eggs with boletus and garlic confit, slices of foie gras and Serrano ham",
 
@@ -92,6 +95,17 @@
 
   "app.pollotikka": "Chicken Tikka Masala",
   "app.receta.pollotikka":"Chicken cubes with tikka masala sauce, coconut milk, pineapple and banana on a bed of basmati rice and sesame",
+
+  "app.thai.luxe":"Luxury Thai Noodles",
+  "app.receta.thai.luxe":"Sautéed vegetables (zucchini, onion, green and red peppers and mushrooms) with diced chicken and prawns, Thai sauce and fried onion, on a bed of rice noodles",
+
+  "app.pollo.glaseado":"Orange juice glazed chicken",
+  "app.receta.pollo.glaseado":"Savory chicken breast in a cane sugar caramel and orange juice on a bed of basmati rice and sautéed vegetables",
+
+  "app.thai.wok":"Prawn Thai Wok",
+  "app.receta.thai.wok":"Sautéed vegetables, with diced prawns, thai sauce, on a bed of basmati rice with sesame",
+
+    "app.rissoto.meloso":"Creamy Mushroom Rissoto with Parmesan",
 
   "app.entrantesfrios" : "Cold Starters",
   "app.entrantescalientes": "Hot Starters" ,
