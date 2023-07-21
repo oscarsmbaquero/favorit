@@ -117,6 +117,11 @@
 
   "app.hamburguesa.mini":"Mini Burguer",
   "app.receta.hamburguesa.mini":"Mini burger with fries",
+
+  "app.peques.bolognesa":"1/2 portion of pasta bolognese",
+  "app.peques.fredo":"1/2 portion of pasta fredo",
+  "app.peques.pasta.tomate":"1/2 portion of tomato pasta",
+  "app.dados.pollo":"Chicken cubes with fries",
   
   "app.hamburguesa.parisien":"Parisian Burger",
   "app.receta.hamburguesa.parisien":"100% national beef burger, mayonnaise, lettuce, tomato, pickles, onion, cheddar cheese and bacon",

@@ -64,13 +64,13 @@
    "tipo": "especialidad"
   },
   {
-    "image": "",
-    "title": "app.timbal.huerta",
-    "descripcion": "app.receta.timbal.huerta",
-    "id": "6",
-    "price": "14.95",
-    "tipo": "especialidad"
-   },
+   "image": "",
+   "title": "app.timbal.huerta",
+   "descripcion": "app.receta.timbal.huerta",
+   "id": "6",
+   "price": "14.95",
+   "tipo": "especialidad"
+  },
   {
    "image": "",
    "title": "app.sinfoniaFoie",
@@ -151,6 +151,38 @@
    "price": "5.95",
    "tipo": "peques"
   },
+  {
+    "image": "",
+    "title": "app.peques.bolognesa",
+    "descripcion": "app.peques.bolognesa",
+    "id": "112",
+    "price": "5.95",
+    "tipo": "peques"
+   },
+   {
+    "image": "",
+    "title": "app.peques.fredo",
+    "descripcion": "app.peques.fredo",
+    "id": "114",
+    "price": "5.95",
+    "tipo": "peques"
+   },
+   {
+    "image": "",
+    "title": "app.peques.pasta.tomate",
+    "descripcion": "app.peques.pasta.tomate",
+    "id": "114",
+    "price": "5.95",
+    "tipo": "peques"
+   },
+   {
+    "image": "",
+    "title": "app.dados.pollo",
+    "descripcion": "app.dados.pollo",
+    "id": "114",
+    "price": "5.95",
+    "tipo": "peques"
+   },
   {
    "image": "",
    "title": "app.patatasKinchi",

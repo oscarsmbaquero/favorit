@@ -119,6 +119,11 @@
     "app.hamburguesa.mini":"Mini Burger",
     "app.receta.hamburguesa.mini":"Mini burger avec frites",
 
+    "app.peques.bolognesa":"1/2 portion de pâtes bolognaise",
+    "app.peques.fredo":"1/2 portion de pâtes fredo",
+    "app.peques.pasta.tomate":"1/2 portion de pâtes à la tomate",
+    "app.dados.pollo":"Cubes de poulet avec frites",
+
     "app.hamburguesa.parisien":"Parisian Burger",
     "app.receta.hamburguesa.parisien":"Burger de boeuf 100% national, mayonnaise, laitue, tomate, cornichon, oignon, fromage cheddar et bacon",
 
