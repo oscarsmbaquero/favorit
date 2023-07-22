@@ -6,14 +6,14 @@ import CartaCervezas from "../pages/Cartas/CartaCervezas";
 import CartaFood from "../pages/Cartas/CartaFood";
 import CartaVegetariana from "../pages/Cartas/CartaVegetariana";
 import CartaVino from "../pages/Cartas/CartaVino";
-import Contact from "../pages/Contact/Contact";
+//import Contact from "../pages/Contact/Contact";
 import Gallery from "../pages/Gallery/Gallery";
 import Home from "../pages/Home/Home";
-import Horario from "../pages/Horario/Horario";
+//import Horario from "../pages/Horario/Horario";
 //import MapContainer from "../pages/Map/MapContainer";
 import Reservas from "../pages/Reservas/Reservas";
 //import Especialidades from "../pages/Especialidades/Especialidades";
-import Pedidos from "../pages/Pedidos/Pedidos";
+//import Pedidos from "../pages/Pedidos/Pedidos";
 import CartaNavidad from "../pages/Cartas/OfertaNavidad";
 import Pictures from "../pages/Pictures/Pictures";
 import Especialidades from "../pages/Especialidades/Specialite";
@@ -29,10 +29,10 @@ const routes = [
     path: "/gallery",
     element: <Gallery/>,
   },
-  {
-    path: "/contact",
-    element: <Contact/>,
-  },
+  // {
+  //   path: "/contact",
+  //   element: <Contact/>,
+  // },
   {
     path: "/reservas",
     element: <Reservas/>,
@@ -57,10 +57,10 @@ const routes = [
     path: "/cartaVino",
     element: <CartaVino/>,
   },
-  {
-    path: "/horario",
-    element: <Horario/>,
-  },
+  // {
+  //   path: "/horario",
+  //   element: <Horario/>,
+  // },
   {
     path: "/especialidades",
     element: <Especialidades/>,
