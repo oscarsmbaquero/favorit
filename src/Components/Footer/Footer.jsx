@@ -6,6 +6,8 @@ import {
   MDBCol,
   MDBIcon,
 } from "mdb-react-ui-kit";
+
+import { Icon } from '@iconify/react';
 import logo from "../../assets/images/logoF.png";
 import "./Footer.scss";
 import ReactWhatsapp from "react-whatsapp";
@@ -18,13 +20,20 @@ export default function App() {
         <div className="me-5 d-none d-lg-block text-white">
           <span><FormattedMessage id="app.footer" /></span>
         </div>
-
         <div>
           <a
             href="https://m.facebook.com/?tbua=1#!/profile.php?id=100087651520108&eav=AfaL-P9irUqWmW5PoIuyl-6P5jXAShnlaeIaqLmfEbwsIyziNU62dnrS4WkHreMbNug&tsid=0.055033883435088526&source=result"
             className="me-4 text-reset"
           >
             <MDBIcon fab icon="facebook-f" color="white"/>
+          </a>
+          <a
+            href="https://www.tripadvisor.es/Restaurant_Review-g609019-d25138070-Reviews-Favorit_Gastrobar-Plasencia_Province_of_Caceres_Extremadura.html"
+            className="me-4 text-reset"
+          >
+            {/* <MDBIcon fab icon="tripadvisor" color="white" /> */}
+            <Icon icon="fa:tripadvisor" color= "white"/>
+
           </a>
           {/* <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="twitter" />
@@ -38,6 +47,7 @@ export default function App() {
           >
             <MDBIcon fab icon="instagram" color="white" />
           </a>
+          
         </div>
       </section>
 
