@@ -135,7 +135,12 @@
   "app.receta.entrecot.micuit":"Entrecote with foie micuit and PX reduction",
   "app.solomillo.cerdo":"Pork tenderloin with foie mousse",
   "app.receta.solomillo.cerdo":"Pork tenderloin with foie mousse",
-
-  "app.tarta.queso":"Cheesecake with raspberry coulis"
+ 
+  "app.tarta.queso":"Cheesecake with raspberry coulis",
+  "app.brownie.helado":"Baileys and Brownie with vanilla ice cream, melted dark and white chocolate",
+  "app.manzana.pecado":"HOLY SIN apple pie",
+  "app.receta.manzana.pecado":"Caramelized apple compote with cane sugar and a touch of cinnamon, delicious toffee and biscuit crumbler with vanilla ice cream",
+  "app.copa.helado":"Sundae",
+  "app.receta.copa.helado":"To choose two scoops of our chocolate, vanilla and yogurt ice cream with red fruits"
 
 }
