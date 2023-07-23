@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -12,16 +12,26 @@ import I18n from "../../context/i18n/I18n";
 //import {ShoppingCart } from "@material-ui/icons";
 //import { Badge, IconButton } from "@mui/material";
 
-const header2 = () => {
+const Header2 = () => {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
+
+  const handleNavToggle = () => {
+    setIsNavExpanded(!isNavExpanded);
+  };
+
   return (
     <Navbar collapseOnSelect bg="dark" variant="dark" expand="xs" className="sticky-top ">
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} className="logo" alt={logo} />
         </Navbar.Brand>
-        <Navbar.Toggle>
-          <i class="fa-sharp fa-solid fa-bars"></i>
-        </Navbar.Toggle>
+        <Navbar.Toggle onClick={handleNavToggle}>
+  {isNavExpanded ? (
+    <i className="fa fa-times"></i> // Muestra la "X" o el aspa cuando está desplegado
+  ) : (
+    <i className="fa fa-bars"></i> // Muestra el ícono de hamburguesa cuando está cerrado
+  )}
+</Navbar.Toggle>
         <Navbar.Collapse>
           <Nav className="ml-auto">
             <Nav.Link as={Link} eventKey="0" to={"/"} 
@@ -88,4 +98,4 @@ const header2 = () => {
   );
 };
 
-export default header2;
+export default Header2;
