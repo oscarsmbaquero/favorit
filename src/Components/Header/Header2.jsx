@@ -19,8 +19,14 @@ const Header2 = () => {
     setIsNavExpanded(!isNavExpanded);
   };
 
+  const handleNavClose = () => {
+    setIsNavExpanded(false); // Cierra el menú al hacer clic en una opción
+  };
+
   return (
-    <Navbar collapseOnSelect bg="dark" variant="dark" expand="xs" className="sticky-top ">
+    <Navbar collapseOnSelect bg="dark" variant="dark" expand="xs" className="sticky-top" 
+    
+    >
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} className="logo" alt={logo} />
@@ -33,7 +39,7 @@ const Header2 = () => {
   )}
 </Navbar.Toggle>
         <Navbar.Collapse>
-          <Nav className="ml-auto">
+          <Nav className="ml-auto" onClick={handleNavClose}>
             <Nav.Link as={Link} eventKey="0" to={"/"} 
            // routerLinkActive="active"
            >
