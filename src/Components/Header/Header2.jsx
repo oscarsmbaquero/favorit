@@ -24,25 +24,32 @@ const Header2 = () => {
   };
 
   return (
-    <Navbar collapseOnSelect bg="dark" variant="dark" expand="xs" className="sticky-top" 
-    
+    <Navbar
+      collapseOnSelect
+      bg="dark"
+      variant="dark"
+      expand="xs"
+      className="sticky-top"
     >
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} className="logo" alt={logo} />
         </Navbar.Brand>
         <Navbar.Toggle onClick={handleNavToggle}>
-  {isNavExpanded ? (
-    <i className="fa fa-times"></i> // Muestra la "X" o el aspa cuando está desplegado
-  ) : (
-    <i className="fa fa-bars"></i> // Muestra el ícono de hamburguesa cuando está cerrado
-  )}
-</Navbar.Toggle>
+          {isNavExpanded ? (
+            <i className="fa fa-times"></i> // Muestra la "X" o el aspa cuando está desplegado
+          ) : (
+            <i className="fa fa-bars"></i> // Muestra el ícono de hamburguesa cuando está cerrado
+          )}
+        </Navbar.Toggle>
         <Navbar.Collapse>
           <Nav className="ml-auto" onClick={handleNavClose}>
-            <Nav.Link as={Link} eventKey="0" to={"/"} 
-           // routerLinkActive="active"
-           >
+            <Nav.Link
+              as={Link}
+              eventKey="0"
+              to={"/"}
+              // routerLinkActive="active"
+            >
               &nbsp;
               <FormattedMessage id="app.home" />
             </Nav.Link>
@@ -93,9 +100,9 @@ const Header2 = () => {
                 <FormattedMessage id="app.vino" />
               </NavDropdown.Item>
             </NavDropdown>
-            
+
             <Nav.Link>
-               <I18n></I18n>
+              <I18n></I18n>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

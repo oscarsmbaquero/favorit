@@ -9,9 +9,6 @@ import Footer from "./Components/Footer/Footer";
 import Header2 from "./Components/Header/Header2";
 import "bootstrap/dist/css/bootstrap.min.css";
 import SplashScreen from "../src/Components/SplashScreen/SplashScreen";
-import IconoNuevoGasto from "../src/assets/images/nuevo-gasto.svg";
-import Home from "./pages/Home/Home";
-import Horario from "./pages/Horario/Horario";
 
 import { IntlProvider, FormattedMessage } from "react-intl";
 import Spanish from "../src/lang/es.json";
@@ -19,11 +16,12 @@ import English from "../src/lang/en.json";
 import Portuguese from "../src/lang/pt.json";
 import EusKara from "../src/lang/eu.json";
 import French from "../src/lang/fr.json";
-import I18n from "./context/i18n/I18n";
-import logo from "./assets/images/reservas.png";
+//import I18n from "./context/i18n/I18n";
+//import logo from "./assets/images/reservas.png";
 import CookieConsent from "react-cookie-consent";
 import ReservasIcono from "./core/ReservasIcono/ReservasIcono";
-import ReservaIcono3 from "./core/ReservasIcono/ReservasIcono3";
+import ModalComponent from "./core/modalHoladays/ModalComponents";
+//import ReservaIcono3 from "./core/ReservasIcono/ReservasIcono3";
 export const ContextI18n = React.createContext();
 
 function App() {
@@ -76,6 +74,7 @@ function App() {
               <SWContextProvider>
                 <Router>
                   <Header2 />
+                  <ModalComponent />
                   <CookieConsent
                     location="bottom"
                     buttonText="Aceptar"
