@@ -35,7 +35,7 @@ const ModalComponent = () => {
         <img src={logo} alt={logo} />
         <h2>Cerrado por vacaciones</h2>
         <h6>
-          Estimados clientes y amigos, les informamos que nuestro restaurante se encontrará cerrado para mejoras y renovaciones del 7 al 14 de Agosto.
+          Estimados clientes y amigos, les informamos que nuestro restaurante permanecerá cerrado para mejoras y renovaciones del 7 al 14 de Agosto.
         </h6>
         <button onClick={handleCloseModal}>Acceder a la web</button>
       </div>
