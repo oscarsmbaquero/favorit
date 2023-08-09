@@ -37,7 +37,7 @@ const ModalComponent = () => {
         <h6>
           Estimados clientes y amigos, les informamos que nuestro restaurante permanecerá cerrado para mejoras y renovaciones del 7 al 14 de Agosto.
         </h6>
-        <button onClick={handleCloseModal}>Acceder a la web</button>
+        <button onClick={handleCloseModal}>Continuar</button>
       </div>
     </Modal>
   );
