@@ -74,7 +74,8 @@ function App() {
               <SWContextProvider>
                 <Router>
                   <Header2 />
-                  <ModalComponent />
+                  {/* modal de anuncio de vacaciones */}
+                  {/* <ModalComponent /> */}
                   <CookieConsent
                     location="bottom"
                     buttonText="Aceptar"
