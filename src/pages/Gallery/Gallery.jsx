@@ -9,9 +9,11 @@ import bar7 from '../../assets/images/bar7.jfif'
 import bar8 from '../../assets/images/bar8.jfif'
 import bar9 from '../../assets/images/bar9.jfif'
 import bar10 from '../../assets/images/bar10.jfif'
+import './Gallery.scss';
 
 export default function App() {
   return (
+    <>
     <MDBCarousel showControls  showIndicators  dealy={3000}>
       <MDBCarouselItem
         className='w-100 d-block'
@@ -44,5 +46,13 @@ export default function App() {
         alt='...'
       />
     </MDBCarousel>
+    <section>
+      <img src={bar6} alt="bar 6"></img>
+      <img src={bar7} alt="bar 6"></img>
+      <img src={bar8} alt="bar 6"></img>
+      <img src={bar9} alt="bar 6"></img>
+      <img src={bar10} alt="bar 6"></img>
+    </section>
+    </>
   );
 }
