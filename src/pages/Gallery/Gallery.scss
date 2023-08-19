@@ -1,3 +1,8 @@
+.carrousel{
+    padding: 15px;
+    
+}
+
 section {
     padding: 15px;
     display: flex;
@@ -14,11 +19,22 @@ section img {
     object-fit: cover;
     opacity: 0.8;
     transition: 0.5s ease;
+    height: 250px;
 }
 
 section img:hover {
     cursor: crosshair;
-    width: 300px;
+    width: 255px;
     opacity: 1;
     filter: contrast(120%);
 }
+// @media (max-width: 768px) {
+//     section img {
+//         width: 250px;
+//         //height: auto;
+//     }
+
+//     section img:hover {
+//         width: 305px;
+//     }
+// }

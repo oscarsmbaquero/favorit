@@ -14,7 +14,7 @@ import './Gallery.scss';
 export default function App() {
   return (
     <>
-    <MDBCarousel showControls  showIndicators  dealy={3000}>
+    <MDBCarousel showControls  showIndicators  dealy={3000} className='carrousel'>
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={1}
