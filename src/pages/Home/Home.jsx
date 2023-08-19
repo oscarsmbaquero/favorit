@@ -29,11 +29,12 @@ const Home = () => {
         </div> */}
       {/* </div> */}
       <div className="home">
-        <iframe
+        <iframe className="video"
           src="https://drive.google.com/file/d/1Hr92lxvOOjfegFIK7wE3WvwAkwS18IKs/preview"
-          width="640"
-          height="480"
+          // width="640"
+          // height="480"
           allow="autoplay"
+          muted
         ></iframe>
         <p>
           <FormattedMessage id="app.textHome" />

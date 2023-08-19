@@ -224,4 +224,13 @@
     animation: scroll 100s linear 1s forwards;
   }
 } 
+.video{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  border-radius: 18px;
+  
+}
 
