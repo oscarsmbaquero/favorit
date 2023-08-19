@@ -43,12 +43,12 @@ const Header2 = () => {
 
   return (
     <Navbar
-      className={`navbar ${scrolled ? "scrolled" : "transparent"}` } 
+      //className={`navbar ${scrolled ? "scrolled" : "transparent"}` } 
       collapseOnSelect
       bg="dark"
       variant="dark"
       expand="xs"
-      //className="sticky-top"
+      className="sticky-top"
     >
       <Container>
         <Navbar.Brand href="#home">

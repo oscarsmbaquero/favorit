@@ -8,15 +8,15 @@ import {
 } from "mdb-react-ui-kit";
 
 import { Icon } from "@iconify/react";
-import logo from "../../assets/images/logoF.png";
+//import logo from "../../assets/images/logoF.png";
 import "./Footer.scss";
-import ReactWhatsapp from "react-whatsapp";
+// import ReactWhatsapp from "react-whatsapp";
 import { FormattedMessage } from "react-intl";
 
-import instagram from "../../assets/banderas/instagram.svg";
-import crome from "../../assets/banderas/cromo.png";
-import twitter from "../../assets/banderas/twitter.svg";
-import facebook from "../../assets/banderas/facebook.png";
+// import instagram from "../../assets/banderas/instagram.svg";
+// import crome from "../../assets/banderas/cromo.png";
+// import twitter from "../../assets/banderas/twitter.svg";
+// import facebook from "../../assets/banderas/facebook.png";
 
 export default function App() {
 

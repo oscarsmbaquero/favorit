@@ -19,9 +19,9 @@ const Home = () => {
   //const { galeria } = useContext(SWContext);
   return (
     <>
-      <Gallery/>
-      
-        {/* <div class="star-wars-intro">
+      <Gallery />
+
+      {/* <div class="star-wars-intro">
         <div class="main-content">
           <div class="title-content">
             <FormattedMessage id="app.textHome"/>
@@ -29,11 +29,17 @@ const Home = () => {
         </div> */}
       {/* </div> */}
       <div className="home">
-      <p>
+        <iframe
+          src="https://drive.google.com/file/d/1Hr92lxvOOjfegFIK7wE3WvwAkwS18IKs/preview"
+          width="640"
+          height="480"
+          allow="autoplay"
+        ></iframe>
+        <p>
           <FormattedMessage id="app.textHome" />
         </p>
-       </div>
-        {/* <p>
+      </div>
+      {/* <p>
           <FormattedMessage id="app.textHome" />
         </p> */}
       {/* </div>  */}
