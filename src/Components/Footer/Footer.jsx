@@ -19,6 +19,13 @@ import twitter from "../../assets/banderas/twitter.svg";
 import facebook from "../../assets/banderas/facebook.png";
 
 export default function App() {
+
+  const getDate = () => {    
+    const currentYear = new Date().getFullYear();
+    return currentYear;// Cierra el menú al hacer clic en una opción
+  };
+  const year = getDate();
+
   return (
     <MDBFooter bgColor="dark" className="text-center text-lg-start text-muted">
       <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -171,12 +178,12 @@ export default function App() {
         className="text-center p-4 text-muted"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
       >
-        © 2023 Copyright:
+        © {year} Copyright
         <a
           className="text-reset fw-bold"
           href="https://oit-oscarsmbaquero.vercel.app/"
         >
-          &nbsp;App Developed by OSMB
+          &nbsp;Developed by OSMB
         </a>
       </div>
     </MDBFooter>

@@ -14,6 +14,24 @@ import I18n from "../../context/i18n/I18n";
 
 const Header2 = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
+  //efecto navbar
+  const [scrolled, setScrolled] = useState(false);
+
+
+  //metodos scroll. Funciona ok
+  // const handleScroll = () => {
+  //   if (window.scrollY > 0) {
+  //     setScrolled(true);
+  //   } else {
+  //     setScrolled(false);
+  //   }
+  // };
+  // React.useEffect(() => {
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
   const handleNavToggle = () => {
     setIsNavExpanded(!isNavExpanded);
@@ -25,11 +43,12 @@ const Header2 = () => {
 
   return (
     <Navbar
+      className={`navbar ${scrolled ? "scrolled" : "transparent"}` } 
       collapseOnSelect
       bg="dark"
       variant="dark"
       expand="xs"
-      className="sticky-top"
+      //className="sticky-top"
     >
       <Container>
         <Navbar.Brand href="#home">
@@ -48,6 +67,7 @@ const Header2 = () => {
               as={Link}
               eventKey="0"
               to={"/"}
+              className="text-white"
               // routerLinkActive="active"
             >
               &nbsp;
@@ -57,6 +77,7 @@ const Header2 = () => {
               as={Link}
               eventKey="2"
               to={"/especialidades"}
+              className="text-white"
               //routerLinkActive="active"
             >
               &nbsp;
@@ -66,6 +87,7 @@ const Header2 = () => {
               eventKey="3"
               href="https://www.google.com/maps/dir//C.+Juan+Loaisa,+2,+10600+Plasencia,+C%C3%A1ceres/@40.0382689,-6.1512699,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0xd3e178eca5fed05:0xf13018a0bffa0458!2m2!1d-6.08123!2d40.03829?entry=ttu"
               //routerLinkActive="active"
+              className="text-white"
             >
               &nbsp;
               <FormattedMessage id="app.localizacion" />
@@ -74,6 +96,7 @@ const Header2 = () => {
               as={Link}
               eventKey="4"
               to={"/reservas"}
+              className="text-white"
               //routerLinkActive="active"
             >
               &nbsp;
@@ -82,8 +105,10 @@ const Header2 = () => {
             <NavDropdown
               title=<FormattedMessage id="app.carta" />
               id="basic-nav-dropdown"
+              className="text-white"
             >
-              <NavDropdown.Item as={Link} eventKey="5" to={"/cartaFood"}>
+              <NavDropdown.Item as={Link} eventKey="5" to={"/cartaFood"}
+               className="text-white">
                 <FormattedMessage id="app.carta" />
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} eventKey="6" to={"/cartaCeliaca"}>

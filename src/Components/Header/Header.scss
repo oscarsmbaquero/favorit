@@ -38,3 +38,36 @@
   height: 50px;
   //border-radius: 50%;
 }
+//color del texto
+.white-text {
+  color: white !important; /* Color de texto blanco */
+}
+
+//estilos del scroll del navbar. 
+/* Navbar.css */
+
+// .navbar {
+//   transition: background-color 0.3s ease-in-out; /* Agrega transición solo para el color de fondo */
+// }
+
+// .navbar.transparent {
+//   background-color: transparent !important; /* Fondo transparente */
+//   box-shadow: none !important; /* Sin sombra */
+// }
+
+// .navbar.scrolled {
+//   background-color: black !important; /* Fondo negro */
+//   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2) !important; /* Sombra ligera */
+// }
+
+// .navbar.transparent .navbar-brand,
+// .navbar.transparent .nav-link,
+// .navbar.transparent .nav-dropdown {
+//   color: rgb(226, 178, 19) !important; /* Color de texto blanco en el estado transparente */
+// }
+
+// .navbar.scrolled .navbar-brand,
+// .navbar.scrolled .nav-link,
+// .navbar.scrolled .nav-dropdown {
+//   color: rgb(226, 178, 68) !important; /* Color de texto blanco en el estado scrolled */
+// }
