@@ -17,7 +17,6 @@ const Header2 = () => {
   //efecto navbar
   const [scrolled, setScrolled] = useState(false);
 
-
   //metodos scroll. Funciona ok
   // const handleScroll = () => {
   //   if (window.scrollY > 0) {
@@ -43,7 +42,7 @@ const Header2 = () => {
 
   return (
     <Navbar
-      //className={`navbar ${scrolled ? "scrolled" : "transparent"}` } 
+      //className={`navbar ${scrolled ? "scrolled" : "transparent"}` }
       collapseOnSelect
       bg="dark"
       variant="dark"
@@ -103,12 +102,15 @@ const Header2 = () => {
               <FormattedMessage id="app.reservas" />
             </Nav.Link>
             <NavDropdown
-              title=<FormattedMessage id="app.carta" />
+              title={
+                <span className="text-white">
+                  <FormattedMessage id="app.carta" />
+                </span>
+              }
               id="basic-nav-dropdown"
               className="text-white"
             >
-              <NavDropdown.Item as={Link} eventKey="5" to={"/cartaFood"}
-               className="text-white">
+              <NavDropdown.Item as={Link} eventKey="5" to={"/cartaFood"}>
                 <FormattedMessage id="app.carta" />
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} eventKey="6" to={"/cartaCeliaca"}>

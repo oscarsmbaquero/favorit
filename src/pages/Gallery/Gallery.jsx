@@ -47,11 +47,11 @@ export default function App() {
       />
     </MDBCarousel> */}
     <section>
-      <img src={bar6} alt="bar 6"></img>
-      <img src={bar7} alt="bar 6"></img>
-      <img src={bar8} alt="bar 6"></img>
-      <img src={bar9} alt="bar 6"></img>
-      <img src={bar10} alt="bar 6"></img>
+      <img  className ="prueba" src={bar6} alt="bar 6"></img>
+      <img  className ="prueba" src={bar7} alt="bar 6"></img>
+      <img  className ="prueba" src={bar8} alt="bar 6"></img>
+      <img  className ="prueba" src={bar9} alt="bar 6"></img>
+      <img  className ="prueba" src={bar10} alt="bar 6"></img>
     </section>
     </>
   );

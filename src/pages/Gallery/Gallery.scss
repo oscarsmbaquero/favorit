@@ -13,7 +13,7 @@ section {
     // height: 430px;
 }
 
-section img {
+.prueba {
     width: 0;
     flex-grow: 1;
     object-fit: cover;
@@ -22,7 +22,7 @@ section img {
     height: 250px;
 }
 
-section img:hover {
+.prueba:hover {
     cursor: crosshair;
     width: 255px;
     opacity: 1;
