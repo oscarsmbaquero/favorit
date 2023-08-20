@@ -28,13 +28,13 @@ section img:hover {
     opacity: 1;
     filter: contrast(120%);
 }
-// @media (max-width: 768px) {
+// @media (min-width: 768px) {
 //     section img {
-//         width: 250px;
+//         width: 550px;
 //         //height: auto;
 //     }
 
 //     section img:hover {
-//         width: 305px;
+//         width: 805px;
 //     }
 // }

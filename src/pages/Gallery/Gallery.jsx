@@ -14,7 +14,7 @@ import './Gallery.scss';
 export default function App() {
   return (
     <>
-    <MDBCarousel showControls  showIndicators  dealy={3000} className='carrousel'>
+    {/* <MDBCarousel showControls  showIndicators  dealy={3000} className='carrousel'>
       <MDBCarouselItem
         className='w-100 d-block'
         itemId={1}
@@ -45,7 +45,7 @@ export default function App() {
         src={bar9}
         alt='...'
       />
-    </MDBCarousel>
+    </MDBCarousel> */}
     <section>
       <img src={bar6} alt="bar 6"></img>
       <img src={bar7} alt="bar 6"></img>
