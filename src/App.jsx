@@ -75,7 +75,7 @@ function App() {
                 <Router>
                   <Header2 />
                   {/* modal de anuncio de vacaciones */}
-                  <ModalComponent />
+                  {/* <ModalComponent /> */}
                   <CookieConsent
                     location="bottom"
                     buttonText="Aceptar"
