@@ -36,18 +36,18 @@ const ModalComponent = () => {
         <span className='close-button'
         onClick={handleCloseModal}
         >X</span>
-        {/* <h2>Cerrado por vacaciones</h2>
+        <h2>Cerrado por vacaciones</h2>
         <h6>
-          Estimados clientes y amigos, les informamos que nuestro restaurante permanecerá cerrado para mejoras y renovaciones del 7 al 14 de Agosto.
-        </h6> */}
-        <iframe className="video"
+          Estimados clientes y amigos, les informamos que nuestro restaurante permanecerá cerrado  del 18 al 25 de Septiembre.
+        </h6>
+        {/* <iframe className="video"
           src="https://drive.google.com/file/d/1Hr92lxvOOjfegFIK7wE3WvwAkwS18IKs/preview"
           width="240"
           height="280"
           allow="autoplay"
           muted
           title='news'
-        ></iframe>
+        ></iframe> */}
         <button onClick={handleCloseModal}>Acceder</button>
       </div>
     </Modal>
