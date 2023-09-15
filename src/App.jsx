@@ -26,12 +26,17 @@ export const ContextI18n = React.createContext();
 
 function App() {
   const [splashScreen, setSplashScreen] = useState(true);
+  const [holadays, setHolidaysScreen] = useState(false);
   const [locale, setLocale] = useState(navigator.language);
   const [messages, setMessages] = useState(Spanish);
   //const [pulsado, setPulsado] = useState(false);
 
   useEffect(() => {
     setTimeout(() => setSplashScreen(false), 2000);
+  });
+
+  useEffect(() => {
+    setTimeout(() => setHolidaysScreen(true), 4000);
   });
 
   useEffect(() => {
@@ -75,7 +80,11 @@ function App() {
                 <Router>
                   <Header2 />
                   {/* modal de anuncio de vacaciones */}
+                 {holadays &&
                   <ModalComponent />
+                  
+                 }
+                 
                   <CookieConsent
                     location="bottom"
                     buttonText="Aceptar"

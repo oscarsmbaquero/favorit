@@ -1,7 +1,10 @@
 /* ModalStyles.css */
 .custom-modal {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-color: azure;
-    margin-top: 65px;
+    margin-top: 75px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -10,7 +13,7 @@
     width: 350px;
     background: white;
     padding: 20px;
-    border: 2px solid rgba(226,178,19);
+    border: 2px solid rgb(9, 7, 0);
     border-radius: 8px;
     
     /* box-shadow: 10px 0px 10px rgba(226,178,19); */
@@ -21,8 +24,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border :7px solid rgba(226, 178, 19);
-    background-color: rgba(226, 178, 19);
+    /* border :7px solid rgba(226, 178, 19);
+    background-color: rgba(226, 178, 19); */
   }
   
   /* Estilos específicos para los elementos dentro del modal */
@@ -34,7 +37,7 @@
   }
   
   .custom-modal button {
-    background-color: rgba(226, 178, 52);
+    background-color:  #0056b3;
     margin-top: 20px;
     color: white;
     border: none;
@@ -44,7 +47,7 @@
   }
   
   .custom-modal button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3 rgba(226, 178, 52);
   }
   .video{
     display: flex;
