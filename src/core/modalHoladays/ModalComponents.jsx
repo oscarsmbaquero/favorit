@@ -38,7 +38,7 @@ const ModalComponent = () => {
         >X</span>
         <h2>Cerrado por vacaciones</h2>
         <h6>
-          Estimados clientes y amigos, les informamos que nuestro restaurante permanecerá cerrado  del 18 al 25 de Septiembre.
+          Estimados clientes y amigos, les informamos que nuestro establecimiento permanecerá cerrado  del 18 al 25 de Septiembre(ambos inclusive).
         </h6>
         {/* <iframe className="video"
           src="https://drive.google.com/file/d/1Hr92lxvOOjfegFIK7wE3WvwAkwS18IKs/preview"
