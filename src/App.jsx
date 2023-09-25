@@ -80,10 +80,10 @@ function App() {
                 <Router>
                   <Header2 />
                   {/* modal de anuncio de vacaciones */}
-                 {holadays &&
+                 {/* {holadays &&
                   <ModalComponent />
                   
-                 }
+                 } */}
                  
                   <CookieConsent
                     location="bottom"

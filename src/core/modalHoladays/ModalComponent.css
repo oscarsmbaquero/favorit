@@ -47,7 +47,7 @@
   }
   
   .custom-modal button:hover {
-    background-color: #0056b3 rgba(226, 178, 52);
+    background-color: rgba(226, 178, 52);
   }
   .video{
     display: flex;
