@@ -18,10 +18,10 @@ import "aos/dist/aos.css";
 const Reservas = () => {
   let navigate = useNavigate();
   const [open, setOpen] = React.useState(false);
-  
-  
+  const [errors, setErrors] = useState({});
+
   useEffect(() => {
-    handleClickOpen()
+    handleClickOpen();
   }, []);
 
   useEffect(() => {
@@ -34,14 +34,40 @@ const Reservas = () => {
 
   const handleClose = () => {
     setOpen(false);
-
   };
+
+  const validateForm = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const newErrors = {};
+
+    if (!form.fecha.value) {
+      newErrors.fecha = "La fecha es obligada";
+    }
+    if (!form.name.value) {
+      newErrors.name = "El nombre es obligado";
+    }
+    if (!form.email.value) {
+      newErrors.email = "El mail es obligato";
+    }
+    if (!form.telefono.value) {
+      newErrors.telefono = "El teléfono es obligado";
+    }
+    if (!form.personas.value) {
+      newErrors.personas = "El número de comensales es obligado";
+    }
+
+    setErrors(newErrors);
+
+    // Si no hay errores, envía el formulario
+    if (Object.keys(newErrors).length === 0) {
+      sendMail(e);
+    }
+  };
+
   const sendMail = (e) => {
     e.preventDefault();
-    console.log('Entro')  
-      
     try {
-
       console.log(e.target.personas.value);
       emailjs
         .sendForm(
@@ -78,17 +104,26 @@ const Reservas = () => {
   return (
     <>
       <div className="containers" data-aos="fade-up">
-      <Confirm open={open} handleClose={handleClose} />
+        <Confirm open={open} handleClose={handleClose} />
         <section className="sectionFormReservas row">
           <div className="col-12 col-lg-6 my-auto d-none d-lg-block">
             <img className="logoReservas" src={fondo} alt="logo"></img>
           </div>
           <div className="col-12 col-lg-6 my-auto">
-            <form  className="form" onSubmit={sendMail}>
+            <form className="form" onSubmit={validateForm}>
               <br />
               <div className="d-flex flex-column flex-md-row">
                 <div className="d-flex flex-column col-11 col-md-6">
-                  <label className="form__label"><FormattedMessage id="app.fecha" /></label>
+                  {errors.fecha ? (
+                    errors.fecha && (
+                      <span className="error">{errors.fecha}</span>
+                    )
+                  ) : (
+                    <label className="form__label">
+                      <FormattedMessage id="app.fecha" />
+                    </label>
+                  )}
+
                   <input
                     className="form-control"
                     type="datetime-local"
@@ -96,32 +131,41 @@ const Reservas = () => {
                   />
                 </div>
                 <div className="d-flex flex-column col-11 col-md-6 mx-md-3">
-                  <label className="form__label"><FormattedMessage id="app.name" /></label>
-                  <input
-                    className="form-control"
-                    type="text"
-                    name="name"
-                    //placeholder="Nombre"
-                  />
+                  {errors.name ? (
+                    errors.name && <span className="error">{errors.name}</span>
+                  ) : (
+                    <label className="form__label">
+                      <FormattedMessage id="app.name" />
+                    </label>
+                  )}
+                  <input className="form-control" type="text" name="name" />
                 </div>
               </div>
               <div className="d-flex flex-column flex-md-row">
                 <div className="d-flex flex-column col-11 col-md-6">
-                  <label className="form__label">Email * </label>
+                {errors.email ? (
+                    errors.email && <span className="error">{errors.email}</span>
+                  ) : (
+                    <label className="form__label">Email * </label>
+                  )}
                   <input className="form-control" type="text" name="email" />
                 </div>
                 <div className="d-flex flex-column col-11 col-md-6 mx-md-3">
-                  <label className="form__label"><FormattedMessage id="app.tlf" /></label>
-                  <input
-                    className="form-control"
-                    type="text"
-                    name="telefono"
-                  />
+                {errors.telefono ? (
+                    errors.telefono && <span className="error">{errors.telefono}</span>
+                  ) : (
+                    <label className="form__label">
+                    <FormattedMessage id="app.tlf" />
+                  </label>
+                  )}
+                  <input className="form-control" type="text" name="telefono" />
                 </div>
               </div>
               <div className="d-flex flex-column">
                 <div className="d-flex flex-column col-11 mx-md-3 ">
-                  <label className="form__label"><FormattedMessage id="app.comensales" /></label>
+                  <label className="form__label">
+                    <FormattedMessage id="app.comensales" />
+                  </label>
                   {/* <input className="form-control" type="text" name="personas" /> */}
                   <select
                     class="form-control"
@@ -129,21 +173,45 @@ const Reservas = () => {
                     name="personas"
                     onChange={(e) => setAviso(e.target.value)}
                   >
-                    <option value="1">1 <FormattedMessage id="app.diners"/></option>
-                    <option value="2">2 <FormattedMessage id="app.diners"/></option>
-                    <option value="3">3 <FormattedMessage id="app.diners"/></option>
-                    <option value="4">4 <FormattedMessage id="app.diners"/></option>
-                    <option value="5">5 <FormattedMessage id="app.diners"/></option>
-                    <option value="6">6 <FormattedMessage id="app.diners"/></option>
-                    <option value="7">7 <FormattedMessage id="app.diners"/></option>
-                    <option value="8">8 <FormattedMessage id="app.diners"/></option>
-                    <option value="9">9 <FormattedMessage id="app.diners"/></option>
-                    <option value="10">10 <FormattedMessage id="app.diners"/></option>
-                    <option value="+10">+10 <FormattedMessage id="app.diners"/></option>
+                    <option value="1">
+                      1 <FormattedMessage id="app.diners" />
+                    </option>
+                    <option value="2">
+                      2 <FormattedMessage id="app.diners" />
+                    </option>
+                    <option value="3">
+                      3 <FormattedMessage id="app.diners" />
+                    </option>
+                    <option value="4">
+                      4 <FormattedMessage id="app.diners" />
+                    </option>
+                    <option value="5">
+                      5 <FormattedMessage id="app.diners" />
+                    </option>
+                    <option value="6">
+                      6 <FormattedMessage id="app.diners" />
+                    </option>
+                    <option value="7">
+                      7 <FormattedMessage id="app.diners" />
+                    </option>
+                    <option value="8">
+                      8 <FormattedMessage id="app.diners" />
+                    </option>
+                    <option value="9">
+                      9 <FormattedMessage id="app.diners" />
+                    </option>
+                    <option value="10">
+                      10 <FormattedMessage id="app.diners" />
+                    </option>
+                    <option value="+10">
+                      +10 <FormattedMessage id="app.diners" />
+                    </option>
                   </select>
                 </div>
                 <div className="d-flex flex-column col-11 mx-md-3">
-                  <label className="form__label"><FormattedMessage id="app.comments" /></label>
+                  <label className="form__label">
+                    <FormattedMessage id="app.comments" />
+                  </label>
                   <textarea
                     className="form-control"
                     name="comentarios"
@@ -151,7 +219,9 @@ const Reservas = () => {
                 </div>
               </div>
               <br />
-              <button class="btn-13"><span>Reservar</span></button>
+              <button class="btn-13">
+                <span>Reservar</span>
+              </button>
             </form>
           </div>
         </section>
