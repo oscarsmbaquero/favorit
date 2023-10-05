@@ -41,7 +41,7 @@ const Reservas = () => {
     const form = e.target;
     const fechaIntroducida = new Date(form.fecha.value);
     const fechaActual = new Date();
-
+    this.alertDate();
     const newErrors = {};
     if (!form.fecha.value) {
       newErrors.fecha = "La fecha es obligada";

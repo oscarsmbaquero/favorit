@@ -28,9 +28,9 @@ const I18n = () => {
   };
 
   const languageOptions = [
-    { value: "es-ES", label: "Español", flag: spainFlag },
-    { value: "en", label: "English", flag: englishFlag },
-    { value: "fr", label: "Français", flag: frenchFlag },
+    { value: "es-ES", label: "ES", flag: spainFlag },
+    { value: "en", label: "EN", flag: englishFlag },
+    { value: "fr", label: "FR", flag: frenchFlag },
   ];
 
   const RectangularAvatar = styled(Avatar)({
