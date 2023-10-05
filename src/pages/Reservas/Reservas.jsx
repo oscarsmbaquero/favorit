@@ -19,6 +19,7 @@ const Reservas = () => {
   let navigate = useNavigate();
   const [open, setOpen] = React.useState(false);
   const [errors, setErrors] = useState({});
+  const [fechaValue, setFechaValue] = useState('');
 
   useEffect(() => {
     handleClickOpen();
@@ -26,6 +27,16 @@ const Reservas = () => {
 
   useEffect(() => {
     Aos.init({ duration: 2000 });
+  }, []);
+
+  useEffect(() => {
+    // Calcular la fecha actual y agregar 2 horas
+    const currentDate = new Date();
+    currentDate.setHours(currentDate.getHours() + 2);
+    const formattedDate = currentDate.toISOString().slice(0, 16);
+
+    // Establecer la fecha predeterminada en el campo de fecha
+    setFechaValue(formattedDate);
   }, []);
 
   const handleClickOpen = () => {
@@ -164,6 +175,7 @@ const Reservas = () => {
                     className="form-control"
                     type="datetime-local"
                     name="fecha"
+                    value={fechaValue}
                     onChange={(e) => alertDate(e.target.value)}
                   />
                 </div>

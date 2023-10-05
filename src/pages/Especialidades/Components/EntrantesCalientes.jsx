@@ -47,7 +47,7 @@ const Entrantescalientes = ({entrantesCalientes}) => {
           <Card
             elevation={5}
             sx={{
-              borderRadius: "4px",
+              borderRadius: "12px",
               justifyContent: "flex-start",
               flex: "1 0 auto",
               margin: "20px",
