@@ -175,8 +175,8 @@ const Reservas = () => {
                     className="form-control"
                     type="datetime-local"
                     name="fecha"
-                    value={fechaValue}
-                    onChange={(e) => alertDate(e.target.value)}
+                    // value={fechaValue}
+                    onBlur={(e) => alertDate(e.target.value)}
                   />
                 </div>
                 <div className="d-flex flex-column col-11 col-md-6 mx-md-3">
