@@ -36,6 +36,8 @@
     }
   }
   .flag-avatar {
+    display: flex;
+    flex-direction: column;
     width: 24px;
     height: 16px;
   }

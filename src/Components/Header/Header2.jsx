@@ -128,7 +128,9 @@ const Header2 = () => {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link>
+            <Nav.Link
+             eventKey="6"
+            >
               <I18n></I18n>
             </Nav.Link>
           </Nav>
