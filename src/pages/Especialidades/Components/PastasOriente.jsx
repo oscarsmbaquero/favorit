@@ -40,7 +40,7 @@ const PastasOriente = ({pastasOriente}) => {
           <Card
             elevation={5}
             sx={{
-              borderRadius: "4px",
+              borderRadius: "12px",
               justifyContent: "flex-start",
               flex: "1 0 auto",
               margin: "20px",
@@ -49,7 +49,7 @@ const PastasOriente = ({pastasOriente}) => {
               ":hover": {
                 boxShadow: 20, // theme.shadows[20]
               },
-              border: "1px solid rgb(226, 178, 19)",
+              //border: "1px solid rgb(226, 178, 19)",
             }}
           >
             <CardHeader

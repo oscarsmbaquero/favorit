@@ -57,7 +57,7 @@ const Entrantescalientes = ({entrantesCalientes}) => {
                 boxShadow: 20, // theme.shadows[20]
                 
               },
-              border: "1px solid rgb(226, 178, 19)",
+              //border: "1px solid rgb(226, 178, 19)",
             }}
           >
             <CardHeader
