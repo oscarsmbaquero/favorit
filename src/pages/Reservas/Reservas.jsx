@@ -39,11 +39,21 @@ const Reservas = () => {
   const validateForm = (e) => {
     e.preventDefault();
     const form = e.target;
-    const newErrors = {};
+    const fechaIntroducida = new Date(form.fecha.value);
+  const fechaActual = new Date();
 
+    
+
+    const newErrors = {};
     if (!form.fecha.value) {
-      newErrors.fecha = "La fecha es obligada";
-    }
+    newErrors.fecha = "La fecha es obligada";
+  } else if (fechaIntroducida - fechaActual < 2 * 60 * 60 * 1000) {
+    newErrors.fecha = "Para reservas inferiores a 2h. debe de reservar por teléfono ";
+  }
+    
+    // if (!form.fecha.value) {
+    //   newErrors.fecha = "La fecha es obligada";
+    // }
     if (!form.name.value) {
       newErrors.name = "El nombre es obligado";
     }
@@ -61,7 +71,7 @@ const Reservas = () => {
 
     // Si no hay errores, envía el formulario
     if (Object.keys(newErrors).length === 0) {
-      sendMail(e);
+      //sendMail(e);
     }
   };
 
