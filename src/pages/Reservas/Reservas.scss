@@ -153,3 +153,11 @@ color:red;
   --progress: 100%;
 }
 //fin boton
+
+//mensaje de alert por fallo en el input date
+.alert-container {
+  
+  position: absolute; /* Esto coloca el alert en una posición absoluta */
+  top: 0px; /* Ajusta la posición vertical del alert según tus preferencias */
+  left: 10px; /* Ajusta la posición horizontal del alert según tus preferencias */
+}

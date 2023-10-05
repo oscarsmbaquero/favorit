@@ -40,17 +40,16 @@ const Reservas = () => {
     e.preventDefault();
     const form = e.target;
     const fechaIntroducida = new Date(form.fecha.value);
-  const fechaActual = new Date();
-
-    
+    const fechaActual = new Date();
 
     const newErrors = {};
     if (!form.fecha.value) {
-    newErrors.fecha = "La fecha es obligada";
-  } else if (fechaIntroducida - fechaActual < 2 * 60 * 60 * 1000) {
-    newErrors.fecha = "Para reservas inferiores a 2h. debe de reservar por teléfono ";
-  }
-    
+      newErrors.fecha = "La fecha es obligada";
+    } else if (fechaIntroducida - fechaActual < 2 * 60 * 60 * 1000) {
+      newErrors.fecha =
+        "Para reservas inferiores a 2h, debe reservar por teléfono. Grácias ";
+    }
+
     // if (!form.fecha.value) {
     //   newErrors.fecha = "La fecha es obligada";
     // }
@@ -71,7 +70,7 @@ const Reservas = () => {
 
     // Si no hay errores, envía el formulario
     if (Object.keys(newErrors).length === 0) {
-      //sendMail(e);
+      sendMail(e);
     }
   };
 
@@ -110,6 +109,33 @@ const Reservas = () => {
       navigate("/reservas");
     }
   };
+  const alertDate = (e) => {
+    const fechaIntroducida = new Date(e);
+    const fechaActual = new Date();
+    if (fechaIntroducida - fechaActual < 2 * 60 * 60 * 1000) {
+      Swal.fire({
+        //text: "Para Reservas inferiores a 2h, reserva aquí  927099511!Gracias!",
+        icon: "error",
+        html:
+        '<b></bol>Para Reservas inferiores a 2h, reserva aquí, <b>' +
+        ' <a href="tel:+34927099511" className="mdbicon"> ' +
+        '927099511',
+        confirmButtonText: "Ok",
+        padding: "3em",
+        color: "#716add",
+        background: "#fff url(/images/trees.png)",
+        position: "top",
+        backdrop: `
+    rgba(0,0,123,0.4)
+    url("/images/nyan-cat.gif")
+    left top
+    no-repeat
+  `,
+  
+      });
+      navigate("/reservas");
+    }
+  };
 
   return (
     <>
@@ -138,6 +164,7 @@ const Reservas = () => {
                     className="form-control"
                     type="datetime-local"
                     name="fecha"
+                    onChange={(e) => alertDate(e.target.value)}
                   />
                 </div>
                 <div className="d-flex flex-column col-11 col-md-6 mx-md-3">
@@ -153,20 +180,24 @@ const Reservas = () => {
               </div>
               <div className="d-flex flex-column flex-md-row">
                 <div className="d-flex flex-column col-11 col-md-6">
-                {errors.email ? (
-                    errors.email && <span className="error">{errors.email}</span>
+                  {errors.email ? (
+                    errors.email && (
+                      <span className="error">{errors.email}</span>
+                    )
                   ) : (
                     <label className="form__label">Email * </label>
                   )}
                   <input className="form-control" type="text" name="email" />
                 </div>
                 <div className="d-flex flex-column col-11 col-md-6 mx-md-3">
-                {errors.telefono ? (
-                    errors.telefono && <span className="error">{errors.telefono}</span>
+                  {errors.telefono ? (
+                    errors.telefono && (
+                      <span className="error">{errors.telefono}</span>
+                    )
                   ) : (
                     <label className="form__label">
-                    <FormattedMessage id="app.tlf" />
-                  </label>
+                      <FormattedMessage id="app.tlf" />
+                    </label>
                   )}
                   <input className="form-control" type="text" name="telefono" />
                 </div>
