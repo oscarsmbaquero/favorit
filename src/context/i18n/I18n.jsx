@@ -50,6 +50,7 @@ const I18n = () => {
         onClose={handleClose}
         inputProps={{ "aria-label": "language" }}
         className="black-select"
+        selected={locale|| 'es-ES'}
       >
         {languageOptions.map((option) => (
           <MenuItem key={option.value} value={option.value}>
