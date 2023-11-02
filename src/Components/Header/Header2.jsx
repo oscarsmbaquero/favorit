@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -15,7 +15,8 @@ import I18n from "../../context/i18n/I18n";
 const Header2 = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   //efecto navbar
-  const [scrolled, setScrolled] = useState(false);
+  //const [scrolled, setScrolled] = useState(false);
+
 
   //metodos scroll. Funciona ok
   // const handleScroll = () => {
@@ -38,9 +39,11 @@ const Header2 = () => {
 
   const handleNavClose = () => {
     setIsNavExpanded(false); // Cierra el menú al hacer clic en una opción
+    window.scrollTo(0, 0);
   };
 
   return (
+    
     <Navbar
       //className={`navbar ${scrolled ? "scrolled" : "transparent"}` }
       collapseOnSelect
@@ -137,6 +140,7 @@ const Header2 = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    
   );
 };
 

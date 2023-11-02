@@ -45,6 +45,7 @@ const Reservas = () => {
 
   const handleClose = () => {
     setOpen(false);
+    window.scrollTo(0, 0);
   };
 
   const validateForm = (e) => {
@@ -55,7 +56,7 @@ const Reservas = () => {
     alertDate();
     const newErrors = {};
     if (!form.fecha.value) {
-      newErrors.fecha = "La fecha es obligada";
+      newErrors.fecha = "Debé introducir una fecha";
     } else if (fechaIntroducida - fechaActual < 2 * 60 * 60 * 1000) {
       newErrors.fecha =
         "Para reservas inferiores a 2h, debe reservar por teléfono. Grácias ";
@@ -65,16 +66,16 @@ const Reservas = () => {
     //   newErrors.fecha = "La fecha es obligada";
     // }
     if (!form.name.value) {
-      newErrors.name = "El nombre es obligado";
+      newErrors.name = "Debe introducir un nombre";
     }
     if (!form.email.value) {
-      newErrors.email = "El mail es obligato";
+      newErrors.email = "Debe introducir un email";
     }
     if (!form.telefono.value) {
-      newErrors.telefono = "El teléfono es obligado";
+      newErrors.telefono = "Debe introducir un teléfono";
     }
     if (!form.personas.value) {
-      newErrors.personas = "El número de comensales es obligado";
+      newErrors.personas = "Introduzca nº comensales";
     }
 
     setErrors(newErrors);
