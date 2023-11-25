@@ -36,9 +36,9 @@ const Home = () => {
           allow="autoplay"
           muted
         ></iframe>
-        <p>
+        <h3 className="text-home">
           <FormattedMessage id="app.textHome" />
-        </p>
+        </h3>
       </div>
       {/* <p>
           <FormattedMessage id="app.textHome" />

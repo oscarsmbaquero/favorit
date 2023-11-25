@@ -21,6 +21,7 @@ import French from "../src/lang/fr.json";
 import CookieConsent from "react-cookie-consent";
 import ReservasIcono from "./core/ReservasIcono/ReservasIcono";
 import ModalComponent from "./core/modalHoladays/ModalComponents";
+import Navbar from "./Components/Navbar/Navbar";
 //import ReservaIcono3 from "./core/ReservasIcono/ReservasIcono3";
 export const ContextI18n = React.createContext();
 
@@ -78,12 +79,13 @@ function App() {
             <IntlProvider locale={locale} messages={messages}>
               <SWContextProvider>
                 <Router>
+                <Navbar/>
                   <Header2 />
                   {/* modal de anuncio de vacaciones */}
-                 {/* {holadays &&
+                  {/* {holadays &&
                   <ModalComponent />
                   
-                 } */}
+                 }  */}
                  
                   <CookieConsent
                     location="bottom"

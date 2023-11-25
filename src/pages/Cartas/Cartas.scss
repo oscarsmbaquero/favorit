@@ -24,7 +24,26 @@
          width: 100%;
          height: 100%;
     }
+    .food__imageNavidad{
+     padding: 10px;
+    }
 }
-
+.food-navidad {
+    padding: 10px; /* Ajusta el valor según tus preferencias */
+    background-color: rgb(86, 89, 89);
+  }
+  
+  .food__container-navidad {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección a vertical */
+    align-items: center; /* Centra las imágenes en el eje horizontal */
+  }
+  
+  .food__imageNavidad {
+    max-width: 100%; /* Hace que las imágenes se ajusten al contenedor */
+    height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+    margin: 10px; /* Ajusta el margen entre las imágenes según tus preferencias */
+  }
+  
 
 /* Fin Carta Cervezas*/

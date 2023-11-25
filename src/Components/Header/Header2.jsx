@@ -8,6 +8,8 @@ import { FormattedMessage } from "react-intl";
 import "bootstrap/dist/css/bootstrap.min.css";
 //import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
 import logo from "../../assets/images/logoF.png";
+ import nuevo from "../../assets/images/new.png";
+//import new from "../../assets/images/new.png";
 import I18n from "../../context/i18n/I18n";
 //import {ShoppingCart } from "@material-ui/icons";
 //import { Badge, IconButton } from "@mui/material";
@@ -103,6 +105,18 @@ const Header2 = () => {
             >
               &nbsp;
               <FormattedMessage id="app.reservas" />
+            </Nav.Link>
+            <Nav.Link
+              as={Link}
+              eventKey="4"
+              to={"/oferta_navidad"}
+              className="text-white"
+              //routerLinkActive="active"
+            >
+              &nbsp;
+              Oferta Gastronómica &nbsp;
+              <img src={nuevo} className="new" alt={nuevo} />
+              {/* <FormattedMessage id="app.reservas" /> */}
             </Nav.Link>
             <NavDropdown
               title={
