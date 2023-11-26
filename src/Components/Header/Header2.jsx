@@ -114,7 +114,8 @@ const Header2 = () => {
               //routerLinkActive="active"
             >
               &nbsp;
-              Oferta Gastronómica &nbsp;
+              <FormattedMessage id="app.ofertaNavidad" />
+              &nbsp;
               <img src={nuevo} className="new" alt={nuevo} />
               {/* <FormattedMessage id="app.reservas" /> */}
             </Nav.Link>
