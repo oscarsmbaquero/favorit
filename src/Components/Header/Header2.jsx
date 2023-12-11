@@ -8,6 +8,7 @@ import { FormattedMessage } from "react-intl";
 import "bootstrap/dist/css/bootstrap.min.css";
 //import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
 import logo from "../../assets/images/logoF.png";
+import navidad from "../../assets/images/regalos.png";
  import nuevo from "../../assets/images/new.png";
 //import new from "../../assets/images/new.png";
 import I18n from "../../context/i18n/I18n";
@@ -57,6 +58,7 @@ const Header2 = () => {
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} className="logo" alt={logo} />
+          {/* <img src={navidad} className="logo" alt={navidad} className="tree" /> */}
         </Navbar.Brand>
         <Navbar.Toggle onClick={handleNavToggle}>
           {isNavExpanded ? (
