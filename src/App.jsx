@@ -79,14 +79,17 @@ function App() {
             <IntlProvider locale={locale} messages={messages}>
               <SWContextProvider>
                 <Router>
-                <Navbar/>
+                {/* NAVBAR CON MENSAJE COMENTADO */}
+                {/* <Navbar/> */}
                   <Header2 />
                   {/* modal de anuncio de vacaciones */}
+                  {/* FIN NAVBAR CON MENSAJE COMENTADO */}
+                  {/* MODAL VACACIONES */}
                   {/* {holadays &&
                   <ModalComponent />
                   
                  }  */}
-                 
+                 {/* FIN MODAL VACACIONES */}
                   <CookieConsent
                     location="bottom"
                     buttonText="Aceptar"

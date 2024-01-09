@@ -108,19 +108,22 @@ const Header2 = () => {
               &nbsp;
               <FormattedMessage id="app.reservas" />
             </Nav.Link>
-            <Nav.Link
+            {/* ESPECIALIDADES COMENTADO */}
+            {/* <Nav.Link
               as={Link}
               eventKey="4"
               to={"/oferta_navidad"}
               className="text-white"
               //routerLinkActive="active"
-            >
-              &nbsp;
+            > */}
+            
+              {/* &nbsp;
               <FormattedMessage id="app.ofertaNavidad" />
               &nbsp;
-              <img src={nuevo} className="new" alt={nuevo} />
+              <img src={nuevo} className="new" alt={nuevo} /> */}
               {/* <FormattedMessage id="app.reservas" /> */}
-            </Nav.Link>
+            {/* </Nav.Link> */}
+            {/*  FIN ESPECIALIDADES COMENTADO */}
             <NavDropdown
               title={
                 <span className="text-white">
