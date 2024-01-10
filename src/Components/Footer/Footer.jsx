@@ -136,7 +136,7 @@ export default function App() {
               <p>
                 <MDBIcon icon="phone" className="me-3" color="white" />
                 <a href="tel:+34927099511" className="mdbicon">
-                  &nbsp;+ 927099511
+                  &nbsp;+34 618932661
                 </a>
                 {/* <br /> */}
                 {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

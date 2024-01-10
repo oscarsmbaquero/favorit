@@ -131,7 +131,7 @@ const Reservas = () => {
         icon: "error",
         html:
         '<b></bol>Para Reservas inferiores a 2h, reserva aquí, <b>' +
-        ' <a href="tel:+34927099511" className="mdbicon"> ' +
+        ' <a href="tel:+34618932661" className="mdbicon"> ' +
         '927099511',
         confirmButtonText: "Ok",
         padding: "3em",
