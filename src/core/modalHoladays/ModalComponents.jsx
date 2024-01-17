@@ -37,10 +37,10 @@ const ModalComponent = () => {
         <span className="close-button" onClick={handleCloseModal}>
           X
         </span>
-        <h2>Oferta Navidad</h2>
+        <h2>Cerrado por vacaciones</h2>
         <h6>
           {/* Estimados clientes y amigos, les informamos que nuestro establecimiento permanecerá cerrado  del 18 al 25 de Septiembre(ambos inclusive). */}
-          Consulta nuestra oferta gastronomica de navidad
+          Nuestro establecimiento permanecerá cerrado hasta el dia 23 de enero.
         </h6>
         {/* <iframe className="video"
           src="https://drive.google.com/file/d/1Hr92lxvOOjfegFIK7wE3WvwAkwS18IKs/preview"
@@ -50,7 +50,7 @@ const ModalComponent = () => {
           muted
           title='news'
         ></iframe> */}
-        <Link to={"/reservas"} >
+        <Link to={"/"} >
           <button onClick={handleCloseModal}>Acceder</button>
         </Link>
         {/* <button onClick={handleCloseModal}>Acceder</button> */}

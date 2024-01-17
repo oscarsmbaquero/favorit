@@ -85,10 +85,10 @@ function App() {
                   {/* modal de anuncio de vacaciones */}
                   {/* FIN NAVBAR CON MENSAJE COMENTADO */}
                   {/* MODAL VACACIONES */}
-                  {/* {holadays &&
-                  <ModalComponent />
+                   
+                  <ModalComponent /> 
                   
-                 }  */}
+                  
                  {/* FIN MODAL VACACIONES */}
                   <CookieConsent
                     location="bottom"
