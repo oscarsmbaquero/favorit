@@ -40,7 +40,7 @@ const ModalComponent = () => {
         <h2>Cerrado por vacaciones</h2>
         <h6>
           {/* Estimados clientes y amigos, les informamos que nuestro establecimiento permanecerá cerrado  del 18 al 25 de Septiembre(ambos inclusive). */}
-          ¡Hola! Estamos cerrados por vacaciones hasta el 26 de febrero.
+          ¡Hola! Estamos cerrados por vacaciones hasta el 27 de febrero.
           ¡Gracias!
         </h6>
         {/* <iframe className="video"
