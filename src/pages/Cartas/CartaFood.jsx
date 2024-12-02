@@ -1,6 +1,6 @@
 import React from 'react'
 import './Cartas.scss';
-import cartaNormal from "../../assets/images/cartas/cartaNormal.jpg";
+import cartaNormal from "../../assets/images/cartas/carta_normal_nueva.jpg";
 
 const CartaFood = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Cartas.scss';
-import cartaCeliaca from "../../assets/images/cartas/cartaCeliaca.jpg";
+import cartaCeliaca from "../../assets/images/cartas/carta_celiaco_nueva.jpg";
 
 const CartaCeliaca = () => {
   return (

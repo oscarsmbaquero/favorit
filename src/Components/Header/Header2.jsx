@@ -109,20 +109,20 @@ const Header2 = () => {
               <FormattedMessage id="app.reservas" />
             </Nav.Link>
             {/* ESPECIALIDADES COMENTADO */}
-            {/* <Nav.Link
+             <Nav.Link
               as={Link}
               eventKey="4"
               to={"/oferta_navidad"}
               className="text-white"
-              //routerLinkActive="active"
-            > */}
+              routerLinkActive="active"
+            > 
             
-              {/* &nbsp;
+              &nbsp;
               <FormattedMessage id="app.ofertaNavidad" />
               &nbsp;
-              <img src={nuevo} className="new" alt={nuevo} /> */}
-              {/* <FormattedMessage id="app.reservas" /> */}
-            {/* </Nav.Link> */}
+              <img src={nuevo} className="new" alt={nuevo} />
+               {/* <FormattedMessage id="app.reservas" /> */}
+            </Nav.Link> 
             {/*  FIN ESPECIALIDADES COMENTADO */}
             <NavDropdown
               title={
@@ -133,7 +133,7 @@ const Header2 = () => {
               id="basic-nav-dropdown"
               className="text-white"
             >
-              {/* <NavDropdown.Item as={Link} eventKey="5" to={"/cartaFood"}>
+              <NavDropdown.Item as={Link} eventKey="5" to={"/cartaFood"}>
                 <FormattedMessage id="app.carta" />
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} eventKey="6" to={"/cartaCeliaca"}>
@@ -142,7 +142,7 @@ const Header2 = () => {
               <NavDropdown.Item as={Link} eventKey="7" to={"/cartaVegetariana"}>
                 <FormattedMessage id="app.vegetariana" />
               </NavDropdown.Item>
-              <NavDropdown.Divider /> */}
+              <NavDropdown.Divider />
               <NavDropdown.Item as={Link} eventKey="8" to={"/cartaCervezas"}>
                 <FormattedMessage id="app.cerveza" />
               </NavDropdown.Item>

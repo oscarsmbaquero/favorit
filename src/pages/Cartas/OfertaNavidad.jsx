@@ -1,9 +1,9 @@
 import React,{useEffect} from "react";
 import "./Cartas.scss";
 import ofertaNavidad from "../../assets/images/cartas/menu_navidad.jpg";
-import navidad1 from "../../assets/images/navidad1.jpg";
-import navidad2 from "../../assets/images/navidad2.jpg";
-import navidad3 from "../../assets/images/navidad3.jpg";
+import navidad2 from "../../assets/images/menu_1.JPG";
+import navidad1 from "../../assets/images/menu_2.JPG";
+import navidad3 from "../../assets/images/menu_3.JPG";
 
 const CartaFood = () => {
 

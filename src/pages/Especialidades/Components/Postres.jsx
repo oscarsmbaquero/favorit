@@ -21,11 +21,11 @@ import { FormattedMessage } from "react-intl";
 import logo from "../../../assets/images/logoFavorit.jpeg";
 import { useState } from "react";
 //import FavoriteIcon from '@material-ui/icons/Favorite';
-import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
+// import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { faBold } from "@fortawesome/free-solid-svg-icons";
-import { Bolt } from "@mui/icons-material";
+// import { Bolt } from "@mui/icons-material";
 
 const Postres = ({ postres }) => {
   const [isFavorite, setIsFavorite] = useState(false);

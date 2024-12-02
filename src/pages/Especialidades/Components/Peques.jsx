@@ -16,7 +16,7 @@ import Typography from "@mui/material/Typography";
 //import ShareIcon from "@mui/icons-material/Share";
 //import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
-import { AddShoppingCart } from "@material-ui/icons";
+// import { AddShoppingCart } from "@material-ui/icons";
 import { MDBIcon } from "mdb-react-ui-kit";
 import { FormattedMessage } from "react-intl";
 import logo from "../../../assets/images/logoFavorit.jpeg";

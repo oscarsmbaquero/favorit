@@ -1,6 +1,6 @@
 import React from 'react';
 import './Cartas.scss';
-import cartaCerveza from "../../assets/images/cartas/cervezas.jpg";
+import cartaCerveza from "../../assets/images/cartas/nueva_carta_cerveza.jpg";
 
 
 const CartaCervezas = () => {
