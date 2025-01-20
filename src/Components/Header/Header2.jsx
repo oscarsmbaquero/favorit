@@ -117,10 +117,10 @@ const Header2 = () => {
               routerLinkActive="active"
             > 
             
+              
+              {/* <FormattedMessage id="app.ofertaNavidad" />
               &nbsp;
-              <FormattedMessage id="app.ofertaNavidad" />
-              &nbsp;
-              <img src={nuevo} className="new" alt={nuevo} />
+              <img src={nuevo} className="new" alt={nuevo} /> */}
                {/* <FormattedMessage id="app.reservas" /> */}
             </Nav.Link> 
             {/*  FIN ESPECIALIDADES COMENTADO */}
