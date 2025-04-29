@@ -86,7 +86,7 @@ function App() {
                   {/* FIN NAVBAR CON MENSAJE COMENTADO */}
                   {/* MODAL VACACIONES */}
                    
-                  {/* <ModalComponent />  */}
+                  <ModalComponent /> 
                   
                   
                  {/* FIN MODAL VACACIONES */}

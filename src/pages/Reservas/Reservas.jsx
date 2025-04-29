@@ -274,7 +274,7 @@ const Reservas = () => {
                 </div>
               </div>
               <br />
-              <button class="btn-13">
+              <button disabled = {true} class="btn-13">
                 <span>Reservar</span>
               </button>
             </form>
